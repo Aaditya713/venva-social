@@ -1288,5 +1288,759 @@
     "headline": "Muscle memory\nis real.",
     "body": "Muscle you once built comes back faster after a break. Research suggests muscle cells keep extra nuclei, ready to rebuild. Just restart.",
     "caption": "Took months off from the gym and feel like you've lost everything? Good news: it comes back faster the second time.\n\nWhen you build muscle, your muscle fibres gain extra nuclei — the control centres that help them grow.\n\nResearch suggests these extra nuclei stick around even after you stop training and the muscle shrinks.\n\nWhen you start again:\n→ Strength often returns within weeks\n→ Muscle regrows faster than it took to build originally\n\nHow to restart smart:\n→ Start at 50–60% of your old weights\n→ Build back up over a few weeks\n→ Expect some soreness at first\n\nEvery rep you've ever done still counts.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#musclememory #gym #fitness #motivation #didyouknow"
+  },
+  {
+    "id": "130-eleven-minutes",
+    "status": "queued",
+    "template": "stat",
+    "number": "11 min",
+    "label": "Brisk walking daily",
+    "body": "A 2023 review found just 11 min a\nday of moderate activity could\nprevent 1 in 10 early deaths.\nStart there, then build up.",
+    "caption": "Don't have time to exercise? You might have more than you think.\n\nA large 2023 review of studies covering over 30 million people found that 75 minutes a week of moderate activity — about 11 minutes a day — was linked to a lower risk of early death, heart disease and some cancers.\n\nThe researchers estimated it could prevent about 1 in 10 early deaths.\n\n11 minutes could be:\n→ A brisk walk to the market\n→ Taking the stairs a few times a day\n→ Cycling to a nearby friend's place\n→ Dancing to three songs\n\nThat's the starting point, not the goal. The full benefit comes at 150 minutes a week.\n\nSomething is far better than nothing.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#walking #exercise #fitness #health #longevity"
+  },
+  {
+    "id": "131-home-workout",
+    "status": "queued",
+    "template": "tip",
+    "label": "Training",
+    "headline": "No-equipment\nworkout",
+    "highlight": "20 minutes, 3 rounds",
+    "sections": [
+      {
+        "title": "Legs",
+        "text": "12 squats, 10 lunges each leg."
+      },
+      {
+        "title": "Push",
+        "text": "8–12 push-ups (wall or knees is fine)."
+      },
+      {
+        "title": "Core",
+        "text": "30-sec plank, 12 glute bridges."
+      }
+    ],
+    "caption": "No gym? No problem. Your bodyweight is enough to get stronger.\n\nDo this circuit 3 times, resting 1–2 minutes between rounds:\n→ 12 squats\n→ 10 lunges on each leg\n→ 8–12 push-ups (wall, table or knees is fine)\n→ 30-second plank\n→ 12 glute bridges\n\nTakes about 20 minutes. Do it 2–3 times a week.\n\nMake it harder over time:\n→ More reps\n→ Slower lowering (3 seconds down)\n→ Harder versions — full push-ups, jump squats, side planks\n\nMake it easier: fewer reps, more rest.\n\nThe best workout is the one you actually do.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#homeworkout #noequipment #fitness #bodyweight #training"
+  },
+  {
+    "id": "132-protein-kidneys",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Protein harms\nyour kidneys?",
+    "body": "In healthy people, higher-protein diets haven't been shown to damage kidneys. If you already have kidney disease, follow your doctor's limits.",
+    "caption": "\"Too much protein will damage your kidneys.\" It's a common fear — especially for vegetarians starting protein powder.\n\nFor people with healthy kidneys, research hasn't shown that higher-protein diets cause kidney damage.\n\nYour kidneys do filter the by-products of protein. Healthy kidneys handle this well.\n\nWhere caution is needed:\n→ Existing chronic kidney disease\n→ Diabetes with kidney involvement\n→ Very high doses of supplements, without enough water\n\nIf any of those apply, your doctor or dietitian should set your protein target.\n\nFor most people, 1.2–1.6 g per kg of body weight is a safe and useful range, especially if you train.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#protein #kidneyhealth #nutrition #fitness #mythbuster"
+  },
+  {
+    "id": "133-sleep-cycle",
+    "status": "queued",
+    "template": "stat",
+    "number": "90 min",
+    "label": "One sleep cycle",
+    "body": "Sleep runs in cycles of roughly\n90 minutes: light, deep, then REM.\nA full night has 4–6 of them.\nCut sleep short, lose the later ones.",
+    "caption": "Sleep isn't one long block. It's a series of cycles, each about 90 minutes long.\n\nEach cycle moves through:\n→ Light sleep — the transition\n→ Deep sleep — body repair, immune function, growth\n→ REM sleep — dreaming, memory and emotions\n\nEarly in the night, cycles have more deep sleep. Later cycles have more REM.\n\nWhat that means:\n→ A full night gives you 4–6 cycles\n→ Cutting sleep short from 7.5 to 5.5 hours mainly costs you REM\n→ Waking at the end of a cycle often feels easier than waking in deep sleep\n\nDon't obsess over exact timing. A consistent schedule with 7–9 hours lets your cycles do their work.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#sleep #science #remsleep #health #wellness"
+  },
+  {
+    "id": "134-breakfast-cereal",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Cereal is a\nhealthy breakfast?",
+    "body": "Many breakfast cereals, especially kids' ones, are high in sugar and low in protein. Check the label, or choose oats, poha or eggs.",
+    "caption": "\"Part of a complete breakfast.\" Many breakfast cereals are closer to dessert.\n\nPlenty of popular cereals — especially chocolate, honey and \"kids\" ones — contain 25–35 g of sugar per 100 g, with little protein or fibre.\n\nThat means:\n→ A quick sugar spike\n→ Hunger again by mid-morning\n→ Cravings later in the day\n\nHow to choose better:\n→ Sugar under 10 g per 100 g\n→ Fibre over 6 g per 100 g\n→ Whole grain as the first ingredient\n\nEven better Indian breakfasts:\n→ Oats or dalia with milk and nuts\n→ Vegetable poha or upma with peanuts\n→ Besan or moong chilla\n→ Eggs with whole wheat toast\n→ Idli with sambar\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#breakfast #sugar #nutrition #kids #realitycheck"
+  },
+  {
+    "id": "135-headache-checks",
+    "status": "queued",
+    "template": "tip",
+    "label": "Symptoms",
+    "headline": "Headache?\nCheck these",
+    "highlight": "Water, sleep, screens",
+    "body": "Many everyday headaches come from dehydration, poor sleep, skipped meals, long screen time or caffeine withdrawal. Fix the basics first.",
+    "caption": "Reaching for a painkiller at the first sign of a headache? Try checking the basics first.\n\nCommon everyday triggers:\n→ Not drinking enough water\n→ Poor or short sleep\n→ Skipping meals\n→ Long hours on screens, tense shoulders and neck\n→ Too much — or suddenly too little — caffeine\n→ Stress\n\nTry:\n→ A big glass of water\n→ A snack if you've skipped a meal\n→ A break from screens and a short walk\n→ Stretching your neck and shoulders\n\nUsing painkillers more than 2–3 days a week can itself cause more headaches.\n\nSee a doctor urgently for a sudden, severe headache, or one with fever, stiff neck, weakness, confusion or vision changes.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#headache #migraine #health #symptoms #selfcare"
+  },
+  {
+    "id": "136-turmeric-pepper",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Pepper boosts\nturmeric.",
+    "body": "Curcumin from turmeric is poorly absorbed on its own. Piperine in black pepper raises absorption many times — and fat helps too.",
+    "caption": "Haldi doodh, haldi in every sabzi — but your body absorbs very little of turmeric's active compound on its own.\n\nCurcumin, the compound researchers study in turmeric, is poorly absorbed and quickly broken down.\n\nTwo things help:\n→ Black pepper: piperine can increase curcumin absorption many times over\n→ Fat: curcumin dissolves in fat, so cooking it in a little oil or ghee helps\n\nIndian cooking already does this — a tadka with oil, turmeric and spices.\n\nA reality check: turmeric is a great spice, but it isn't a cure. Strong health claims for turmeric supplements aren't well proven.\n\nEnjoy it in food. Don't replace medicine with it.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#turmeric #haldi #nutrition #indianfood #didyouknow"
+  },
+  {
+    "id": "137-handwashing",
+    "status": "queued",
+    "template": "stat",
+    "number": "20 sec",
+    "label": "Wash your hands",
+    "body": "Soap and water for at least 20 sec\n— about two \"Happy Birthday\"s.\nScrub backs, between fingers and\nnails. Before food, after toilet.",
+    "caption": "Handwashing is one of the most effective ways to prevent diarrhoea, colds and flu. Most of us just rush it.\n\nScrub with soap for at least 20 seconds — about the time it takes to hum \"Happy Birthday\" twice.\n\nDon't miss:\n→ The backs of your hands\n→ Between your fingers\n→ Under your nails\n→ Your thumbs and wrists\n\nKey times to wash:\n→ Before cooking and eating\n→ After using the toilet or changing a nappy\n→ After coughing, sneezing or blowing your nose\n→ After coming home from outside\n\nNo soap and water? Use a hand sanitiser with at least 60% alcohol.\n\nSimple. Cheap. Life-saving.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#handwashing #hygiene #health #prevention #india"
+  },
+  {
+    "id": "138-snoring",
+    "status": "queued",
+    "template": "tip",
+    "label": "Sleep",
+    "headline": "Snoring?\nDon't ignore it",
+    "highlight": "It may be sleep apnoea",
+    "body": "Loud snoring with breathing pauses, gasping or daytime sleepiness can signal sleep apnoea, which strains your heart. Get checked.",
+    "caption": "Loud snoring is often a family joke. Sometimes it's a sign of a serious sleep disorder.\n\nObstructive sleep apnoea happens when your airway repeatedly closes during sleep. Breathing stops for seconds at a time, many times a night.\n\nWarning signs:\n→ Loud, regular snoring\n→ Pauses in breathing, choking or gasping (often noticed by a partner)\n→ Waking up tired even after a full night\n→ Morning headaches\n→ Falling asleep during the day — even while driving\n\nIt's linked to high blood pressure, heart disease, diabetes and accidents.\n\nWhat helps:\n→ Losing weight if overweight\n→ Avoiding alcohol before bed\n→ Sleeping on your side\n\nSee a doctor — a sleep study can diagnose it, and treatment works.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#snoring #sleepapnea #sleep #hearthealth #health"
+  },
+  {
+    "id": "139-pink-salt",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Pink salt is\nhealthier?",
+    "body": "Rock salt and pink salt are still about 98% sodium chloride. The trace minerals are tiny — and most lack iodine. Use less salt of any kind.",
+    "caption": "Switching to Himalayan pink salt, sendha namak or sea salt for health? The difference is mostly colour.\n\nAll these salts are mostly sodium chloride — around 98% or more.\n\nThe \"trace minerals\" that give pink salt its colour are present in amounts far too small to matter for your health.\n\nAnd there's a catch:\n→ Most rock and pink salts are not iodised\n→ Iodine is vital for your thyroid and, in pregnancy, for the baby's brain\n→ India fixed widespread iodine deficiency with iodised salt\n\nSmarter salt habits:\n→ Use iodised salt for everyday cooking\n→ Keep the total under 5 g a day\n→ Flavour with lemon, herbs and spices instead\n\nThe type of salt matters less than the amount.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#salt #iodine #nutrition #health #mythbuster"
+  },
+  {
+    "id": "140-thirty-plants",
+    "status": "queued",
+    "template": "stat",
+    "number": "30",
+    "label": "Plants a week",
+    "body": "A large gut study found people\neating 30+ different plants a week\nhad more diverse gut bacteria.\nDal, veg, fruit, nuts, spices count.",
+    "caption": "Forget \"superfoods\". Variety may be the real secret to a healthy gut.\n\nThe American Gut Project, one of the largest gut microbiome studies, found that people who ate 30 or more different plant foods a week had more diverse gut bacteria than those who ate 10 or fewer.\n\nA diverse gut microbiome is linked to better overall health.\n\nWhat counts as a plant:\n→ Vegetables and fruits\n→ Dal, chana, rajma and other pulses\n→ Whole grains and millets\n→ Nuts and seeds\n→ Herbs and spices (jeera, haldi, dhania)\n\nIndian food makes this easy. One mixed dal, a sabzi, some chutney and a fruit can be 10+ plants.\n\nTry counting yours this week.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#guthealth #plants #fibre #nutrition #microbiome"
+  },
+  {
+    "id": "141-vaping",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Vaping is a\nsafe swap?",
+    "body": "E-cigarettes still deliver addictive nicotine plus chemicals that harm the lungs. They're banned in India. Proven quit methods work better.",
+    "caption": "Vapes are marketed as the \"safer\" option. Safer than a cigarette isn't the same as safe.\n\nE-cigarettes deliver nicotine, which is highly addictive and affects the developing brains of teens and young adults.\n\nThe aerosol can also contain:\n→ Fine particles that reach deep into the lungs\n→ Flavouring chemicals linked to lung damage\n→ Heavy metals from the device\n\nIndia banned the sale, manufacture and import of e-cigarettes in 2019.\n\nTrying to quit tobacco?\n→ Call the National Tobacco Quitline: 1800-112-356\n→ Ask your doctor about nicotine replacement — patches or gum\n→ Set a quit date and tell people around you\n\nYou deserve to be free of nicotine, not just switch the source.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#vaping #quitsmoking #lunghealth #tobacco #realitycheck"
+  },
+  {
+    "id": "142-quit-smoking",
+    "status": "queued",
+    "template": "tip",
+    "label": "Heart health",
+    "headline": "Quit smoking:\nfirst steps",
+    "highlight": "Pick a quit date",
+    "sections": [
+      {
+        "title": "Prepare",
+        "text": "Choose a date, clear out tobacco."
+      },
+      {
+        "title": "Cravings",
+        "text": "They pass in minutes. Walk, drink water."
+      },
+      {
+        "title": "Support",
+        "text": "Quitline 1800-112-356, or a doctor."
+      }
+    ],
+    "caption": "Quitting tobacco is the single best thing you can do for your health. It's hard — and very possible.\n\nStep by step:\n→ Pick a quit date in the next 2 weeks\n→ Tell family and friends, and ask for their support\n→ Remove cigarettes, bidis, gutkha and lighters from home, car and bag\n→ Know your triggers — chai, stress, after meals — and plan a swap\n→ When a craving hits: wait it out, drink water, walk, chew sugar-free gum\n\nGet help — it doubles your chances:\n→ National Tobacco Quitline: 1800-112-356 (free)\n→ Ask a doctor about nicotine patches or gum\n\nA slip isn't failure. Restart.\n\nMost successful quitters tried more than once.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#quitsmoking #tobacco #hearthealth #health #india"
+  },
+  {
+    "id": "143-cooled-rice",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Cooled rice has\nresistant starch.",
+    "body": "Cooking then cooling rice or potatoes turns some starch into resistant starch, which digests slowly and feeds gut bacteria. Refrigerate promptly.",
+    "caption": "Last night's rice may be gentler on your blood sugar than freshly cooked rice.\n\nWhen starchy foods like rice, potatoes and pasta are cooked and then cooled, some of the starch changes structure. It becomes \"resistant starch\".\n\nWhat resistant starch does:\n→ Resists digestion, so it acts more like fibre\n→ Feeds your good gut bacteria\n→ Can lead to a smaller blood sugar rise\n\nReheating doesn't fully undo it.\n\nFood safety matters with rice:\n→ Cool cooked rice quickly and refrigerate within 1–2 hours\n→ Eat it within a day\n→ Reheat until steaming hot, only once\n\nIt's a small effect, not a magic trick. Portion size still matters most.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#rice #guthealth #bloodsugar #nutrition #didyouknow"
+  },
+  {
+    "id": "144-sunscreen",
+    "status": "queued",
+    "template": "stat",
+    "number": "SPF 30",
+    "label": "Daily sunscreen",
+    "body": "Use broad-spectrum SPF 30 or more\non face, neck and hands outdoors.\nTwo finger lengths for the face.\nReapply every 2 hours in the sun.",
+    "caption": "Sunscreen isn't only for beach holidays — or only for fair skin.\n\nUV rays cause sunburn, dark spots, uneven tone and early wrinkles. Long-term, they raise the risk of skin cancer.\n\nDarker skin has more natural protection, but it still gets sun damage and pigmentation.\n\nHow to use sunscreen well:\n→ Broad-spectrum SPF 30 or higher\n→ About two finger lengths for face and neck\n→ Apply 15 minutes before going out\n→ Reapply every 2 hours outdoors, and after sweating or swimming\n→ Don't forget ears, neck and the backs of hands\n\nAdd shade, hats and sunglasses between 11 AM and 3 PM.\n\nDaily sunscreen is the most proven anti-ageing product there is.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#sunscreen #skincare #spf #health #summer"
+  },
+  {
+    "id": "145-millets",
+    "status": "queued",
+    "template": "tip",
+    "label": "Nutrition",
+    "headline": "Make millets\na habit",
+    "highlight": "Swap in one meal a day",
+    "body": "Ragi, jowar, bajra and foxtail millet bring fibre, minerals and steadier energy. Try ragi dosa, jowar roti or millet khichdi.",
+    "caption": "Our grandparents ate millets every day. They're making a comeback — for good reason.\n\nMillets like ragi, jowar, bajra, foxtail and little millet are whole grains packed with:\n→ Fibre that keeps you full\n→ Minerals like iron, magnesium and — in ragi — calcium\n→ Slower-digesting carbs than polished rice or maida\n\nEasy ways to start:\n→ Ragi dosa or ragi porridge\n→ Jowar or bajra roti\n→ Millet upma or khichdi\n→ Mix millet flour into your regular atta\n\nStart with one meal a day. Cook them well and drink enough water — the extra fibre needs it.\n\nMillets aren't magic. They're a great way to add variety and fibre.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#millets #ragi #nutrition #indianfood #healthyeating"
+  },
+  {
+    "id": "146-exercise-periods",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Skip workouts\non your period?",
+    "body": "You don't have to. Exercise during your period is safe, and gentle movement often eases cramps and mood. Adjust intensity to how you feel.",
+    "caption": "\"Don't exercise during your period.\" Many girls grow up hearing this. It's not true.\n\nExercise during your period is safe. For many women, it actually helps.\n\nWhat movement can do:\n→ Ease cramps by improving blood flow\n→ Lift mood through endorphins\n→ Reduce bloating and fatigue\n\nListen to your body:\n→ Feeling good? Train as normal\n→ Tired or crampy? Try walking, yoga or light stretching\n→ Heavy flow? Choose comfortable clothes and period products you trust\n\nThere's no need to skip anything — including inversions in yoga — unless it feels uncomfortable for you.\n\nSee a doctor if pain is severe enough to stop daily life.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#periods #womenshealth #fitness #menstrualhealth #mythbuster"
+  },
+  {
+    "id": "147-calcium",
+    "status": "queued",
+    "template": "stat",
+    "number": "1000",
+    "label": "mg calcium a day",
+    "body": "ICMR recommends about 1000 mg of\ncalcium a day for adults. A glass\nof milk has ~300 mg. Curd, paneer,\nragi and sesame help close the gap.",
+    "caption": "Strong bones need calcium every day — and many Indian diets fall short.\n\nICMR recommends about 1,000 mg of calcium a day for adults.\n\nHow to get there:\n→ A glass of milk (250 ml) → about 300 mg\n→ A bowl of curd → about 200–250 mg\n→ 50 g paneer → about 200 mg\n→ Ragi — one of the richest grain sources\n→ Sesame seeds (til), green leafy vegetables, rajma\n\nHelp your body use it:\n→ Vitamin D (sunlight, and testing)\n→ Strength training and walking\n→ Less excess salt and caffeine\n\nWomen — especially after menopause — need to pay extra attention.\n\nTalk to your doctor before taking calcium supplements.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#calcium #bonehealth #nutrition #osteoporosis #india"
+  },
+  {
+    "id": "148-diabetes-sugar-only",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Diabetes comes\nonly from sugar?",
+    "body": "Type 2 diabetes is driven by insulin resistance — linked to belly fat, inactivity, genes and poor sleep. Sugar plays a part, not the only one.",
+    "caption": "\"I don't eat sweets, so I can't get diabetes.\" Unfortunately, it's not that simple.\n\nType 2 diabetes develops when your body stops responding well to insulin (insulin resistance) and can't make enough to keep up.\n\nWhat drives it:\n→ Excess fat, especially around the belly and liver\n→ Physical inactivity\n→ Family history and genetics — South Asians are at higher risk\n→ Large portions of refined carbs, not just sweets\n→ Poor sleep and chronic stress\n\nSugary foods and drinks add to the risk, but they're one part of the picture.\n\nWhat lowers your risk:\n→ Daily movement and strength training\n→ A smaller waist\n→ More fibre, protein and vegetables\n→ Regular check-ups after 30\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#diabetes #insulinresistance #health #india #realitycheck"
+  },
+  {
+    "id": "149-back-pain",
+    "status": "queued",
+    "template": "tip",
+    "label": "Symptoms",
+    "headline": "Back pain?\nKeep moving",
+    "highlight": "Gentle activity heals",
+    "body": "For most everyday back pain, bed rest slows recovery. Keep walking gently, use heat, and return to normal activities as pain allows.",
+    "caption": "Lower back pain is one of the most common reasons people miss work. Most of it gets better — faster if you keep moving.\n\nFor most non-serious back pain, guidelines now advise against bed rest.\n\nWhat helps:\n→ Gentle walking, a little more each day\n→ A hot water bag or heat pad\n→ Staying with normal activities as much as you can\n→ Changing position often when sitting\n→ Once it settles: core and hip strengthening\n\nWhat usually doesn't help:\n→ Lying in bed for days\n→ Avoiding all movement out of fear\n\nSee a doctor urgently if back pain comes with numbness around the groin, leg weakness, trouble passing urine, fever, or follows a fall or injury.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#backpain #posture #health #fitness #symptoms"
+  },
+  {
+    "id": "150-glass-vitamin-d",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Window glass\nblocks vitamin D.",
+    "body": "Your skin needs UVB rays to make vitamin D, and ordinary window glass blocks most of them. Sitting by a sunny window doesn't count.",
+    "caption": "Sitting near a sunny window all day? Your skin still isn't making vitamin D.\n\nYour body makes vitamin D when UVB rays hit your skin.\n\nOrdinary window glass — at home, in the office, or in the car — blocks most UVB. So indoor sunlight won't raise your levels, even if it feels warm.\n\nWhat works:\n→ Step outside — balcony, terrace or a walk\n→ 15–20 minutes of sun on arms and legs, a few times a week\n→ Midday sun makes vitamin D fastest (but avoid burning)\n→ Foods: eggs, fatty fish, fortified milk\n\nIf you're often indoors, get a vitamin D test and supplement only if your doctor advises.\n\nFresh air and sunlight: two wins in one.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#vitamind #sunlight #health #india #didyouknow"
+  },
+  {
+    "id": "151-five-percent",
+    "status": "queued",
+    "template": "stat",
+    "number": "5%",
+    "label": "Weight loss that helps",
+    "body": "Losing just 5% of body weight can\nimprove blood sugar, BP and\ncholesterol. At 80 kg, that's 4 kg.\nYou don't need your \"ideal\" weight.",
+    "caption": "You don't need to reach your \"dream weight\" to get real health benefits.\n\nResearch shows that losing just 5% of your body weight — if you're overweight — can:\n→ Improve blood sugar and insulin sensitivity\n→ Lower blood pressure\n→ Improve cholesterol and triglycerides\n→ Reduce liver fat\n→ Ease knee pain and improve sleep\n\nAt 80 kg → 5% is 4 kg.\nAt 95 kg → about 5 kg.\n\nThat's a realistic goal over 2–4 months with:\n→ Smaller portions of refined carbs\n→ Protein in every meal\n→ Daily walking and strength training twice a week\n→ Better sleep\n\nSmall goals, big wins.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#weightloss #health #diabetes #hearthealth #motivation"
+  },
+  {
+    "id": "152-journaling",
+    "status": "queued",
+    "template": "tip",
+    "label": "Mental health",
+    "headline": "Write it\ndown",
+    "highlight": "5 minutes before bed",
+    "body": "Racing thoughts at night? Write tomorrow's to-do list and what's worrying you. Getting it on paper helps your mind let go.",
+    "caption": "Lying in bed replaying your day and planning tomorrow? Try putting it on paper.\n\nWriting can help get worries out of your head so your brain doesn't have to hold on to them.\n\nIn one sleep study, people who spent 5 minutes writing a specific to-do list before bed fell asleep faster than those who wrote about what they'd already done.\n\nA simple 5-minute routine:\n→ Write tomorrow's 3 most important tasks\n→ Write down anything worrying you\n→ Add one thing that went well today\n→ Close the notebook — the list is safe\n\nUse a paper notebook, not your phone.\n\nYour mind can rest when it trusts the list.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#journaling #mentalhealth #sleep #anxiety #selfcare"
+  },
+  {
+    "id": "153-bananas",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Bananas make\nyou fat?",
+    "body": "A banana has about 100 calories, plus fibre and potassium. It's a great snack or pre-workout fuel. No single fruit causes weight gain.",
+    "caption": "\"Avoid bananas if you're losing weight.\" Poor banana — it doesn't deserve this.\n\nA medium banana has about 100 calories. That's less than a few biscuits or a small packet of chips.\n\nWhat it gives you:\n→ Fibre that helps you feel full\n→ Potassium, good for blood pressure\n→ Quick energy before a workout\n→ Natural sweetness to replace sugary snacks\n\nWeight gain comes from your overall eating pattern, not from one fruit.\n\nIf you have diabetes:\n→ A small or medium banana is fine for most people\n→ Pair it with nuts or curd\n→ Avoid very ripe ones in large amounts\n\nEat the banana.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#banana #fruit #weightloss #nutrition #mythbuster"
+  },
+  {
+    "id": "154-quit-one-year",
+    "status": "queued",
+    "template": "stat",
+    "number": "1 yr",
+    "label": "Heart risk halves",
+    "body": "One year after quitting smoking,\nthe extra risk of heart disease\nis about half that of a smoker.\nIt keeps falling year after year.",
+    "caption": "It's never too late to quit — your body starts healing almost immediately.\n\nWhat happens after your last cigarette:\n→ Within hours: carbon monoxide levels in your blood fall\n→ Within weeks: circulation and lung function begin to improve\n→ 1 year: your extra risk of heart disease is about half that of a smoker\n→ 5–15 years: stroke risk falls towards that of a non-smoker\n→ 10 years: risk of lung cancer is about half that of a smoker\n\nQuitting at any age adds years to your life.\n\nFree help in India: National Tobacco Quitline 1800-112-356.\n\nThe best time to quit was years ago. The next best time is today.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#quitsmoking #hearthealth #tobacco #health #india"
+  },
+  {
+    "id": "155-smokeless-tobacco",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Smokeless tobacco\nis safer?",
+    "body": "Gutkha, khaini and zarda are a leading cause of mouth cancer in India. No smoke doesn't mean no harm. White or red patches need a check.",
+    "caption": "\"I don't smoke — I just have gutkha.\" Smokeless tobacco isn't a safer option.\n\nGutkha, khaini, zarda, mawa and paan with tobacco contain cancer-causing chemicals that sit against your mouth for hours.\n\nWhat they cause:\n→ Mouth cancer — one of the most common cancers in Indian men\n→ Cancers of the throat and food pipe\n→ Gum disease and tooth loss\n→ Higher risk of heart disease\n\nCheck your mouth regularly. See a doctor for:\n→ White or red patches\n→ Ulcers that don't heal in 2 weeks\n→ Difficulty opening your mouth\n→ Lumps in the mouth or neck\n\nHelp to quit: 1800-112-356.\n\nNo smoke. Still deadly.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#tobacco #oralcancer #gutkha #health #realitycheck"
+  },
+  {
+    "id": "156-fermented-foods",
+    "status": "queued",
+    "template": "tip",
+    "label": "Gut health",
+    "headline": "Love fermented\nfoods",
+    "highlight": "Idli, dosa, curd, kanji",
+    "body": "Fermentation makes food easier to digest and can add helpful bacteria. India has a great tradition — idli, dosa, dhokla, curd and kanji.",
+    "caption": "India has been eating gut-friendly foods for centuries — long before \"probiotics\" was a buzzword.\n\nFermentation is when good bacteria and yeasts break down food. It can:\n→ Make nutrients easier to absorb\n→ Make food easier to digest\n→ Add live bacteria (in foods that aren't heated after fermenting)\n\nIndian fermented favourites:\n→ Curd, chaas and lassi (unsweetened)\n→ Idli and dosa batter\n→ Dhokla\n→ Kanji (fermented carrot drink)\n→ Traditional homemade pickles — but watch the salt\n\nFoods eaten raw or cold, like curd and kanji, keep their live bacteria. Cooked ones like idli are still easy on the gut.\n\nAdd one fermented food a day.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#guthealth #fermentedfood #probiotics #indianfood #nutrition"
+  },
+  {
+    "id": "157-kidneys-filter",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Your kidneys\nfilter 180 L.",
+    "body": "Every day your kidneys filter about 180 litres of fluid from your blood, keeping what you need and making 1–2 litres of urine.",
+    "caption": "Two fist-sized organs filter your blood around the clock.\n\nEvery day, your kidneys filter about 180 litres of fluid from your blood. They return almost all of it, and turn the rest into 1–2 litres of urine.\n\nThey also:\n→ Balance salt, water and minerals\n→ Help control blood pressure\n→ Signal your body to make red blood cells\n→ Activate vitamin D\n\nThe biggest threats to your kidneys in India: diabetes and high blood pressure.\n\nProtect them:\n→ Keep blood sugar and BP in check\n→ Drink enough water\n→ Don't overuse painkillers\n→ Get a creatinine and urine test if you have diabetes or high BP\n\nKidney disease is silent until late. Test early.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#kidneyhealth #health #diabetes #science #didyouknow"
+  },
+  {
+    "id": "158-kids-sleep",
+    "status": "queued",
+    "template": "stat",
+    "number": "9-12",
+    "label": "Hours, kids aged 6–12",
+    "body": "Children 6–12 need 9–12 hours of\nsleep a night. Teens need 8–10.\nScreens out of the bedroom help.\nSleep boosts learning and mood.",
+    "caption": "Homework, tuition, screens — many children are short on sleep without anyone noticing.\n\nPaediatric sleep experts recommend:\n→ Ages 3–5: 10–13 hours (including naps)\n→ Ages 6–12: 9–12 hours\n→ Ages 13–18: 8–10 hours\n\nShort sleep in children is linked to:\n→ Poor focus and memory in class\n→ Irritability and mood swings\n→ Weight gain\n→ Getting sick more often\n\nHow to help:\n→ A fixed bedtime, even on weekends\n→ No screens for an hour before bed\n→ Phones and tablets charge outside the bedroom\n→ Daytime outdoor play\n\nSleep is when children grow and learn.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#kids #sleep #parenting #childhealth #health"
+  },
+  {
+    "id": "159-period-cramps",
+    "status": "queued",
+    "template": "tip",
+    "label": "Women's health",
+    "headline": "Ease period\ncramps",
+    "highlight": "Heat, movement, rest",
+    "body": "A hot water bag, gentle walking or yoga, and warm fluids can ease cramps. Pain that stops daily life is not normal — see a doctor.",
+    "caption": "Period cramps are common. Suffering in silence shouldn't be.\n\nCramps happen when the uterus contracts to shed its lining.\n\nWhat helps many women:\n→ A hot water bag on the lower belly or back\n→ Gentle movement: walking, stretching, yoga\n→ Warm fluids and enough water\n→ Rest and good sleep\n→ Regular exercise through the month\n\nSee a gynaecologist if:\n→ Pain stops you from going to school, college or work\n→ Painkillers don't help\n→ Pain is getting worse over time\n→ You have very heavy bleeding or pain during sex\n\nSevere pain can be a sign of conditions like endometriosis, which is treatable.\n\n\"It's normal, just bear it\" isn't good enough.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#periods #periodpain #womenshealth #endometriosis #health"
+  },
+  {
+    "id": "160-muscle-to-fat",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Muscle turns\ninto fat?",
+    "body": "Muscle and fat are different tissues — one can't become the other. Stop training and muscle shrinks; keep eating the same and fat grows.",
+    "caption": "\"If you stop going to the gym, all that muscle will turn to fat.\" It's a common belief — and biologically impossible.\n\nMuscle and fat are completely different types of tissue. One can't transform into the other.\n\nWhat actually happens when people stop training:\n→ Muscles shrink from less use\n→ They burn fewer calories through activity\n→ But often keep eating the same amount\n→ So fat increases\n\nThat's why it looks like muscle \"turned into\" fat.\n\nHow to avoid it:\n→ Keep some strength training, even once or twice a week\n→ Adjust portions if you're less active\n→ Stay active daily\n\nMuscle is easier to keep than to build.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#muscle #fitness #gym #fatloss #mythbuster"
+  },
+  {
+    "id": "161-weekly-loss",
+    "status": "queued",
+    "template": "stat",
+    "number": "0.5-1",
+    "label": "Kg loss per week",
+    "body": "A steady 0.5–1 kg a week is a safe,\nsustainable pace for most people.\nFaster loss is often water and\nmuscle — and tends to come back.",
+    "caption": "Want to lose 10 kg in a month? Your body — and your long-term results — will thank you for slowing down.\n\nFor most people, a sustainable rate is about 0.5–1 kg a week.\n\nWhy slower works better:\n→ You keep more muscle\n→ Less extreme hunger and cravings\n→ Habits you can actually keep\n→ Less chance of regaining it all\n\nThat big drop in the first week of a diet? Mostly water and stored carbs.\n\nWhat 0.5 kg a week looks like:\n→ A daily deficit of roughly 500 calories\n→ e.g., skipping a sugary drink, one fewer roti, and a 30-minute walk\n\nTen kg in 4–5 months is a fantastic, lasting result.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#weightloss #fatloss #health #fitness #motivation"
+  },
+  {
+    "id": "162-heart-attack-young",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Heart attacks are\nfor old men?",
+    "body": "Indians tend to get heart disease earlier than people in the West, and women are at risk too — often with subtler symptoms. Know your numbers.",
+    "caption": "Heart attacks in young Indians and in women are making headlines. It's not just \"an old man's disease\".\n\nStudies show Indians tend to develop heart disease about 10 years earlier than people in Western countries.\n\nWhy risk starts young:\n→ High rates of diabetes and prediabetes\n→ Belly fat, even at normal weight\n→ Tobacco use\n→ Stress, poor sleep and inactivity\n→ Family history\n\nWomen are at risk too, especially after menopause — and their symptoms can be less obvious: breathlessness, fatigue, nausea, back or jaw pain.\n\nWhat to do:\n→ Know your BP, sugar and cholesterol numbers from your 20s and 30s\n→ Don't ignore warning signs\n→ Build daily heart-healthy habits now\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#hearthealth #heartattack #womenshealth #india #realitycheck"
+  },
+  {
+    "id": "163-call-a-friend",
+    "status": "queued",
+    "template": "tip",
+    "label": "Wellbeing",
+    "headline": "Call a\nfriend today",
+    "highlight": "Connection is health",
+    "body": "Strong relationships are linked to longer, healthier lives. Loneliness can harm health as much as other well-known risks. Reach out today.",
+    "caption": "When was the last time you had a real conversation with a friend — not just a forwarded meme?\n\nResearch consistently shows that strong social connections are linked to a longer, healthier life. Loneliness and isolation are linked to higher risk of heart disease, depression and early death.\n\nWHO now treats social connection as a global health priority.\n\nSmall ways to connect:\n→ Call (don't just text) one friend this week\n→ Eat one meal a day with family, without screens\n→ Join a walking group, class or community activity\n→ Check on an older relative or neighbour\n→ Say yes to the next invitation\n\nRelationships take effort. They're worth it.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#loneliness #friendship #mentalhealth #wellbeing #connection"
+  },
+  {
+    "id": "164-neat-fidgeting",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Everyday moves\nburn calories.",
+    "body": "Walking around, standing, chores and even fidgeting can burn hundreds of calories a day. This \"NEAT\" often matters more than your workout.",
+    "caption": "Your 45-minute workout matters. But what you do in the other 23 hours may matter more for your calorie burn.\n\nNEAT — non-exercise activity thermogenesis — is the energy you use for everything that isn't formal exercise:\n→ Walking around the house or office\n→ Standing instead of sitting\n→ Cooking, cleaning, carrying shopping\n→ Taking the stairs\n→ Even fidgeting\n\nResearch shows NEAT can differ by hundreds of calories a day between people — often more than a workout burns.\n\nEasy ways to raise it:\n→ Walk during phone calls\n→ Stand up every 30 minutes\n→ Do your own chores\n→ Use the stairs\n\nMove more, all day.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#neat #weightloss #fitness #steps #didyouknow"
+  },
+  {
+    "id": "165-screening-30",
+    "status": "queued",
+    "template": "stat",
+    "number": "30+",
+    "label": "Start yearly checks",
+    "body": "India screens everyone 30+ for\nBP, diabetes and common cancers —\nfree at government health centres.\nMost early problems feel like nothing.",
+    "caption": "Turned 30? It's time for your first proper health check — even if you feel perfectly fine.\n\nUnder India's national programme for non-communicable diseases, everyone aged 30 and above is meant to be screened for:\n→ High blood pressure\n→ Diabetes\n→ Oral cancer\n→ Breast and cervical cancer (for women)\n\nThese checks are free at government health and wellness centres (Ayushman Arogya Mandirs).\n\nWhy 30? Because these conditions often start silently in your 30s and 40s, and they're far easier to manage when caught early.\n\nBook a check for yourself — and for your parents.\n\nFeeling fine isn't the same as being fine.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#healthcheckup #screening #prevention #health #india"
+  },
+  {
+    "id": "166-eating-out",
+    "status": "queued",
+    "template": "tip",
+    "label": "Nutrition",
+    "headline": "Eat out,\nstay on track",
+    "highlight": "Start with protein + veg",
+    "sections": [
+      {
+        "title": "Choose",
+        "text": "Tandoori, grilled, dal, salads."
+      },
+      {
+        "title": "Limit",
+        "text": "Creamy gravies, fried starters, naan."
+      },
+      {
+        "title": "Share",
+        "text": "Split dessert. Water, not soft drinks."
+      }
+    ],
+    "caption": "Eating out doesn't have to undo your week. A few smart choices make a big difference.\n\nRestaurant food tends to be heavy on oil, butter, cream and salt — and portions are big.\n\nBetter picks:\n→ Tandoori or grilled starters instead of fried\n→ Dal, chana or rajma instead of creamy paneer gravies\n→ Roti or phulka instead of butter naan\n→ A salad or raita on the side\n→ Idli, dosa or a thali with lots of sabzi\n\nSimple tricks:\n→ Order protein and vegetables first\n→ Share dishes, especially dessert\n→ Drink water or chaas, not soft drinks\n→ Stop when you're satisfied, not stuffed\n\nOne meal won't break you. Habits do.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#eatingout #healthyeating #nutrition #weightloss #india"
+  },
+  {
+    "id": "167-knuckle-cracking",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Cracking knuckles\ncauses arthritis?",
+    "body": "The pop is a gas bubble in the joint fluid. Studies haven't linked habitual knuckle cracking to arthritis. Pain or swelling is different.",
+    "caption": "\"Stop cracking your knuckles — you'll get arthritis!\" Most of us were told this as kids.\n\nThe good news: research hasn't found a link.\n\nThat popping sound comes from a gas bubble forming in the fluid that cushions your joints when you stretch them.\n\nStudies comparing habitual knuckle crackers with non-crackers found no higher rates of arthritis. One doctor even cracked the knuckles of only one hand for 60 years — and found no difference.\n\nWhen to see a doctor:\n→ Pain when a joint cracks\n→ Swelling or stiffness\n→ Reduced movement\n→ Cracking after an injury\n\nIf it doesn't hurt, it's a harmless (if annoying) habit.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#arthritis #jointhealth #health #funfacts #mythbuster"
+  },
+  {
+    "id": "168-spo2",
+    "status": "queued",
+    "template": "stat",
+    "number": "95%+",
+    "label": "Normal oxygen level",
+    "body": "A healthy SpO2 is usually 95–100%.\nBelow 94% at rest, or breathless,\nneeds medical advice. Warm hands,\nno nail polish for a good reading.",
+    "caption": "Many Indian homes got a pulse oximeter during the pandemic. Here's how to read it properly.\n\nSpO2 shows how much of your blood's haemoglobin is carrying oxygen.\n\nWhat the numbers mean:\n→ 95–100% — normal for most healthy people\n→ 94% or below at rest — talk to a doctor\n→ 92% or lower, or breathlessness at rest — seek urgent care\n\nFor an accurate reading:\n→ Sit and rest for a few minutes\n→ Warm your hands first\n→ Remove nail polish or artificial nails\n→ Keep your hand still and at heart level\n→ Wait for the number to settle\n\nReadings can be less accurate on darker skin. Always go by how the person feels too.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#oxygen #pulseoximeter #lunghealth #health #india"
+  },
+  {
+    "id": "169-keto",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Keto is the\nbest diet?",
+    "body": "Keto can cause fast early weight loss, much of it water. Long-term, it does no better than other diets — and it's hard to stick to.",
+    "caption": "Keto promises rapid fat loss. But is it really better than other diets?\n\nThe ketogenic diet cuts carbs to very low levels — no rice, roti, fruit or dal in most versions.\n\nWhat happens:\n→ Fast weight loss in the first weeks — much of it water\n→ Less appetite for some people\n→ Hard to keep up with Indian meals and family food\n\nStudies comparing diets over a year or more find that keto doesn't beat other approaches when calories and protein are similar.\n\nPossible downsides:\n→ Low fibre and constipation\n→ Higher LDL cholesterol in some people\n→ Missing out on fruit, pulses and whole grains\n\nThe best diet is one you can follow for years, not weeks.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#keto #diet #weightloss #nutrition #realitycheck"
+  },
+  {
+    "id": "170-take-the-stairs",
+    "status": "queued",
+    "template": "tip",
+    "label": "Training",
+    "headline": "Take the\nstairs",
+    "highlight": "Free cardio, every day",
+    "body": "Climbing stairs is vigorous exercise that builds leg strength and heart fitness. A few flights, several times a day, really adds up.",
+    "caption": "You don't need a gym membership for great cardio. You probably walk past a free one every day.\n\nStair climbing is a vigorous activity — it gets your heart rate up quickly, and builds strength in your legs and glutes.\n\nStudies have linked regular stair climbing with better heart fitness and lower risk of heart disease.\n\nHow to make it a habit:\n→ Skip the lift for 3–4 floors\n→ Take a stair break instead of a tea break\n→ Climb a few flights, several times a day\n→ Walk down to recover, then go again\n\nShort of breath after 2 floors? That's your sign to start.\n\nKnee trouble? Start slow, use the railing, and step up with your stronger leg.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#stairs #cardio #fitness #hearthealth #training"
+  },
+  {
+    "id": "171-soak-pulses",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Soaking dal\ncuts the gas.",
+    "body": "Soaking pulses for a few hours, then discarding the water, reduces gas-causing sugars and helps them cook faster. Sprouting helps even more.",
+    "caption": "Love rajma and chole but hate the bloating afterwards? How you prepare them makes a big difference.\n\nPulses contain certain sugars (oligosaccharides) that gut bacteria ferment — which causes gas.\n\nSoaking helps:\n→ Soak rajma, chana and other whole pulses for 8–12 hours\n→ Throw away the soaking water and rinse\n→ Cook in fresh water until fully soft\n→ Pressure cooking helps break them down further\n\nOther tricks:\n→ Sprouting reduces gas-causing sugars even more\n→ Add hing, jeera, ajwain or ginger while cooking\n→ Increase pulses slowly so your gut adjusts\n\nDon't skip pulses — they're one of the best foods for protein and fibre.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#dal #pulses #digestion #bloating #didyouknow"
+  },
+  {
+    "id": "172-tb-cough",
+    "status": "queued",
+    "template": "stat",
+    "number": "2 wks",
+    "label": "Cough? Get tested",
+    "body": "A cough lasting 2 weeks or more\ncan be TB. Testing and treatment\nare free at government centres.\nTB is curable — if treated fully.",
+    "caption": "India has the highest number of tuberculosis cases in the world. Spotting it early saves lives — and stops it spreading.\n\nGet tested for TB if you have:\n→ A cough lasting 2 weeks or more\n→ Fever, especially in the evenings\n→ Night sweats\n→ Unexplained weight loss\n→ Coughing up blood\n\nTesting and treatment are free at government health centres under India's National TB Elimination Programme.\n\nTB is curable. The key is to:\n→ Take the full course of medicines, every day\n→ Never stop when you start to feel better\n→ Cover your mouth when coughing\n\nKnow someone with a long cough? Encourage them to get tested.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#tuberculosis #tb #cough #health #india"
+  },
+  {
+    "id": "173-eye-strain",
+    "status": "queued",
+    "template": "tip",
+    "label": "Symptoms",
+    "headline": "Screen-tired\neyes?",
+    "highlight": "Use the 20-20-20 rule",
+    "body": "Every 20 minutes, look at something 20 feet away for 20 seconds. Blink more, dim glare, and keep your screen an arm's length away.",
+    "caption": "Dry, tired, burning eyes after a day of screens? It's called digital eye strain — and it's very common.\n\nWhen we stare at screens, we blink much less and our eyes stay focused at one distance for hours.\n\nThe 20-20-20 rule:\n→ Every 20 minutes\n→ Look at something 20 feet (about 6 metres) away\n→ For 20 seconds\n\nAlso try:\n→ Blink deliberately and often\n→ Keep your screen about an arm's length away, slightly below eye level\n→ Match screen brightness to the room\n→ Reduce glare from windows and overhead lights\n\nSee an eye doctor if symptoms continue — you may need glasses or treatment for dry eyes.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#eyestrain #eyehealth #screentime #wfh #symptoms"
+  },
+  {
+    "id": "174-breakfast-myth",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Breakfast is the\nkey to weight loss?",
+    "body": "Studies show skipping breakfast doesn't cause weight gain, and eating it doesn't cause loss. What matters is the whole day's food quality.",
+    "caption": "\"Breakfast is the most important meal of the day.\" For weight loss, the evidence is weaker than you'd think.\n\nControlled trials have found that eating breakfast doesn't automatically help people lose weight, and skipping it doesn't make them gain.\n\nWhat matters more:\n→ Total food across the day\n→ Protein and fibre in your meals\n→ Not overeating later because you're starving\n\nBreakfast is a great idea if:\n→ You're hungry in the morning\n→ It keeps you from snacking on junk mid-morning\n→ You have diabetes and your doctor recommends regular meals\n→ You're a growing child or teen\n\nIf you do eat breakfast, make it count: eggs, chilla, poha with peanuts, idli-sambar, oats with nuts.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#breakfast #weightloss #nutrition #health #mythbuster"
+  },
+  {
+    "id": "175-cola-sugar",
+    "status": "queued",
+    "template": "stat",
+    "number": "8-9 tsp",
+    "label": "Sugar in one cola",
+    "body": "A 330 ml can of regular cola has\nabout 35 g of sugar — 8 to 9 tsp.\nThat is more than WHO's ideal limit\nfor a whole day, in one drink.",
+    "caption": "One can of cola can blow your whole day's sugar budget.\n\nA regular 330 ml can has about 35 g of sugar — roughly 8 to 9 teaspoons.\n\nWHO's ideal limit for added sugar is about 25 g (6 teaspoons) a day.\n\nLiquid sugar is especially easy to overdo:\n→ It doesn't fill you up\n→ It hits your blood sugar fast\n→ Regular sugary drinks are linked to weight gain, type 2 diabetes and tooth decay\n\nOther drinks to watch:\n→ Packaged fruit juices\n→ Energy drinks\n→ Sweetened iced teas and flavoured milks\n\nBetter swaps: water, chaas, unsweetened nimbu pani, sparkling water with lemon.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#sugar #softdrinks #nutrition #health #diabetes"
+  },
+  {
+    "id": "176-painkillers",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Painkillers are\nharmless?",
+    "body": "Frequent use of common painkillers can hurt your stomach, kidneys and liver, and even cause more headaches. Follow the dose and ask a doctor.",
+    "caption": "Popping a painkiller for every headache, backache or period pain? Over-the-counter doesn't mean risk-free.\n\nCommon painkillers can cause harm when used often or in high doses:\n→ NSAIDs (like ibuprofen, diclofenac): stomach ulcers, acidity, kidney damage, raised BP\n→ Paracetamol: liver damage if you take too much, especially with alcohol\n→ Any painkiller used for headaches on many days a month can cause \"rebound\" headaches\n\nUse them safely:\n→ Never exceed the dose on the label\n→ Check combination cold and flu medicines — they may contain the same drug\n→ Take NSAIDs with food\n→ Avoid them if you have kidney disease or stomach ulcers, unless a doctor says so\n\nNeeding them often? Find the cause with a doctor.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#painkillers #medicine #kidneyhealth #health #realitycheck"
+  },
+  {
+    "id": "177-night-shift",
+    "status": "queued",
+    "template": "tip",
+    "label": "Sleep",
+    "headline": "Night shift\nsleep tips",
+    "highlight": "Make day feel like night",
+    "sections": [
+      {
+        "title": "Dark",
+        "text": "Blackout curtains or an eye mask."
+      },
+      {
+        "title": "Anchor",
+        "text": "Same sleep block on work days."
+      },
+      {
+        "title": "Commute",
+        "text": "Sunglasses home, no caffeine late."
+      }
+    ],
+    "caption": "Working nights — in hospitals, call centres, factories or security? Your body clock is working against you. Here's how to help it.\n\nTips for better day sleep:\n→ Make your room as dark as possible: blackout curtains, eye mask\n→ Earplugs or a fan to block daytime noise\n→ Tell family your sleep hours and silence your phone\n→ Wear sunglasses on the way home to reduce morning light\n→ Stop caffeine at least 6 hours before you plan to sleep\n→ Keep a regular sleep block on work days\n\nLook after the rest of your health:\n→ Plan proper meals — avoid snacking on junk through the night\n→ Exercise regularly\n→ Get regular health check-ups\n\nShift work is hard. Protect your sleep fiercely.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#nightshift #sleep #shiftwork #health #wellness"
+  },
+  {
+    "id": "178-iron-kadhai",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "An iron kadhai\nadds iron.",
+    "body": "Cooking in cast-iron pans can add small amounts of iron to food, especially acidic dishes like tomato curries. A simple boost for anaemia.",
+    "caption": "Grandma's heavy iron kadhai wasn't just tradition. It may have been adding iron to the family's food.\n\nStudies show that cooking in cast-iron cookware can increase the iron content of food — especially acidic, moist dishes like tomato-based curries, sambar and dal, cooked for longer.\n\nWith anaemia so common in India, this is a simple, low-cost boost.\n\nTips:\n→ Season your kadhai well and dry it fully to prevent rust\n→ Use it regularly for sabzis and dals\n→ Don't store food in it overnight\n→ Combine with vitamin C (lemon, tomato, amla) for better absorption\n\nIt doesn't replace iron-rich foods or prescribed iron tablets — it's a helpful extra.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#iron #anaemia #cooking #indiankitchen #didyouknow"
+  },
+  {
+    "id": "179-walking-pace",
+    "status": "queued",
+    "template": "stat",
+    "number": "100",
+    "label": "Steps per minute",
+    "body": "Walking at about 100 steps a min\nis moderate intensity for most\nadults. Count your steps for 15 sec,\nthen multiply by 4.",
+    "caption": "Is your walk actually exercise — or a stroll? There's a simple way to tell.\n\nResearch shows that walking at about 100 steps per minute counts as moderate-intensity activity for most adults — the kind that counts towards WHO's 150 minutes a week.\n\nHow to check:\n→ Count your steps for 15 seconds\n→ Multiply by 4\n→ 100 or more = moderate pace\n\nAnother test: you can talk, but not sing.\n\nWays to pick up the pace:\n→ Shorter, quicker steps\n→ Swing your arms\n→ Walk to an upbeat playlist\n→ Add a slight uphill\n\nA brisk 30-minute walk at this pace, 5 days a week, gets you to 150 minutes.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#walking #fitness #cardio #steps #health"
+  },
+  {
+    "id": "180-menopause",
+    "status": "queued",
+    "template": "tip",
+    "label": "Women's health",
+    "headline": "Menopause:\nwhat helps",
+    "highlight": "Strength train, sleep well",
+    "body": "Hot flushes, poor sleep and mood swings are common. Strength training, protein, calcium and sleep help. Ask a doctor about options.",
+    "caption": "Menopause is a natural stage of life, usually between 45 and 55. Many women go through it without much support or information.\n\nCommon symptoms:\n→ Hot flushes and night sweats\n→ Trouble sleeping\n→ Mood changes, anxiety, low mood\n→ Joint aches and weight gain around the belly\n→ Vaginal dryness\n\nAfter menopause, bone loss speeds up and heart disease risk rises.\n\nWhat helps:\n→ Strength training to protect bones and muscle\n→ Protein and calcium-rich foods; check vitamin D\n→ Regular sleep routine, cool bedroom\n→ Limiting alcohol and caffeine\n→ Talking to a doctor about treatments, including hormone therapy where suitable\n\nYou don't have to just put up with it.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#menopause #womenshealth #bonehealth #health #india"
+  },
+  {
+    "id": "181-coffee-dehydrates",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Coffee and chai\ndehydrate you?",
+    "body": "Caffeine has a mild effect on urine, but the water in a cup more than makes up for it. Regular chai and coffee count toward your fluids.",
+    "caption": "\"Tea and coffee don't count — they dehydrate you.\" Not quite.\n\nCaffeine has a mild diuretic effect, meaning it can make you pass a little more urine.\n\nBut a cup of chai or coffee is mostly water. Studies show that for regular drinkers, moderate amounts hydrate you about as well as water.\n\nWhat to keep in mind:\n→ Moderate is key: up to about 400 mg caffeine a day for most adults\n→ Watch the sugar — 2 teaspoons a cup adds up\n→ Late-day caffeine can hurt your sleep\n→ Plain water is still the best main drink\n\nSo yes, your morning chai counts. Just keep the sugar low and stop after 2 PM.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#coffee #chai #hydration #caffeine #mythbuster"
+  },
+  {
+    "id": "182-haemoglobin",
+    "status": "queued",
+    "template": "stat",
+    "number": "12/13",
+    "label": "Hb cutoff, g/dL",
+    "body": "WHO: haemoglobin below 12 g/dL in\nwomen and 13 in men means anaemia.\nIn pregnancy, the cutoff is 11.\nA CBC test shows your level.",
+    "caption": "Feeling tired all the time? Your haemoglobin number could explain it.\n\nHaemoglobin (Hb) is the protein in red blood cells that carries oxygen.\n\nWHO defines anaemia as:\n→ Below 12 g/dL in non-pregnant women\n→ Below 13 g/dL in men\n→ Below 11 g/dL in pregnancy\n\nA complete blood count (CBC) is a cheap, common test that shows your Hb.\n\nIf it's low, your doctor may check:\n→ Iron and ferritin\n→ Vitamin B12 and folate\n→ Other causes, like blood loss or worms\n\nTreatment depends on the cause — don't start iron tablets on your own without testing.\n\nKnow your number.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#anaemia #haemoglobin #bloodtest #health #india"
+  },
+  {
+    "id": "183-treadmill-calories",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Burned 500 kcal on\nthe treadmill?",
+    "body": "Machine and watch calorie counts are often overestimates. Don't \"earn\" extra food based on them. Use them to track effort, not to eat back.",
+    "caption": "The treadmill says you burned 500 calories. Time for a samosa? Not so fast.\n\nStudies show gym machines and fitness trackers often overestimate calories burned — sometimes by a lot.\n\nThey don't know your exact:\n→ Body composition\n→ Fitness level\n→ Whether you're holding the handrails\n→ Real effort\n\nCommon trap: \"I worked out, so I can eat more.\" It's easy to eat back more than you burned.\n\nBetter ways to use them:\n→ Track trends in effort, distance and heart rate\n→ Compare your own workouts over time\n→ Don't plan meals around the number\n\nExercise is for health and strength. Food choices drive fat loss.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#calories #fitnesstracker #weightloss #fitness #realitycheck"
+  },
+  {
+    "id": "184-exam-stress",
+    "status": "queued",
+    "template": "tip",
+    "label": "Mental health",
+    "headline": "Beat exam\nstress",
+    "highlight": "Sleep is part of study",
+    "sections": [
+      {
+        "title": "Plan",
+        "text": "Short sessions with 5-min breaks."
+      },
+      {
+        "title": "Sleep",
+        "text": "7–9 hours. Memory locks in at night."
+      },
+      {
+        "title": "Move",
+        "text": "A 10-min walk clears your head."
+      }
+    ],
+    "caption": "Board exams, entrance exams, semester finals — the pressure on Indian students is intense. Here's what actually helps.\n\nStudy smarter:\n→ Study in focused blocks of 25–50 minutes, with short breaks\n→ Test yourself instead of just re-reading\n→ Plan backwards from the exam date\n\nProtect your brain:\n→ Sleep 7–9 hours — your brain stores what you learned while you sleep\n→ All-nighters hurt memory and focus\n→ Eat regular meals with protein\n→ Move daily — even a short walk boosts focus and mood\n\nLook after your mind:\n→ Talk to someone if you feel overwhelmed\n→ Remember: one exam doesn't define your life\n\nTele-MANAS helpline: 14416 (free, 24/7).\n\nParents — share this with your child.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#examstress #students #mentalhealth #studytips #india"
+  },
+  {
+    "id": "185-protein-thermic",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Protein burns\ncalories to digest.",
+    "body": "Digesting protein uses about 20–30% of its calories, versus a few percent for fat. It also keeps you full — a double win for fat loss.",
+    "caption": "Not all calories behave the same once you eat them.\n\nYour body uses energy to digest food. This is called the thermic effect of food.\n\nRoughly:\n→ Protein: 20–30% of its calories are used just to digest it\n→ Carbs: about 5–10%\n→ Fat: about 0–3%\n\nProtein also:\n→ Keeps you fuller for longer\n→ Helps you keep muscle while losing fat\n→ Reduces cravings for many people\n\nThat's why high-protein eating is so helpful for weight management.\n\nEasy protein boosts: eggs, paneer, curd, dal, chana, tofu, soya, chicken and fish.\n\nAim for a protein source in every meal.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#protein #metabolism #fatloss #nutrition #didyouknow"
+  },
+  {
+    "id": "186-mental-disorders",
+    "status": "queued",
+    "template": "stat",
+    "number": "1 in 8",
+    "label": "Live with mental illness",
+    "body": "WHO: about 1 in 8 people worldwide\nlive with a mental disorder —\nmost often anxiety or depression.\nIt's common, and treatable.",
+    "caption": "If you're struggling with your mental health, you are far from alone.\n\nWHO estimates that about 1 in 8 people worldwide live with a mental disorder. Anxiety and depression are the most common.\n\nYet in India, most people with a mental health condition never get treatment — often because of stigma or not knowing where to go.\n\nSigns to take seriously:\n→ Low mood or loss of interest for 2 weeks or more\n→ Constant worry or panic attacks\n→ Changes in sleep, appetite or energy\n→ Pulling away from people\n\nHelp is available:\n→ Tele-MANAS: 14416 (free, 24/7, in many Indian languages)\n→ Your doctor or a counsellor\n\nMental health is health.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#mentalhealth #depression #anxiety #telemanas #india"
+  },
+  {
+    "id": "187-heart-kitchen",
+    "status": "queued",
+    "template": "tip",
+    "label": "Heart health",
+    "headline": "A heart-healthy\nkitchen",
+    "highlight": "Less salt, more flavour",
+    "sections": [
+      {
+        "title": "Salt",
+        "text": "Add at the end; use lemon and spices."
+      },
+      {
+        "title": "Oil",
+        "text": "Measure with a spoon; rotate oils."
+      },
+      {
+        "title": "Stock",
+        "text": "Dal, oats, nuts, veg, fruit in reach."
+      }
+    ],
+    "caption": "Heart health starts in your kitchen — with small changes the whole family won't even notice.\n\nCut the salt:\n→ Add salt at the end of cooking — you'll need less\n→ Use lemon, amla, kokum, herbs and spices for flavour\n→ Keep pickles, papad and sauces as occasional extras\n\nUse oil wisely:\n→ Measure with a spoon instead of pouring\n→ Rotate oils — mustard, groundnut, rice bran, sesame\n→ Never reuse deep-frying oil repeatedly\n\nStock the good stuff:\n→ Dal, rajma, chana, oats and millets\n→ Seasonal vegetables and fruits\n→ Unsalted nuts and seeds\n\nKeep chips and biscuits out of sight — or out of the house.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#hearthealth #cooking #salt #indiankitchen #nutrition"
+  },
+  {
+    "id": "188-fat-makes-fat",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Eating fat makes\nyou fat?",
+    "body": "Excess calories make you gain fat, from any source. Healthy fats from nuts, seeds and fish are good for you — just mind portions, as fat is calorie-dense.",
+    "caption": "The low-fat craze of the 1990s taught us to fear all fat. It didn't make people healthier.\n\nEating fat doesn't directly turn into body fat. Weight gain happens when you eat more calories than you use — from any source.\n\nFat is essential for:\n→ Absorbing vitamins A, D, E and K\n→ Hormones and brain health\n→ Feeling satisfied after meals\n\nGood fats:\n→ Nuts and seeds\n→ Fish\n→ Mustard, groundnut and other vegetable oils in moderation\n→ A little ghee\n\nFats to limit:\n→ Trans fats (vanaspati, reused frying oil)\n→ Lots of deep-fried snacks\n\nFat has 9 calories per gram, so portions matter. But fat isn't the enemy.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#healthyfats #nutrition #weightloss #health #mythbuster"
+  },
+  {
+    "id": "189-hpv-vaccine",
+    "status": "queued",
+    "template": "stat",
+    "number": "9-14",
+    "label": "Ideal HPV vaccine age",
+    "body": "WHO: vaccinate girls aged 9–14\nagainst HPV, the virus behind most\ncervical cancers. One of the few\nvaccines that prevents a cancer.",
+    "caption": "Cervical cancer is one of the most common cancers in Indian women. A vaccine can prevent most cases.\n\nAlmost all cervical cancers are caused by long-lasting infection with certain types of HPV (human papillomavirus).\n\nWHO recommends HPV vaccination for girls aged 9–14, before any exposure to the virus. Older girls and young women can also benefit — ask a doctor.\n\nIndia now has its own HPV vaccine, and it's being added to the national immunisation programme.\n\nAlong with vaccination:\n→ Women aged 30+ should get regular cervical screening\n→ See a doctor for bleeding between periods or after sex\n\nParents of daughters — talk to your doctor about the HPV vaccine.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#hpv #cervicalcancer #vaccination #womenshealth #india"
+  },
+  {
+    "id": "190-hookah",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Hookah is safer\nthan cigarettes?",
+    "body": "Water doesn't filter out the toxins. A typical hookah session can mean inhaling far more smoke than one cigarette, plus carbon monoxide.",
+    "caption": "Fruity flavours, a social evening, smoke \"filtered\" through water — hookah feels harmless. It isn't.\n\nThe water cools the smoke, but it doesn't remove the harmful chemicals.\n\nWhat you inhale:\n→ Nicotine (in tobacco shisha) — addictive\n→ Carbon monoxide from the burning charcoal\n→ Tar, heavy metals and cancer-causing chemicals\n\nBecause sessions often last an hour, you can inhale far more smoke than from a single cigarette.\n\nHealth risks include:\n→ Lung and heart disease\n→ Cancers of the mouth, lungs and stomach\n→ Infections from shared mouthpieces\n\n\"Herbal\" hookah still produces smoke and carbon monoxide.\n\nFun evenings don't need smoke.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#hookah #tobacco #lunghealth #health #realitycheck"
+  },
+  {
+    "id": "191-knee-strength",
+    "status": "queued",
+    "template": "tip",
+    "label": "Training",
+    "headline": "Strong legs,\nhappy knees",
+    "highlight": "Strengthen thighs & hips",
+    "sections": [
+      {
+        "title": "Sit-to-stand",
+        "text": "3 sets of 10 from a chair."
+      },
+      {
+        "title": "Straight leg raise",
+        "text": "Lying down, 3 sets of 10 each."
+      },
+      {
+        "title": "Side-lying leg lift",
+        "text": "For hip strength, 3 sets of 10."
+      }
+    ],
+    "caption": "Knee pain when climbing stairs or getting up from the floor? Stronger muscles around your knees can help.\n\nYour thigh (quadriceps) and hip muscles act as shock absorbers. When they're weak, your knee joint takes more of the load.\n\nGentle starter exercises:\n→ Sit-to-stand from a chair: 3 sets of 10\n→ Straight leg raise lying down: 3 sets of 10 each leg\n→ Side-lying leg lift: 3 sets of 10 each side\n→ Glute bridge: 3 sets of 12\n\nDo them 3 times a week. Mild discomfort is okay; sharp pain is not.\n\nAlso helpful:\n→ Walking and cycling\n→ Losing extra weight — every kg lost takes load off your knees\n\nPersistent pain or swelling? See a doctor or physiotherapist.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#kneepain #physiotherapy #strengthtraining #healthyageing #training"
+  },
+  {
+    "id": "192-exercise-mood",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Exercise lifts\nlow mood.",
+    "body": "Large reviews show regular exercise reduces symptoms of depression — walking, yoga and strength training all help. It works with treatment.",
+    "caption": "Feeling low? One of the most powerful mood boosters doesn't come in a strip.\n\nLarge reviews of research have found that regular exercise can meaningfully reduce symptoms of depression and anxiety.\n\nWhat helps:\n→ Walking or jogging\n→ Yoga\n→ Strength training\n→ Dancing or sports with friends\n\nYou don't need intense workouts. Even regular brisk walking helps. More effort tends to bring more benefit.\n\nWhy it works:\n→ Releases feel-good chemicals\n→ Improves sleep\n→ Gives a sense of achievement\n→ Often adds social connection\n\nImportant: exercise works alongside therapy and medicine — not instead of them if you need them.\n\nStart with a 10-minute walk today.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#mentalhealth #depression #exercise #wellbeing #didyouknow"
+  },
+  {
+    "id": "193-aqi-exercise",
+    "status": "queued",
+    "template": "stat",
+    "number": "200+",
+    "label": "AQI: train indoors",
+    "body": "When the AQI crosses 200 (poor),\nmove workouts indoors. Above 300,\nlimit time outside, especially kids,\nelders and those with asthma.",
+    "caption": "Winter in north India often means hazy skies and toxic air. Here's how to keep exercising without hurting your lungs.\n\nIndia's Air Quality Index (AQI):\n→ 0–100: good to satisfactory\n→ 101–200: moderate — sensitive people take care\n→ 201–300: poor — move workouts indoors\n→ 301–400: very poor — limit time outside\n→ 401+: severe — stay indoors as much as possible\n\nDuring exercise, you breathe faster and deeper, pulling more pollution into your lungs.\n\nOn bad air days:\n→ Check the AQI app before going out\n→ Exercise indoors — home workouts, yoga, skipping\n→ Avoid early mornings, when pollution is often highest\n→ Use a well-fitted N95 mask outdoors\n→ Keep windows closed during peak hours\n\nChildren, older adults and people with asthma or heart disease need extra care.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#airpollution #aqi #lunghealth #fitness #india"
+  },
+  {
+    "id": "194-mens-mental-health",
+    "status": "queued",
+    "template": "tip",
+    "label": "Men's health",
+    "headline": "Men, it's okay\nto talk",
+    "highlight": "Strength includes asking",
+    "body": "Men are less likely to seek help, but depression often shows up as anger, drinking or overworking. Talking to someone is a strong move.",
+    "caption": "\"Be a man. Don't cry. Handle it yourself.\" Many Indian men grow up with these rules. They're hurting us.\n\nMen are less likely to talk about their feelings or seek help for mental health. Globally, men die by suicide at much higher rates than women.\n\nIn men, depression doesn't always look like sadness:\n→ Anger and irritability\n→ Drinking or smoking more\n→ Working all the time\n→ Withdrawing from family and friends\n→ Physical aches and poor sleep\n\nWhat helps:\n→ Talk to a friend, partner or family member\n→ See a doctor or counsellor\n→ Tele-MANAS helpline: 14416 (free, 24/7)\n\nCheck on the men in your life. Ask twice.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#menshealth #mentalhealth #depression #telemanas #india"
+  },
+  {
+    "id": "195-muscle-after-40",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Too old to build\nmuscle after 40?",
+    "body": "People in their 60s, 70s and even 90s gain strength and muscle with training. It's never too late — and it matters more with age.",
+    "caption": "\"I'm too old to start lifting.\" Research says otherwise.\n\nStudies show that people in their 60s, 70s and even 90s can build significant strength and muscle with regular strength training.\n\nAfter about 30, adults slowly lose muscle each decade if they don't use it. That loss speeds up after 60 — and leads to falls, frailty and loss of independence.\n\nStrength training at any age:\n→ Builds muscle and strength\n→ Protects bones\n→ Improves balance and reduces falls\n→ Helps with blood sugar and joint pain\n\nHow to start safely:\n→ Begin with bodyweight or light weights\n→ 2–3 sessions a week\n→ Focus on good form\n→ Get a doctor's okay if you have heart or joint problems\n\nStart today. Your future self needs you strong.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#healthyageing #strengthtraining #fitnessover40 #seniors #mythbuster"
+  },
+  {
+    "id": "196-caffeine-limit",
+    "status": "queued",
+    "template": "stat",
+    "number": "400 mg",
+    "label": "Daily caffeine limit",
+    "body": "Up to ~400 mg of caffeine a day is\nsafe for most adults — about 3–4\ncups of brewed coffee. Pregnant?\nKeep it under 200 mg.",
+    "caption": "Chai, coffee, cold drinks, energy drinks — caffeine adds up fast. How much is too much?\n\nFor most healthy adults, up to about 400 mg of caffeine a day is considered safe.\n\nRough caffeine amounts:\n→ A cup of brewed or filter coffee: 80–150 mg\n→ A cup of instant coffee: 60–80 mg\n→ A cup of chai: 30–50 mg\n→ A can of energy drink: 80–160 mg\n\nWho should have less:\n→ Pregnant women: under 200 mg a day\n→ Children and teens\n→ People with anxiety, heart rhythm problems or poor sleep\n\nToo much can cause jitters, a racing heart, acidity and bad sleep.\n\nRemember the 2 PM cutoff for better nights.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#caffeine #coffee #chai #health #sleep"
+  },
+  {
+    "id": "197-metabolism-age",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Metabolism\ncrashes at 30?",
+    "body": "A large 2021 study found metabolism stays fairly stable from age 20 to 60. Midlife weight gain is mostly less movement and muscle.",
+    "caption": "\"It's my age — my metabolism has slowed down.\" It's one of the most common explanations for midlife weight gain. The science says otherwise.\n\nA major 2021 study measured the energy use of over 6,000 people aged 8 days to 95 years.\n\nIt found that, adjusted for body size, metabolism stays fairly stable from about age 20 to 60. It only starts to decline slowly after 60.\n\nSo what's really behind weight gain in our 30s and 40s?\n→ Less daily movement — desk jobs, driving, less sport\n→ Losing muscle from not using it\n→ Bigger portions and more snacking\n→ Less sleep and more stress\n\nThe fix is in your hands: strength training, daily walking, protein and sleep.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#metabolism #weightloss #ageing #fitness #realitycheck"
+  },
+  {
+    "id": "198-food-safety",
+    "status": "queued",
+    "template": "tip",
+    "label": "Gut health",
+    "headline": "Keep leftovers\nsafe",
+    "highlight": "Fridge within 2 hours",
+    "sections": [
+      {
+        "title": "Cool fast",
+        "text": "Fridge within 2 hours of cooking."
+      },
+      {
+        "title": "Fridge",
+        "text": "5°C or colder. Don't overpack it."
+      },
+      {
+        "title": "Reheat",
+        "text": "Steaming hot, all the way through."
+      }
+    ],
+    "caption": "Food poisoning often starts in our own kitchens — especially in hot Indian summers.\n\nBacteria multiply quickly at room temperature. Cooked rice, dal, meat and dairy are especially risky.\n\nSimple rules:\n→ Refrigerate cooked food within 2 hours — within 1 hour on very hot days\n→ Keep your fridge at 5°C or colder\n→ Store food in shallow, covered containers so it cools quickly\n→ Eat leftovers within 1–2 days\n→ Reheat until steaming hot all the way through, and only once\n→ Keep raw meat away from ready-to-eat food\n\nWhen in doubt, throw it out.\n\nYour gut will thank you.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#foodsafety #leftovers #guthealth #kitchen #health"
+  },
+  {
+    "id": "199-mushroom-vitamin-d",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Sunlit mushrooms\nmake vitamin D.",
+    "body": "Like your skin, mushrooms make vitamin D when exposed to UV light. Placing them in the sun, gills up, for a while can boost their levels.",
+    "caption": "Here's a fun food fact: mushrooms can make vitamin D, just like your skin.\n\nMushrooms contain a compound that converts to vitamin D when exposed to ultraviolet (UV) light.\n\nMost store-bought mushrooms are grown in the dark, so they contain very little. But:\n→ Some brands sell UV-exposed mushrooms with much higher vitamin D\n→ Research shows placing mushrooms in direct sunlight, gills facing up, can raise their vitamin D content\n\nThey're one of the very few non-animal food sources of vitamin D — useful for vegetarians.\n\nStill, with low vitamin D so common in India, food alone often isn't enough. Get tested, and supplement if your doctor advises.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#vitamind #mushrooms #vegetarian #nutrition #didyouknow"
   }
 ]
