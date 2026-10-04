@@ -1,22 +1,30 @@
 name: Daily Instagram post
 
-# Posts at 7:30 PM IST (14:00 UTC), just before India's 8–10 PM evening scroll peak.
-# GitHub can start scheduled runs hours late (busiest at :00 and :30), so we trigger early at
-# off-peak minutes, prepare the post, then wait until POST_AT_UTC to publish. The 2nd and 3rd
-# triggers are backups: they queue behind the first and skip once today's post is out.
+# Posts at 7:30 PM IST, just before India's 8–10 PM evening scroll peak.
+# Every daily run prepares the post, then waits until POST_AT_IST to publish. It starts in two ways:
+#  - cron-job.org (free) calls the GitHub API at 7:00 PM IST with daily=true. It's on time to the
+#    minute, unlike GitHub's own scheduler, which can start runs hours late.
+#  - GitHub's schedule below, as a backup at off-peak minutes.
+# Daily runs queue one behind another, and each skips once today's post is out, so it never double-posts.
 on:
   schedule:
     - cron: '7 11 * * *'    # 4:37 PM IST
     - cron: '7 12 * * *'    # 5:37 PM IST (backup)
     - cron: '7 13 * * *'    # 6:37 PM IST (backup)
-  workflow_dispatch: {}      # "Run workflow" button: posts right away, no waiting
+  workflow_dispatch:          # "Run workflow" button posts right away; cron-job.org sends daily=true
+    inputs:
+      daily:
+        description: 'Daily run: wait until posting time, skip if already posted today'
+        type: boolean
+        default: false
 
 concurrency: daily-post
 permissions:
   contents: write
 
 env:
-  POST_AT_UTC: '14:00'       # 7:30 PM IST. Change this (UTC) to move the posting time.
+  POST_AT_IST: '19:30'       # Change this to move the posting time (also move the triggers before it).
+  DAILY: ${{ github.event_name == 'schedule' || inputs.daily == true }}
 
 jobs:
   post:
@@ -33,7 +41,7 @@ jobs:
             const ist = d => new Date(new Date(d).getTime() + 330 * 60000).toISOString().slice(0, 10);
             const q = require("./content/queue.json");
             console.log(q.some(p => p.postedAt && ist(p.postedAt) === ist(Date.now())) ? "yes" : "no");')
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "$posted" = "yes" ]; then
+          if [ "$DAILY" = "true" ] && [ "$posted" = "yes" ]; then
             echo "Today's post is already published — nothing to do."
             echo "skip=true" >> "$GITHUB_OUTPUT"
           fi
@@ -62,18 +70,22 @@ jobs:
           git pull --rebase && git push
 
       - name: Wait until posting time
-        if: steps.check.outputs.skip != 'true' && github.event_name == 'schedule'
+        id: wait
+        if: steps.check.outputs.skip != 'true' && env.DAILY == 'true'
         run: |
-          wait=$(( $(date -u -d "today $POST_AT_UTC" +%s) - $(date -u +%s) ))
-          if [ "$wait" -gt 0 ]; then
-            echo "Waiting $((wait / 60)) min until $POST_AT_UTC UTC"
+          wait=$(( $(TZ=IST-5:30 date -d "today $POST_AT_IST" +%s) - $(date +%s) ))
+          if [ "$wait" -gt 14400 ]; then
+            echo "::notice::Started $((wait / 3600))h before $POST_AT_IST IST — too early for today's post, skipping"
+            echo "too_early=true" >> "$GITHUB_OUTPUT"
+          elif [ "$wait" -gt 0 ]; then
+            echo "Waiting $((wait / 60)) min until $POST_AT_IST IST"
             sleep "$wait"
           else
-            echo "::warning::Run started $(( -wait / 60 )) min after $POST_AT_UTC UTC — posting now"
+            echo "::warning::Run started $(( -wait / 60 )) min after $POST_AT_IST IST — posting now"
           fi
 
       - name: Publish to Instagram
-        if: steps.check.outputs.skip != 'true'
+        if: steps.check.outputs.skip != 'true' && steps.wait.outputs.too_early != 'true'
         run: node src/daily.mjs publish
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}

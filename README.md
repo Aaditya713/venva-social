@@ -58,7 +58,20 @@ on GitHub before it goes out (edit `content/queue.json`, or delete an entry).
 
 ## Everyday use
 - **Preview upcoming posts:** `npm run render`, then open `out/`.
-- **Change the posting time:** edit `POST_AT_UTC` in `.github/workflows/daily-post.yml` (UTC; IST = UTC + 5:30). Keep the three cron triggers 1–3 hours before it, since GitHub often starts scheduled runs late.
+- **Change the posting time:** edit `POST_AT_IST` in `.github/workflows/daily-post.yml`, move the cron-job.org job to 30 min before it, and keep the GitHub backup crons 1–3 hours before it (they are in UTC; IST = UTC + 5:30).
 - **Write posts now / test your Anthropic key:** Actions tab → **Write more posts** → Run workflow. New posts land in `content/queue.json` for review.
 - **Pause:** Actions tab → Daily Instagram post → ⋯ → Disable workflow.
 - **Write a post yourself:** add an entry to `content/queue.json` with `"status": "queued"`. It will go out in order.
+
+## On-time trigger (cron-job.org, free)
+GitHub's own scheduler can start runs hours late, so a free [cron-job.org](https://cron-job.org) job starts the
+daily run at **7:00 PM IST** every day. The run prepares the post, then waits and publishes at exactly 7:30 PM.
+The GitHub schedule in `daily-post.yml` stays on as a backup. A run skips if today's post is already out, so
+nothing is ever posted twice.
+
+cron-job.org job settings:
+- **URL:** `https://api.github.com/repos/Aaditya713/venva-social/actions/workflows/daily-post.yml/dispatches`
+- **Schedule:** every day, 19:00, time zone Asia/Kolkata
+- **Method:** POST. **Body:** `{"ref":"main","inputs":{"daily":"true"}}`
+- **Headers:** `Accept: application/vnd.github+json`, `Authorization: Bearer <token>`, `Content-Type: application/json`
+- The token is a fine-grained GitHub token for this repo only, with **Actions: Read and write**.
