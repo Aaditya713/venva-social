@@ -1,3 +1,4 @@
+// Prints element positions for the three templates, to compare against the original posts' geometry.
 import { chromium } from 'playwright';
 import { pathToFileURL } from 'node:url';
 const posts = {
@@ -6,7 +7,7 @@ const posts = {
  stat: {template:'stat',number:'7-9',label:'Hours of sleep',body:'Deep sleep is when testosterone\nreleases and hunger hormones reset.\nShort nights = cravings, low energy.\nFix sleep, fix half your problems.'},
 };
 const b = await chromium.launch(); const p = await b.newPage({viewport:{width:1080,height:1080}});
-await p.goto(pathToFileURL('template/post.html').href);
+await p.goto(new URL('../template/post.html', import.meta.url).href);
 for (const [k, post] of Object.entries(posts)) {
   await p.evaluate(x => window.renderPost(x), post);
   console.log(k, JSON.stringify(await p.evaluate(() => {
