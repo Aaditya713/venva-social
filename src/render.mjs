@@ -19,7 +19,7 @@ export async function renderPosts(posts, outDir = path.join(root, 'out')) {
     if (overflow) console.warn(`⚠ ${post.id}: text overflows the card — shorten it`);
     const file = path.join(outDir, `${post.id}.jpg`);
     await page.screenshot({ path: file, type: 'jpeg', quality: 92 });
-    files.push(file);
+    files.push({ file, overflow });
     console.log(`rendered ${file}`);
   }
   await browser.close();
@@ -35,5 +35,6 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const posts = args.includes('--all') || !ids.length
     ? queue.filter(p => args.includes('--all') || p.status !== 'posted')
     : queue.filter(p => ids.includes(p.id));
-  await renderPosts(posts);
+  const results = await renderPosts(posts);
+  if (results.some(r => r.overflow)) process.exitCode = 1;
 }

@@ -1,0 +1,32 @@
+name: Write more posts
+
+# Manual button: asks Claude for 7 new posts, checks they fit the template, and commits them
+# to content/queue.json so you can review them before they go out. Also a quick way to test ANTHROPIC_API_KEY.
+on:
+  workflow_dispatch: {}
+
+concurrency: daily-post
+permissions:
+  contents: write
+
+jobs:
+  write:
+    runs-on: ubuntu-24.04   # pinned: Playwright deps are tested on 24.04
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: node src/generate.mjs 7
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Check every queued post fits the card
+        run: node src/render.mjs
+      - name: Commit new posts
+        run: |
+          git config user.name "venva-bot"
+          git config user.email "venva-bot@users.noreply.github.com"
+          git add content/queue.json
+          git commit -m "Write 7 new posts" || echo "nothing to commit"
+          git push

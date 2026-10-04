@@ -21,8 +21,9 @@
   html, body { width: 1080px; height: 1080px; overflow: hidden; }
   body { font-family: Poppins, sans-serif; -webkit-font-smoothing: antialiased; }
 
+  /* Geometry is measured from the original posts 1-10 (1080px canvas). */
   .card { position: relative; width: 1080px; height: 1080px; overflow: hidden;
-          padding: 112px 88px 0; display: flex; flex-direction: column; }
+          padding: 153px 81px 0; display: flex; flex-direction: column; }
   .card.dark  { background: radial-gradient(120% 120% at 15% 10%, #2E7A5C 0%, #1F5C46 45%, #113A2B 100%); color: #fff; }
   .card.light { background: linear-gradient(165deg, #F8F8F3 0%, #EEF4EF 60%, #E6EFE9 100%); color: var(--ink); }
 
@@ -34,49 +35,53 @@
   .dark  .orb.b { width: 420px; height: 420px; bottom: -190px; left: -150px; background: rgba(255,255,255,.04); }
   .light .orb.a { width: 470px; height: 470px; top: -170px; right: -140px; background: rgba(31,92,70,.06); }
 
-  .pill { align-self: flex-start; font-weight: 700; font-size: 29px; letter-spacing: .5px;
-          text-transform: uppercase; padding: 9px 26px; border-radius: 999px; line-height: 1.2; }
+  .pill { align-self: flex-start; font-weight: 700; font-size: 29px; letter-spacing: .5px; height: 54px;
+          text-transform: uppercase; padding: 0 29px; border-radius: 999px; line-height: 54px; position: relative; }
   .dark .pill  { background: var(--amber); color: #1B1B1B; }
   .light .pill { background: var(--green-mid); color: #fff; }
 
-  .headline { font-family: Anton, sans-serif; font-weight: 400; line-height: .98; letter-spacing: .3px; margin-top: 34px; }
-  .dark .headline  { font-size: 104px; color: #fff; }
-  .light .headline { font-size: 92px; color: var(--ink); }
+  .headline { font-family: Anton, sans-serif; font-weight: 400; letter-spacing: .3px; position: relative; }
+  .dark .headline  { font-size: 104px; line-height: .97; margin-top: 42px; color: #fff; }
+  .light .headline { font-size: 91px; line-height: 1.04; margin-top: 52px; color: var(--ink); }
 
   .spacer { flex: 1; }
 
-  /* Myth / truth */
-  .rule { width: 70px; height: 6px; border-radius: 3px; background: var(--mint); margin-bottom: 30px; }
-  .kicker { font-weight: 700; font-size: 34px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--mint); margin-bottom: 14px; }
-  .dark .body { font-size: 33px; line-height: 1.6; color: #EEF5F1; }
+  /* Myth / truth: the truth block is anchored to the footer */
+  .rule { width: 108px; height: 6px; border-radius: 3px; background: var(--mint); margin-bottom: 35px; position: relative; }
+  .kicker { font-weight: 700; font-size: 34px; line-height: 48px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--mint); position: relative; }
+  .dark .body { font-size: 42px; line-height: 59px; color: #EEF5F1; max-width: 840px; position: relative; }
+  .truth-gap { height: 27px; flex: none; }
 
   /* Stat */
   .stat { align-items: center; text-align: center; padding-top: 0; }
-  .stat .ring { position: absolute; width: 600px; height: 600px; border-radius: 50%; left: 50%; top: 70px;
+  .stat .ring { position: absolute; width: 600px; height: 600px; border-radius: 50%; left: 50%; top: 68px;
                 transform: translateX(-50%); border: 2px solid rgba(255,255,255,.08); background: rgba(255,255,255,.025); }
-  .stat .number { font-family: Anton, sans-serif; font-size: 280px; line-height: 1; margin-top: 150px; position: relative; }
-  .stat .label { font-weight: 700; font-size: 40px; letter-spacing: 3px; text-transform: uppercase; color: var(--mint); margin-top: 26px; position: relative; }
-  .stat .body { margin-top: 48px; font-size: 39px; line-height: 1.55; position: relative; }
+  .stat .number { font-family: Anton, sans-serif; font-size: 266px; line-height: 1; margin-top: 222px; position: relative; }
+  .stat .label { font-weight: 700; font-size: 44px; line-height: 56px; letter-spacing: 3px; text-transform: uppercase; color: var(--mint); margin-top: 24px; position: relative; }
+  .stat .body { margin-top: 90px; font-size: 40.5px; line-height: 55px; position: relative; max-width: none; }
 
   /* Tip (light) */
-  .bar { align-self: flex-start; background: var(--green-mid); color: #fff; font-weight: 600; font-size: 44px;
-         padding: 12px 30px; border-radius: 10px; margin-top: 48px; line-height: 1.3; }
-  .light .body { font-size: 39px; line-height: 1.5; color: #2A302C; margin-top: 16px; max-width: 740px; }
-  .light:has(.sections) .bar { margin-top: 30px; }
-  .light:has(.sections) .headline { font-size: 88px; }
-  .sections { margin-top: 20px; display: flex; flex-direction: column; gap: 14px; }
-  .sections .lbl { font-weight: 700; font-size: 30px; color: var(--ink); line-height: 1.3; }
-  .sections .txt { font-size: 30px; line-height: 1.4; color: #2A302C; }
+  .bar { align-self: flex-start; background: var(--green-mid); color: #fff; font-weight: 600; font-size: 41px;
+         min-width: 552px; padding: 10px 64px 10px 30px; border-radius: 10px; margin-top: 96px; line-height: 57px; position: relative; }
+  .light .body { font-size: 41px; line-height: 1.5; color: #2A302C; margin-top: 0; max-width: 780px; position: relative; }
+  /* Tip with 3 sections (e.g. "How much protein?") starts higher and uses a smaller bar */
+  .light:has(.sections) { padding-top: 121px; }
+  .light:has(.sections) .headline { font-size: 85px; line-height: 1.06; margin-top: 40px; }
+  .light:has(.sections) .bar { margin-top: 22px; font-size: 35px; line-height: 44px; padding: 10px 64px 10px 27px; }
+  .sections { margin-top: 30px; display: flex; flex-direction: column; gap: 24px; position: relative; }
+  .sections .lbl { font-weight: 700; font-size: 31px; line-height: 36px; color: var(--ink); }
+  .sections .txt { font-size: 32.5px; line-height: 38px; color: #2A302C; }
 
-  /* Footer */
-  .footer { position: relative; display: flex; align-items: center; justify-content: space-between;
-            margin: 0 -10px; padding: 30px 0 64px; border-top: 2px solid; }
+  /* Footer: divider at y=927; the logo hangs 36px left of the text column, as in the originals */
+  .footer { position: relative; display: flex; align-items: flex-start; justify-content: space-between;
+            height: 153px; padding-top: 29px; border-top: 2px solid; flex: none; }
   .dark .footer  { border-color: rgba(255,255,255,.10); }
   .light .footer { border-color: rgba(15,26,21,.12); }
-  .brand { display: flex; align-items: center; gap: 16px; font-weight: 600; font-size: 46px; letter-spacing: -.5px; }
-  .brand svg { width: 72px; height: 72px; }
+  .brand { display: flex; align-items: center; gap: 30px; margin-left: -36px; height: 60px;
+           font-weight: 600; font-size: 43px; letter-spacing: -.5px; }
+  .brand svg { width: 67px; height: 60px; flex: none; }
   .light .brand { color: var(--green); }
-  .handles { text-align: right; font-size: 27px; line-height: 1.35; }
+  .handles { text-align: right; font-size: 28.5px; line-height: 33px; margin-top: -7px; }
   .handles .h { font-weight: 600; }
   .handles .u { font-weight: 700; }
   .dark .handles .h  { color: rgba(255,255,255,.78); }
@@ -92,9 +97,10 @@
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const lines = s => esc(s).replace(/\n/g, '<br>');
 
-const LOGO = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M19.5 12.6 12 20l-7.5-7.4A4.8 4.8 0 0 1 12 6a4.8 4.8 0 0 1 7.5 6.6Z"/>
-  <path d="M3.5 12h4l1.5-2.5 2.5 5 1.5-2.5h2"/></svg>`;
+// Brand mark traced from venva.co.in/favicon-192.png — the real logo (also the Instagram avatar)
+const LOGO = `<svg viewBox="42 48 108 96" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M96 66A26 26 0 1 0 55.6 98.4L96 138.8 136.4 98.4A26 26 0 1 0 96 66Z"/>
+  <path d="M48 96H76L82 73 96 119 106 96H144"/></svg>`;
 
 const footer = () => `<div class="footer">
   <div class="brand">${LOGO}<span>Venva</span></div>
@@ -108,7 +114,7 @@ const templates = {
     <div class="rule"></div>
     <div class="kicker">${esc(p.kicker || 'The truth')}</div>
     <div class="body">${lines(p.body)}</div>
-    <div style="height:44px"></div>
+    <div class="truth-gap"></div>
     ${footer()}</div>`,
 
   stat: p => `<div class="card dark stat"><div class="orb a"></div><div class="orb b"></div><div class="ring"></div>
@@ -137,8 +143,11 @@ window.renderPost = p => {
     if (h) { let size = parseFloat(getComputedStyle(h).fontSize);
       while (h.offsetHeight > size * .98 * 2.5 && size > 64) { size -= 4; h.style.fontSize = size + 'px'; } }
     // The spacer absorbs free space; if it collapses, the text is too long for the card.
+    // Originals never run body text past 4 lines; beyond that the layout gets cramped.
     const spacer = document.querySelector('.spacer');
-    return { overflow: spacer.offsetHeight < 8 };
+    const body = document.querySelector('.body');
+    const bodyLines = body ? Math.round(body.offsetHeight / parseFloat(getComputedStyle(body).lineHeight)) : 0;
+    return { overflow: spacer.offsetHeight < 8 || bodyLines > 4, bodyLines };
   });
 };
 </script>

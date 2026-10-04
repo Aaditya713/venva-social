@@ -1,6 +1,6 @@
 // Publishes a single image post via the Instagram API (Instagram Login flavour).
 // Needs IG_USER_ID and IG_ACCESS_TOKEN. The image must be at a public HTTPS URL.
-const API = `https://graph.instagram.com/${process.env.IG_API_VERSION || 'v23.0'}`;
+const API = process.env.IG_API_BASE || `https://graph.instagram.com/${process.env.IG_API_VERSION || 'v23.0'}`; // IG_API_BASE: tests only
 
 async function call(method, pathname, params) {
   const body = new URLSearchParams({ ...params, access_token: process.env.IG_ACCESS_TOKEN });
@@ -12,11 +12,18 @@ async function call(method, pathname, params) {
   return json;
 }
 
-export async function publishImage(imageUrl, caption) {
+export async function publishImage(imageUrl, caption, altText) {
   const userId = process.env.IG_USER_ID;
   if (!userId || !process.env.IG_ACCESS_TOKEN) throw new Error('IG_USER_ID and IG_ACCESS_TOKEN must be set');
 
-  const { id: containerId } = await call('POST', `${userId}/media`, { image_url: imageUrl, caption });
+  let containerId;
+  try {
+    ({ id: containerId } = await call('POST', `${userId}/media`, { image_url: imageUrl, caption, ...(altText && { alt_text: altText }) }));
+  } catch (err) {
+    if (!altText) throw err;
+    console.warn(`::warning::Retrying without alt text (${err.message})`);
+    ({ id: containerId } = await call('POST', `${userId}/media`, { image_url: imageUrl, caption }));
+  }
 
   // Instagram fetches and processes the image asynchronously.
   for (let i = 0; i < 20; i++) {
@@ -28,6 +35,12 @@ export async function publishImage(imageUrl, caption) {
 
   const { id: mediaId } = await call('POST', `${userId}/media_publish`, { creation_id: containerId });
   return mediaId;
+}
+
+// Returns the media id if one of the account's latest posts already has this caption.
+export async function findRecentPost(caption) {
+  const { data = [] } = await call('GET', `${process.env.IG_USER_ID}/media`, { fields: 'id,caption', limit: '5' });
+  return data.find(m => m.caption?.trim() === caption.trim())?.id ?? null;
 }
 
 // Long-lived tokens last 60 days; refreshing returns a new 60-day token.

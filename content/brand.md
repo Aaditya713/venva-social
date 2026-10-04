@@ -14,7 +14,7 @@ Pillars: Training · Nutrition · Sleep · Symptoms · Wellbeing. Site: venva.co
 1. `myth` — dark green card. Fields:
    - `label`: one of "Myth buster" | "Reality check" | "Did you know"
    - `headline`: 2–5 words, max ~22 characters per line, use \n to break into 2 lines. Usually a question (myths) or a punchy statement.
-   - `body`: "The truth" — 25–35 words, 2–3 sentences.
+   - `body`: "The truth" — 20–28 words, 2–3 sentences (must fit in 4 lines).
 2. `stat` — dark green card, one big number. Fields:
    - `number`: very short, e.g. "2.2L", "7-9", "5 g", "150 min" (max 7 characters)
    - `label`: 2–4 words, e.g. "Water per day"
@@ -23,7 +23,7 @@ Pillars: Training · Nutrition · Sleep · Symptoms · Wellbeing. Site: venva.co
    - `label`: pillar name, e.g. "Nutrition", "Training", "Wellbeing", "Sleep", "Symptoms"
    - `headline`: 2–5 words, \n between 2 lines, ≤ 16 characters per line
    - `highlight`: the key takeaway, ≤ 28 characters (e.g. "Aim 25-35 g per meal")
-   - EITHER `body` (25–35 words) OR `sections` (exactly 3 items of {title, text}, text ≤ 2 short lines)
+   - EITHER `body` (18–24 words, must fit in 4 lines) OR `sections` (exactly 3 items of {title, text}, text ≤ 2 short lines)
 
 ## Caption formula
 1. Hook line that names the problem (1 line). Optional emoji at most once.

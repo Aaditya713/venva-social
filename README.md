@@ -50,8 +50,15 @@ on GitHub before it goes out (edit `content/queue.json`, or delete an entry).
    | `GH_PAT` | Fine-grained GitHub token for this repo with **Secrets: read & write** (used to save the refreshed IG token) |
 4. Repo → **Actions** tab → enable workflows → **Daily Instagram post → Run workflow** to test it once.
 
+## Safety nets
+- A post whose text doesn't fit the card (more than 4 lines of body text) is marked `needs-edit` and skipped, never published cramped. Shorten it in `content/queue.json` and set it back to `queued`.
+- If Claude can't write new posts (API key or outage), the day's post still goes out from the queue; the run shows a warning.
+- Before publishing, the job checks your last 5 Instagram posts so a retried run never double-posts.
+- Each post gets alt text describing the card, for screen readers and search.
+
 ## Everyday use
 - **Preview upcoming posts:** `npm run render`, then open `out/`.
 - **Change the posting time:** edit the `cron` line in `.github/workflows/daily-post.yml` (it's in UTC; IST = UTC + 5:30).
+- **Write posts now / test your Anthropic key:** Actions tab → **Write more posts** → Run workflow. New posts land in `content/queue.json` for review.
 - **Pause:** Actions tab → Daily Instagram post → ⋯ → Disable workflow.
 - **Write a post yourself:** add an entry to `content/queue.json` with `"status": "queued"`. It will go out in order.

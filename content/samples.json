@@ -1,10 +1,10 @@
 [
   { "id": "sample-tip", "template": "tip", "label": "Nutrition", "headline": "Protein at\nbreakfast", "highlight": "Aim 25-35 g per meal",
     "body": "Most people get almost none, then crash by 11am. Try: besan chilla + curd, paneer bhurji, eggs, or oats + milk + peanuts." },
-  { "id": "sample-stat", "template": "stat", "number": "2.2L", "label": "Water per day",
-    "body": "Roughly 30-35 ml per kg bodyweight.\nMore if you train or it's hot.\nLow energy & headaches are often\njust mild dehydration." },
   { "id": "sample-myth", "template": "myth", "label": "Myth buster", "headline": "Crunches burn\nbelly fat?",
     "body": "Nope — you can't spot-reduce fat. Crunches build muscle under the fat, they don't remove it. Belly fat goes when your total body fat drops." },
+  { "id": "sample-stat", "template": "stat", "number": "7-9", "label": "Hours of sleep",
+    "body": "Deep sleep is when testosterone\nreleases and hunger hormones reset.\nShort nights = cravings, low energy.\nFix sleep, fix half your problems." },
   { "id": "sample-sections", "template": "tip", "label": "Nutrition", "headline": "How much\nprotein?", "highlight": "1.6 g per kg bodyweight",
     "sections": [ { "title": "Veg", "text": "Dal, rajma, soya (52g/100g),\npaneer, curd, milk, peanuts" },
                   { "title": "Non-veg", "text": "Chicken (31g/100g), eggs,\nfish (omega-3), mutton" },
