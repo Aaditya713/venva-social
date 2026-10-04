@@ -67,7 +67,8 @@ async function publish() {
   // If an earlier run published but failed to record it, don't post the same thing twice.
   const existing = await findRecentPost(next.caption);
   if (existing) console.warn(`::warning::${next.id} is already on Instagram — recording it without reposting`);
-  const mediaId = existing ?? await publishImage(`${base}/${next.id}.jpg`, next.caption, altText(next));
+  // ?v= busts GitHub's ~5 min raw-file cache, in case an image with this name was hosted before.
+  const mediaId = existing ?? await publishImage(`${base}/${next.id}.jpg?v=${Date.now()}`, next.caption, altText(next));
   Object.assign(next, { status: 'posted', postedAt: new Date().toISOString(), mediaId });
   await saveQueue(queue);
   console.log(`Published ${next.id} → media ${mediaId}`);
