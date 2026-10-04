@@ -3472,5 +3472,272 @@
     "headline": "Iodised salt\nprotects your brain.",
     "body": "Iodine is vital for the thyroid and a baby's brain development. India's switch to iodised salt sharply cut goitre and iodine deficiency.",
     "caption": "That \"iodised\" label on your salt packet is one of India's quiet public health successes.\n\nIodine is essential for:\n→ Making thyroid hormones, which control metabolism\n→ A baby's brain development during pregnancy and early childhood\n\nIodine deficiency can cause:\n→ Goitre (swelling of the thyroid gland in the neck)\n→ Hypothyroidism\n→ Learning difficulties and lower IQ in children\n\nIndia's national programme to make iodised salt the standard has greatly reduced these problems.\n\nWhat to do:\n→ Use iodised salt for everyday cooking\n→ Rock salt, pink salt and many \"gourmet\" salts usually lack iodine\n→ Store salt in a closed container away from heat and moisture\n\nIodised — but still under 5 g a day.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#iodine #thyroid #salt #nutrition #didyouknow"
+  },
+  {
+    "id": "340-cvd-deaths-india",
+    "status": "queued",
+    "template": "stat",
+    "number": "1 in 4",
+    "label": "Indian deaths: heart",
+    "body": "Heart disease and stroke cause\nabout 1 in 4 deaths in India —\nthe single biggest killer. Most\nrisk factors are in your control.",
+    "caption": "The leading cause of death in India isn't an infection or an accident. It's cardiovascular disease.\n\nStudies from the Global Burden of Disease project found that heart disease and stroke cause roughly 1 in 4 deaths in India.\n\nAnd Indians tend to get heart disease earlier than people in many other countries.\n\nThe main risk factors:\n→ High blood pressure\n→ Diabetes and high cholesterol\n→ Tobacco\n→ Unhealthy diet and excess salt\n→ Physical inactivity\n→ Belly fat\n→ Air pollution\n\nMost of these can be checked, prevented or controlled.\n\nStart today:\n→ Know your BP, sugar and cholesterol\n→ Walk daily\n→ Quit tobacco\n→ Less salt, more vegetables\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#hearthealth #heartdisease #stroke #prevention #india"
+  },
+  {
+    "id": "341-meal-planning",
+    "status": "queued",
+    "template": "tip",
+    "label": "Nutrition",
+    "headline": "Plan your\nweek's meals",
+    "highlight": "15 minutes on Sunday",
+    "sections": [
+      {
+        "title": "Plan",
+        "text": "Write 7 dinners and 3 tiffins."
+      },
+      {
+        "title": "Shop",
+        "text": "One list. Fill half with vegetables."
+      },
+      {
+        "title": "Prep",
+        "text": "Soak dal, chop veg, boil eggs."
+      }
+    ],
+    "caption": "The question \"what should we eat today?\" at 8 PM is where healthy eating often falls apart. A little planning fixes that.\n\nA 15-minute Sunday routine:\n→ Plan 7 dinners and your weekday lunch boxes\n→ Check what's already in the fridge and pantry\n→ Write one shopping list — fill half with vegetables and fruit\n→ Include a protein in every meal: dal, chana, paneer, eggs, curd, fish or chicken\n\nPrep ahead:\n→ Soak rajma or chana the night before\n→ Chop onions, tomatoes and some vegetables\n→ Make chutney and a batch of dal\n→ Boil eggs or prepare sprouts\n\nBenefits:\n→ Fewer takeaway orders\n→ Less food waste\n→ Less stress\n\nPlan once. Eat well all week.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#mealprep #mealplanning #healthyeating #nutrition #india"
+  },
+  {
+    "id": "342-gum-seven-years",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Swallowed gum\nstays 7 years?",
+    "body": "Your body can't digest gum, but it passes through your gut like other indigestible matter — usually within days. Just don't make it a habit.",
+    "caption": "\"If you swallow chewing gum, it'll stay in your stomach for seven years!\" Most of us heard this as children.\n\nIt's not true.\n\nGum base can't be fully digested. But your digestive system keeps things moving, and swallowed gum usually passes out within a few days, like other things your body can't break down.\n\nRarely, swallowing large amounts of gum often — especially in young children, or along with coins or other objects — can cause a blockage.\n\nSo:\n→ Swallowing a piece by accident is fine\n→ Don't make it a habit\n→ Teach young kids to spit gum out\n\nSugar-free gum after meals can even help your teeth by boosting saliva.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#chewinggum #digestion #funfacts #health #mythbuster"
+  },
+  {
+    "id": "343-smoking-diabetes",
+    "status": "queued",
+    "template": "stat",
+    "number": "30-40%",
+    "label": "Higher diabetes risk",
+    "body": "People who smoke are 30–40% more\nlikely to develop type 2 diabetes.\nSmoking also makes diabetes harder\nto control. Quitting helps both.",
+    "caption": "Most people know smoking harms the lungs and heart. Fewer know it raises diabetes risk too.\n\nAccording to the CDC, people who smoke cigarettes are 30–40% more likely to develop type 2 diabetes than people who don't.\n\nSmoking:\n→ Makes your body less sensitive to insulin\n→ Raises blood sugar\n→ Increases belly fat\n→ Makes diabetes harder to control\n\nFor people who already have diabetes, smoking sharply raises the risk of:\n→ Heart attacks and strokes\n→ Kidney damage\n→ Nerve damage and foot problems\n→ Eye problems\n\nQuitting improves insulin sensitivity and lowers these risks.\n\nFree help: National Tobacco Quitline 1800-112-356.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#diabetes #smoking #quitsmoking #health #india"
+  },
+  {
+    "id": "344-sleep-trackers",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Your sleep tracker\nknows best?",
+    "body": "Wearables estimate sleep stages and often get them wrong. Use them for trends, not verdicts. How you feel during the day matters more.",
+    "caption": "Woke up feeling great, then saw a \"poor sleep score\" and felt tired all day? Your tracker might be wrong.\n\nSmartwatches and rings estimate sleep using movement and heart rate. They're reasonably good at estimating total sleep time, but much less accurate at telling light, deep and REM sleep apart.\n\nSome people become so anxious about their scores that their sleep gets worse — sleep researchers have even named this \"orthosomnia\".\n\nHow to use a tracker sensibly:\n→ Look at weekly trends, not single nights\n→ Notice patterns: late caffeine, alcohol, screens\n→ Trust how you feel during the day\n\nSigns of good sleep: falling asleep fairly easily, waking up refreshed, and staying alert during the day.\n\nThe best sleep tracker is how you feel.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#sleep #wearables #smartwatch #sleeptracking #realitycheck"
+  },
+  {
+    "id": "345-yoga-beginners",
+    "status": "queued",
+    "template": "tip",
+    "label": "Training",
+    "headline": "Yoga for\nbeginners",
+    "highlight": "Start with 15 minutes",
+    "body": "Begin with simple poses like tadasana, cat-cow, bhujangasana and child's pose. Move with your breath. Never force a stretch.",
+    "caption": "Yoga is one of India's greatest gifts to health. You don't need to be flexible to start — that's what yoga builds.\n\nResearch shows regular yoga can help:\n→ Flexibility and balance\n→ Lower back pain\n→ Stress and sleep\n→ Strength, especially in standing poses\n\nA simple 15-minute beginner routine:\n→ Tadasana (mountain pose) — stand tall, breathe\n→ Cat-cow — gentle spine movement on hands and knees\n→ Bhujangasana (cobra) — gentle backbend\n→ Adho mukha svanasana (downward dog)\n→ Balasana (child's pose) — rest\n→ A few minutes of slow breathing to finish\n\nTips:\n→ Move with your breath\n→ Never force a pose into pain\n→ Learn from a qualified teacher if you have health conditions\n\nConsistency beats perfect poses.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#yoga #flexibility #beginner #stressrelief #training"
+  },
+  {
+    "id": "346-mustard-oil",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Mustard oil has\nplant omega-3.",
+    "body": "Mustard oil contains ALA, a plant omega-3 fat that's rare in most cooking oils. Rotate it with other oils for a good balance of fats.",
+    "caption": "Sarson ka tel — a staple in kitchens across north and east India — has a nutritional bonus many oils don't.\n\nMustard oil contains alpha-linolenic acid (ALA), a plant omega-3 fat. Most common cooking oils, like sunflower and groundnut, contain very little.\n\nIt's also:\n→ Low in saturated fat\n→ Rich in monounsaturated fat\n\nWhy rotate oils:\n→ No single oil has the perfect balance of fats\n→ Using a mix — mustard, groundnut, sesame, rice bran — gives a better overall profile\n\nRemember:\n→ All oils have about 120 calories per tablespoon\n→ Use a measuring spoon\n→ Don't reheat oil repeatedly\n\nOther plant omega-3 sources: flaxseeds, walnuts, chia seeds.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#mustardoil #omega3 #cookingoil #nutrition #didyouknow"
+  },
+  {
+    "id": "347-bones-206",
+    "status": "queued",
+    "template": "stat",
+    "number": "206",
+    "label": "Bones in an adult",
+    "body": "Babies are born with around 300\nbones, which fuse to 206 in adults.\nAll of them need calcium, vitamin D,\nprotein and movement to stay strong.",
+    "caption": "You were born with more bones than you have now.\n\nNewborns have around 270–300 bones. As they grow, many of them fuse together — for example, in the skull and the base of the spine — leaving adults with 206.\n\nBones are living tissue that keep remodelling throughout life.\n\nKeep all 206 strong:\n→ Calcium: milk, curd, paneer, ragi, til\n→ Vitamin D: safe sun exposure, and testing\n→ Protein at every meal\n→ Weight-bearing exercise: walking, stairs, dancing\n→ Strength training 2–3 times a week\n→ Avoid smoking and heavy drinking\n\nOver half of your bones are in your hands and feet — so keep them moving too.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#bones #bonehealth #calcium #science #funfacts"
+  },
+  {
+    "id": "348-acne-basics",
+    "status": "queued",
+    "template": "tip",
+    "label": "Symptoms",
+    "headline": "Acne:\nthe basics",
+    "highlight": "Gentle wash, don't pick",
+    "body": "Wash twice daily with a mild cleanser, use oil-free products and don't squeeze. Painful or scarring acne needs a dermatologist.",
+    "caption": "Acne isn't caused by being dirty, and it's not just a teenage problem. It's very common — and treatable.\n\nWhat helps:\n→ Wash your face twice a day with a mild, gentle cleanser\n→ Don't scrub hard — it irritates the skin\n→ Use oil-free, \"non-comedogenic\" moisturisers and sunscreen\n→ Don't squeeze or pick — it can cause scars and dark marks\n→ Change pillowcases often; clean your phone screen\n→ Remove makeup before bed\n\nWhat may make it worse for some people:\n→ Heavy creams and hair oils near the forehead\n→ Stress and poor sleep\n→ Hormonal changes, including PCOS\n\nSee a dermatologist if acne is painful, leaving scars or affecting your confidence. Effective treatments are available.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#acne #skincare #pimples #dermatology #symptoms"
+  },
+  {
+    "id": "349-lifting-flexibility",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Lifting makes\nyou stiff?",
+    "body": "Strength training through a full range of motion can improve flexibility about as well as stretching. Deep squats and lunges count.",
+    "caption": "\"Don't lift weights — you'll become muscle-bound and stiff.\" It's an old gym myth.\n\nResearch shows that strength training done through a full range of motion can improve flexibility — in some studies, about as much as a stretching programme.\n\nExercises that build strength and mobility:\n→ Deep squats\n→ Lunges and split squats\n→ Romanian deadlifts (hamstrings)\n→ Push-ups with a full range\n→ Overhead presses\n\nTips:\n→ Use a full, controlled range of motion\n→ Choose weights you can control at the bottom of the move\n→ Add mobility work for areas that feel tight\n\nStrong and flexible aren't opposites. Done well, strength training builds both.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#flexibility #strengthtraining #mobility #gym #mythbuster"
+  },
+  {
+    "id": "350-ghee-teaspoon",
+    "status": "queued",
+    "template": "stat",
+    "number": "45",
+    "label": "Kcal per tsp ghee",
+    "body": "One teaspoon of ghee is about\n45 kcal. A spoon on every roti for\n4 rotis adds 180 kcal a meal.\nMeasure it — don't eyeball it.",
+    "caption": "A little ghee on your roti or dal is part of Indian food culture. The trouble is that \"a little\" often isn't.\n\nOne teaspoon of ghee (about 5 g) has around 45 calories.\n\nHow it adds up:\n→ 1 tsp on each of 4 rotis → 180 calories\n→ A tablespoon in dal → about 135 calories\n→ Ghee in tadka + on rice + on roti → easily 300+ calories a meal\n\nOver a week, that can be the difference between maintaining and gaining weight.\n\nEnjoy it smarter:\n→ Measure with a teaspoon\n→ Use it for flavour, not as a topping on everything\n→ Skip it on rotis if your sabzi or dal already has oil\n→ 1–2 teaspoons a day is reasonable for most healthy adults\n\nFlavour, not flood.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#ghee #calories #nutrition #weightloss #indianfood"
+  },
+  {
+    "id": "351-healthy-expensive",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Eating healthy\nis expensive?",
+    "body": "Some of the healthiest foods are the cheapest: dal, chana, eggs, seasonal vegetables, bananas, peanuts, curd and millets. Skip the fancy labels.",
+    "caption": "Quinoa, avocado, protein bars, imported berries — healthy eating can look expensive on social media. It doesn't have to be.\n\nSome of the most nutritious foods are everyday Indian staples:\n→ Dal, chana, rajma and moong — protein and fibre\n→ Eggs — one of the cheapest protein sources\n→ Seasonal vegetables from the local market\n→ Bananas, guavas and other seasonal fruit\n→ Peanuts — affordable healthy fats and protein\n→ Curd and milk\n→ Millets like ragi, jowar and bajra\n→ Oats and poha\n\nWhere money is often wasted:\n→ \"Superfood\" powders\n→ Detox teas and fat burners\n→ Packaged \"diet\" snacks\n\nHealthy eating is about everyday choices, not expensive products.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#budget #healthyeating #nutrition #indianfood #realitycheck"
+  },
+  {
+    "id": "352-gut-breakfast",
+    "status": "queued",
+    "template": "tip",
+    "label": "Gut health",
+    "headline": "Gut-friendly\nbreakfast",
+    "highlight": "Fibre + curd + fruit",
+    "sections": [
+      {
+        "title": "Fibre",
+        "text": "Oats, millet upma or veg poha."
+      },
+      {
+        "title": "Ferment",
+        "text": "Curd, or idli and dosa."
+      },
+      {
+        "title": "Fruit",
+        "text": "Banana, papaya, guava or apple."
+      }
+    ],
+    "caption": "Start your day in a way your gut bacteria will love.\n\nA gut-friendly breakfast combines:\n→ Fibre — to feed good bacteria and keep you regular\n→ Fermented food — for live cultures\n→ Fruit — more fibre, plus vitamins\n\nEasy combinations:\n→ Oats cooked in milk, topped with banana and a few nuts\n→ Vegetable poha or millet upma with a bowl of curd\n→ Idli with sambar and a guava\n→ Besan chilla with mint chutney and curd\n→ Overnight oats with curd, apple and seeds\n\nAvoid starting the day with:\n→ Biscuits and sugary cereals\n→ Only chai on an empty stomach\n→ Fried snacks\n\nYour gut has a big say in your digestion, immunity and even your mood.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#guthealth #breakfast #fibre #probiotics #nutrition"
+  },
+  {
+    "id": "353-cucumber-water",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Cucumber is\n95% water.",
+    "body": "Cucumber, watermelon, tomatoes and lauki are mostly water. Water-rich foods help you stay hydrated and full, especially in Indian summers.",
+    "caption": "Not a big water drinker? Some foods can help you stay hydrated.\n\nCucumber is about 95% water. Many other fruits and vegetables are close behind:\n→ Lauki (bottle gourd) — about 95%\n→ Tomatoes — about 94%\n→ Watermelon — about 92%\n→ Muskmelon — about 90%\n→ Oranges — about 87%\n→ Curd and buttermilk — mostly water too\n\nBenefits of water-rich foods:\n→ Help with hydration, especially in summer\n→ Add volume to meals with few calories — helping you feel full\n→ Provide fibre, vitamins and minerals\n\nEasy ways to eat more:\n→ Cucumber raita or kachumber salad with meals\n→ Watermelon as an afternoon snack\n→ Lauki sabzi or soup\n→ Chaas with lunch\n\nWater is still the best drink — but food counts too.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#hydration #cucumber #summer #nutrition #didyouknow"
+  },
+  {
+    "id": "354-protein-older-adults",
+    "status": "queued",
+    "template": "stat",
+    "number": "1.0-1.2",
+    "label": "g/kg protein after 65",
+    "body": "Experts suggest adults over 65\neat 1.0–1.2 g protein per kg body\nweight daily — more than younger\nadults — to protect muscle.",
+    "caption": "As we age, our muscles need more protein, not less. Many older Indians eat far too little.\n\nExpert groups recommend that healthy adults over 65 aim for about 1.0–1.2 g of protein per kg of body weight a day — higher than the standard adult recommendation.\n\nAt 60 kg → about 60–72 g of protein a day.\n\nWhy it matters:\n→ Muscle loss with age leads to weakness, falls and loss of independence\n→ Older bodies respond less to protein, so they need a bit more\n\nEasy, gentle protein ideas for older adults:\n→ Curd, paneer and milk\n→ Soft dal, khichdi with extra dal\n→ Eggs — boiled or bhurji\n→ Besan chilla, moong dal cheela\n→ Fish or chicken curry\n\nCombine with strength exercises. Kidney disease? Ask a doctor first.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#healthyageing #protein #seniors #nutrition #india"
+  },
+  {
+    "id": "355-training-heat",
+    "status": "queued",
+    "template": "tip",
+    "label": "Training",
+    "headline": "Training\nin the heat",
+    "highlight": "Early, hydrated, lighter",
+    "body": "In Indian summers, exercise early morning or evening, drink before you're thirsty, wear light clothes, and ease off. Stop if dizzy.",
+    "caption": "Indian summers can be brutal for workouts. Training in high heat raises the risk of heat exhaustion and heatstroke.\n\nStay safe:\n→ Exercise early in the morning or after sunset\n→ Avoid the hottest hours, roughly 11 AM to 4 PM\n→ Drink water before, during and after — don't wait for thirst\n→ Add ORS or a pinch of salt and sugar in water for long, sweaty sessions\n→ Wear light-coloured, loose, breathable clothes\n→ Reduce intensity and duration on very hot or humid days\n→ Train indoors in a ventilated space when it's extreme\n\nStop immediately and cool down if you feel:\n→ Dizzy or faint\n→ Nauseous\n→ A headache\n→ Confused, or stop sweating\n\nHeat illness is serious. Respect the weather.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#summer #heatwave #fitness #hydration #training"
+  },
+  {
+    "id": "356-vitamins-harmless",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Vitamins can't\nharm you?",
+    "body": "Too much vitamin A, D or iron can be toxic, because the body stores them. More isn't better. Supplement based on tests and medical advice.",
+    "caption": "\"It's just a vitamin — it can't hurt.\" More isn't always better.\n\nSome vitamins and minerals can build up in the body and become harmful in high doses.\n\nExamples:\n→ Vitamin D: very high doses over time can raise blood calcium, causing nausea, kidney problems and confusion\n→ Vitamin A: excess can harm the liver and bones, and cause birth defects in pregnancy\n→ Iron: too much can damage organs — and accidental overdose is dangerous for children\n→ Vitamin B6: very high doses over time can damage nerves\n\nSafe supplement use:\n→ Test before you take — especially for vitamin D, B12 and iron\n→ Follow the dose your doctor recommends\n→ Check labels — many products combine the same vitamins\n→ Keep supplements out of children's reach\n\nFood first. Supplements when needed.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#supplements #vitamins #vitamind #health #mythbuster"
+  },
+  {
+    "id": "357-hand-portions",
+    "status": "queued",
+    "template": "stat",
+    "number": "Palm",
+    "label": "Your portion guide",
+    "body": "Protein: a palm. Veg: two fists.\nCarbs: a cupped hand. Fat: a thumb.\nYour hand is always with you —\nno scale or app needed.",
+    "caption": "No calorie app? No food scale? Use your hands. They're the right size for your body and always with you.\n\nA simple portion guide per meal:\n→ Protein (paneer, chicken, fish, tofu, eggs): 1–2 palm-sized portions\n→ Vegetables: 1–2 fists\n→ Carbs (rice, roti, millets, potatoes): 1–2 cupped handfuls\n→ Fats (ghee, oil, nuts, seeds): 1–2 thumb-sized portions\n\nUse the lower amounts if you're aiming to lose weight or are less active, and higher if you're very active.\n\nHow it might look:\n→ 2 rotis (about a cupped hand)\n→ A palm-sized bowl of paneer or dal\n→ 2 fists of sabzi and salad\n→ A thumb of ghee or oil in cooking\n\nIt's not perfect. It's practical.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#portioncontrol #healthyeating #nutrition #weightloss #india"
+  },
+  {
+    "id": "358-water-with-meals",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Water with meals\nruins digestion?",
+    "body": "Drinking water with meals doesn't dilute stomach acid enough to matter. It can help you feel full and digest food. Sip as you like.",
+    "caption": "\"Don't drink water while eating — it dilutes your digestive juices.\" This is widely believed. It isn't supported by evidence.\n\nYour stomach adjusts acid production to what you eat, and water passes through the stomach quickly.\n\nDrinking water with meals:\n→ Doesn't meaningfully weaken digestion\n→ Can help soften food and move it along\n→ Can help you feel fuller and eat a little less\n→ Helps fibre do its job\n\nWhere moderation helps:\n→ Gulping huge amounts during a meal can make you feel uncomfortably full\n→ Some people with reflux feel better sipping rather than drinking large amounts\n\nDrink water before, during or after meals — whatever feels comfortable.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#water #digestion #hydration #nutrition #realitycheck"
+  },
+  {
+    "id": "359-women-bones",
+    "status": "queued",
+    "template": "tip",
+    "label": "Women's health",
+    "headline": "Bone health\nfor women",
+    "highlight": "Build early, keep later",
+    "body": "Bone loss speeds up after menopause. Strength training, calcium, vitamin D and protein help. Ask about a bone scan.",
+    "caption": "Osteoporosis — weak, brittle bones — is much more common in women than in men. Many find out only after a fracture.\n\nWomen have smaller bones to begin with, and bone loss speeds up after menopause as oestrogen falls.\n\nBuild strong bones early:\n→ Strength training and impact exercise (walking, skipping, dancing)\n→ Calcium-rich foods: milk, curd, paneer, ragi, til\n→ Vitamin D: safe sun exposure and testing\n→ Enough protein\n\nKeep them strong later:\n→ Keep up strength and balance training\n→ Avoid smoking and limit alcohol\n→ Prevent falls at home\n\nTalk to your doctor about a bone density (DEXA) scan, especially after menopause, or earlier if you have risk factors like early menopause or long-term steroid use.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#osteoporosis #bonehealth #womenshealth #menopause #india"
+  },
+  {
+    "id": "360-salt-gargle",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Salt water soothes\na sore throat.",
+    "body": "Gargling warm salt water can ease throat pain and loosen mucus. Half a teaspoon of salt in a glass of warm water, a few times a day.",
+    "caption": "Grandma's remedy for a sore throat has some science behind it.\n\nGargling with warm salt water can:\n→ Ease throat pain and irritation\n→ Loosen mucus\n→ Help keep the throat clean\n\nHow to do it:\n→ Mix about half a teaspoon of salt into a glass of warm (not hot) water\n→ Gargle for 15–30 seconds, then spit it out\n→ Repeat a few times a day\n\nIt's not a cure — most sore throats are caused by viruses and get better on their own in about a week.\n\nAlso helpful:\n→ Warm fluids like soups and herbal tea\n→ Honey (not for children under 1)\n→ Rest\n\nSee a doctor for high fever, difficulty swallowing or breathing, or a sore throat lasting more than a week.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#sorethroat #homeremedy #cold #health #didyouknow"
+  },
+  {
+    "id": "361-offset-sitting",
+    "status": "queued",
+    "template": "stat",
+    "number": "60-75",
+    "label": "Minutes to offset sitting",
+    "body": "A large study found 60–75 min of\nmoderate activity a day may offset\nthe extra risk of sitting 8+ hours.\nDesk job? Move more.",
+    "caption": "Sitting for 8+ hours a day at a desk? Here's how much movement it may take to balance it out.\n\nA large analysis of over 1 million people, published in The Lancet, found that people who sat for long hours had a higher risk of early death.\n\nBut those who did about 60–75 minutes of moderate activity a day — like brisk walking or cycling — appeared to cancel out that extra risk.\n\nThat's more than the minimum 150 minutes a week. But it doesn't have to happen all at once:\n→ 20-minute brisk walk in the morning\n→ 10-minute walks after lunch and dinner\n→ Taking stairs and walking during calls\n→ An evening workout or game\n\nAnd stand up every 30 minutes.\n\nDesk jobs need active days.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#sitting #deskjob #exercise #health #walking"
+  },
+  {
+    "id": "362-morning-walk",
+    "status": "queued",
+    "template": "tip",
+    "label": "Wellbeing",
+    "headline": "The morning\nwalk habit",
+    "highlight": "Light, movement, calm",
+    "body": "A 20–30 minute walk soon after waking brings daylight for your body clock, movement for your heart, and quiet time for your mind.",
+    "caption": "If you could add just one habit this year, make it a morning walk.\n\nIn one simple routine, you get:\n→ Daylight — which helps set your body clock and improves sleep at night\n→ Movement — good for your heart, blood sugar and joints\n→ Fresh air and quiet thinking time\n→ A calmer start to the day\n\nHow to make it stick:\n→ Lay out your shoes and clothes the night before\n→ Start with 15 minutes and build to 30\n→ Walk with a friend, neighbour or family member\n→ Leave the phone in your pocket — or use it only for music\n→ Pick a route with trees or a park if you can\n\nOn bad-air days, walk indoors or wait until the air clears.\n\nSmall steps every morning add up to a healthier year.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#morningwalk #walking #wellbeing #morningroutine #health"
+  },
+  {
+    "id": "363-walking-exercise",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Walking isn't\nreal exercise?",
+    "body": "Brisk walking counts as moderate activity and cuts the risk of heart disease, diabetes and depression. It's the most underrated workout there is.",
+    "caption": "\"Walking doesn't count — you need to sweat in a gym.\" Many people believe this. The research disagrees.\n\nBrisk walking — around 100 steps a minute, where you can talk but not sing — counts as moderate-intensity exercise.\n\nRegular walking is linked to:\n→ Lower risk of heart disease and stroke\n→ Better blood sugar control and lower diabetes risk\n→ Healthier weight\n→ Better mood and less depression\n→ Stronger bones and better sleep\n\nAnd it's free, low-injury, and easy to fit into everyday life.\n\nMake your walks count:\n→ Walk briskly, not a stroll\n→ 30 minutes a day, 5 days a week\n→ Add hills or stairs for a challenge\n→ Pair with 2 days of strength training\n\nNever underestimate a walk.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#walking #exercise #fitness #hearthealth #mythbuster"
+  },
+  {
+    "id": "364-dinner-before-bed",
+    "status": "queued",
+    "template": "stat",
+    "number": "2-3 hrs",
+    "label": "Dinner before bed",
+    "body": "Finishing dinner 2–3 hours before\nbed eases acidity and can improve\nsleep. Late, heavy meals keep your\ngut busy when it should rest.",
+    "caption": "Eating dinner at 10:30 PM and going to bed at 11? Your gut and your sleep may both be struggling.\n\nFinishing your last big meal about 2–3 hours before bed can help:\n→ Reduce acidity and heartburn\n→ Improve sleep quality\n→ Avoid that heavy, uncomfortable feeling at night\n\nWhat happens with late, heavy meals:\n→ Lying down soon after eating makes acid reflux more likely\n→ Digestion can disturb sleep\n→ Late meals are often bigger and less planned\n\nTips:\n→ Shift dinner a little earlier, step by step\n→ Make dinner lighter than lunch\n→ If you're hungry late, have something small — curd, fruit or warm milk\n\nEarlier, lighter dinners — better nights.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#dinner #sleep #acidity #digestion #health"
+  },
+  {
+    "id": "365-small-habits",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Small habits\ndon't matter?",
+    "body": "A 10-minute walk, one less spoon of sugar, an earlier bedtime — tiny changes repeated for a year add up to real, lasting results.",
+    "caption": "This is post number 365. If you've been following along, thank you. Here's the most important lesson of the year.\n\nSmall habits seem too small to matter. But repeated every day, they compound.\n\nWhat a year of small habits can look like:\n→ A 10-minute walk after dinner → over 60 hours of walking\n→ One less spoon of sugar in chai → more than 1 kg less sugar\n→ 15 minutes earlier to bed → over 90 extra hours of sleep\n→ One extra serving of vegetables a day → 365 more servings\n\nYou don't need a perfect diet or a dramatic transformation. You need to show up most days.\n\nPick one small habit from this year's posts. Start tomorrow.\n\nYour body, explained — and your health, in your hands.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#habits #consistency #healthyhabits #motivation #wellbeing"
   }
 ]

@@ -5,7 +5,10 @@ Every day at **7:30 PM IST** a GitHub Action:
 2. Renders the next one with the locked Venva template (`template/post.html`): the same 3 layouts, fonts and colours as posts 1–10
 3. Publishes it to Instagram via the official Instagram API, then marks it `posted`
 
-Since a week of posts is always queued ahead, you can review or edit any upcoming post
+The queue is filled through post 365 (goes out 23 Sep 2027), so nothing depends on the AI generator
+until then. Add a batch by hand with `node tools/add-posts.mjs <batch.mjs>` — it checks the brand rules and the card fit.
+
+Since posts are queued well ahead, you can review or edit any upcoming post
 on GitHub before it goes out (edit `content/queue.json`, or delete an entry).
 
 ## Files
