@@ -2042,5 +2042,733 @@
     "headline": "Sunlit mushrooms\nmake vitamin D.",
     "body": "Like your skin, mushrooms make vitamin D when exposed to UV light. Placing them in the sun, gills up, for a while can boost their levels.",
     "caption": "Here's a fun food fact: mushrooms can make vitamin D, just like your skin.\n\nMushrooms contain a compound that converts to vitamin D when exposed to ultraviolet (UV) light.\n\nMost store-bought mushrooms are grown in the dark, so they contain very little. But:\n→ Some brands sell UV-exposed mushrooms with much higher vitamin D\n→ Research shows placing mushrooms in direct sunlight, gills facing up, can raise their vitamin D content\n\nThey're one of the very few non-animal food sources of vitamin D — useful for vegetarians.\n\nStill, with low vitamin D so common in India, food alone often isn't enough. Get tested, and supplement if your doctor advises.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#vitamind #mushrooms #vegetarian #nutrition #didyouknow"
+  },
+  {
+    "id": "200-breathing-rate",
+    "status": "queued",
+    "template": "stat",
+    "number": "12-20",
+    "label": "Breaths per minute",
+    "body": "A normal adult breathes 12–20\ntimes a minute at rest. Fast\nbreathing at rest, with chest pain\nor confusion, needs urgent care.",
+    "caption": "You check your pulse. But have you ever counted your breaths?\n\nAt rest, a healthy adult breathes about 12–20 times a minute.\n\nHow to count:\n→ Sit quietly for a few minutes\n→ Count each rise of the chest for 30 seconds\n→ Multiply by 2\n(It's easier to count someone else's — people change their breathing when they know they're being watched.)\n\nSeek urgent medical help if fast breathing at rest comes with:\n→ Chest pain\n→ Lips or fingertips turning bluish\n→ Confusion or drowsiness\n→ Inability to speak in full sentences\n\nSlow, deep breathing is also a great tool to calm stress. Try 6 breaths a minute for 5 minutes.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#breathing #lunghealth #health #vitalsigns #firstaid"
+  },
+  {
+    "id": "201-healthy-tiffin",
+    "status": "queued",
+    "template": "tip",
+    "label": "Nutrition",
+    "headline": "Healthy\ntiffin ideas",
+    "highlight": "Protein + veg + grain",
+    "sections": [
+      {
+        "title": "Mon–Tue",
+        "text": "Paneer roll; veg pulao with raita."
+      },
+      {
+        "title": "Wed–Thu",
+        "text": "Besan chilla; rajma with jeera rice."
+      },
+      {
+        "title": "Fri",
+        "text": "Egg or tofu bhurji with roti, salad."
+      }
+    ],
+    "caption": "Office or school lunch box stuck on the same aloo sabzi and roti? Here's a simple formula.\n\nEvery tiffin: protein + vegetables + a whole grain.\n\nIdeas for the week:\n→ Paneer and veg roll in a whole wheat roti\n→ Vegetable pulao with a box of raita\n→ Besan or moong chilla with green chutney\n→ Rajma or chole with jeera rice and cucumber\n→ Egg or tofu bhurji with roti and salad\n→ Idli with sambar and a fruit\n\nAdd a small side:\n→ Cut fruit, roasted chana, sprouts, or a handful of nuts\n\nPrep tip: chop vegetables and soak pulses the night before. Morning-you will be grateful.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#lunchbox #tiffin #healthyeating #nutrition #india"
+  },
+  {
+    "id": "202-sugar-hyper-kids",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Sugar makes kids\nhyperactive?",
+    "body": "Careful studies found no difference in kids' behaviour after sugar versus placebo. Parties and excitement explain it. Limit sugar for teeth and health.",
+    "caption": "Birthday party, cake, and then chaos? Most parents blame the sugar. Science points elsewhere.\n\nIn controlled studies, children were given either sugar or a sugar-free placebo — without parents or kids knowing which. Researchers found no difference in behaviour.\n\nIn one study, parents who were told their child had sugar (when they hadn't) rated them as more hyperactive.\n\nWhat's really happening:\n→ Parties, festivals and friends are exciting\n→ Late nights and skipped naps\n→ Expectations shape what we notice\n\nStill, kids should limit added sugar:\n→ Tooth decay\n→ Weight gain\n→ Developing a strong sweet tooth\n\nLess sugar for health — not for behaviour.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#kids #sugar #parenting #childhealth #mythbuster"
+  },
+  {
+    "id": "203-who-300",
+    "status": "queued",
+    "template": "stat",
+    "number": "300",
+    "label": "Minutes for extra benefit",
+    "body": "150 min a week is WHO's minimum.\nGoing up to 300 min of moderate\nactivity brings even more benefits\n— for heart, weight and mood.",
+    "caption": "Hit your 150 minutes a week? Great. Here's your next level.\n\nWHO recommends adults get:\n→ At least 150–300 minutes of moderate activity a week, or\n→ At least 75–150 minutes of vigorous activity a week\n→ Plus muscle-strengthening activities on 2 or more days\n\nGoing towards 300 minutes of moderate activity brings additional benefits:\n→ Lower risk of heart disease and diabetes\n→ Better weight management\n→ Improved mood and sleep\n\nWhat 300 minutes looks like:\n→ 45 minutes of brisk walking, most days\n→ Or 30 minutes daily plus a long weekend walk or game of badminton\n\nBuild up gradually. Every extra minute counts.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#exercise #fitness #who #health #walking"
+  },
+  {
+    "id": "204-alcohol-sleep",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "A drink helps\nyou sleep?",
+    "body": "Alcohol may help you fall asleep faster, but it breaks up sleep later in the night and cuts REM. You wake up less rested.",
+    "caption": "A nightcap to help you sleep? It may knock you out — but it ruins the sleep that follows.\n\nAlcohol is a sedative, so you may fall asleep faster.\n\nBut as your body processes it during the night:\n→ Sleep becomes lighter and more broken\n→ You wake up more often, especially in the second half of the night\n→ REM sleep — important for memory and mood — is reduced\n→ Snoring and sleep apnoea get worse\n→ More trips to the toilet\n\nThe result: you wake up tired, even after 8 hours in bed.\n\nIf you drink:\n→ Stop at least 3–4 hours before bed\n→ Have water alongside\n→ Have alcohol-free nights each week\n\nFor better sleep, try a wind-down routine instead.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#alcohol #sleep #insomnia #health #realitycheck"
+  },
+  {
+    "id": "205-start-running",
+    "status": "queued",
+    "template": "tip",
+    "label": "Training",
+    "headline": "Start\nrunning",
+    "highlight": "Walk-run intervals first",
+    "body": "Alternate 1 minute of easy jogging with 2 minutes of walking, 3 times a week. Add a little more running each week. Slow is fine.",
+    "caption": "Want to start running but get breathless in two minutes? Everyone does at first. Use intervals.\n\nA simple beginner plan, 3 times a week:\n→ Warm up: 5 minutes brisk walking\n→ Week 1–2: jog 1 minute, walk 2 minutes — repeat 6–8 times\n→ Week 3–4: jog 2 minutes, walk 2 minutes\n→ Week 5–6: jog 4 minutes, walk 1–2 minutes\n→ Keep building until you can run 20–30 minutes\n\nRules:\n→ Run at a pace where you can talk\n→ Rest days between runs\n→ Repeat a week if it feels too hard\n\nProgrammes like \"Couch to 5K\" take about 9 weeks.\n\nGood shoes, a slow pace, and patience. That's it.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#running #beginner #fitness #cardio #couchto5k"
+  },
+  {
+    "id": "206-cooked-tomatoes",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Tomatoes are\nbetter cooked.",
+    "body": "Cooking tomatoes, especially with a little oil, makes their antioxidant lycopene easier to absorb. Your tadka is doing good work.",
+    "caption": "Raw salads aren't always the most nutritious option. Tomatoes are a great example.\n\nTomatoes are rich in lycopene, an antioxidant that gives them their red colour.\n\nHeat breaks down the tomato's cell walls, and lycopene dissolves in fat. So cooking tomatoes with a little oil makes lycopene easier for your body to absorb.\n\nIndian cooking already does this:\n→ Tomato in tadka and gravies\n→ Tomato chutney and rasam\n→ Tomato-based curries and sabzis\n\nRaw tomatoes still give you vitamin C — which is reduced by cooking. So enjoy both.\n\nFun fact: watermelon and pink guava are also good lycopene sources.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#tomato #nutrition #cooking #indianfood #didyouknow"
+  },
+  {
+    "id": "207-heartbeats",
+    "status": "queued",
+    "template": "stat",
+    "number": "100,000",
+    "label": "Heartbeats a day",
+    "body": "Your heart beats about 100,000\ntimes a day, pumping around 7,000\nlitres of blood. It never takes\na day off — look after it.",
+    "caption": "Your heart is the hardest-working muscle in your body.\n\nEvery day, it beats about 100,000 times and pumps roughly 7,000 litres of blood through your body.\n\nOver a lifetime, that's billions of beats — without a single break.\n\nWays to look after it:\n→ Move daily — 150 minutes a week minimum\n→ Less salt, more vegetables, fruit, dal and whole grains\n→ Don't smoke or use tobacco\n→ Keep your BP, sugar and cholesterol in check\n→ Sleep 7–9 hours\n→ Manage stress\n\nYour heart works for you every second. Give it a few minutes back today.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#hearthealth #heart #health #science #worldheartday"
+  },
+  {
+    "id": "208-dengue-signs",
+    "status": "queued",
+    "template": "tip",
+    "label": "Symptoms",
+    "headline": "Dengue\nwarning signs",
+    "highlight": "Watch as fever falls",
+    "sections": [
+      {
+        "title": "Belly",
+        "text": "Severe pain or nonstop vomiting."
+      },
+      {
+        "title": "Bleeding",
+        "text": "Gums, nose, or blood in vomit/stool."
+      },
+      {
+        "title": "Body",
+        "text": "Fast breathing, restlessness, cold skin."
+      }
+    ],
+    "caption": "Dengue season is here. Most cases are mild — but knowing the danger signs can save a life.\n\nTypical dengue: sudden high fever, severe body and joint pain, headache, pain behind the eyes, and sometimes a rash.\n\nThe risky phase often comes around days 3–7, as the fever starts to drop.\n\nGo to a hospital immediately if you see:\n→ Severe stomach pain or repeated vomiting\n→ Bleeding from gums or nose, or blood in vomit or stool\n→ Fast breathing\n→ Extreme tiredness, restlessness or confusion\n→ Cold, clammy skin\n\nWhat to do:\n→ Rest and drink plenty of fluids — ORS, water, soups\n→ Avoid painkillers like ibuprofen or aspirin unless a doctor advises\n→ Prevent bites: no standing water, nets, full sleeves\n\nDon't wait it out.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#dengue #monsoon #fever #health #india"
+  },
+  {
+    "id": "209-cold-weather-colds",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Cold weather\ncauses colds?",
+    "body": "Colds are caused by viruses, not chilly air. In cold months, people crowd indoors with windows shut, so viruses spread more easily.",
+    "caption": "\"Wear a sweater or you'll catch a cold!\" Cold weather isn't what makes you sick — viruses are.\n\nThe common cold is caused by viruses, like rhinoviruses.\n\nWhy colds are more common in winter:\n→ People gather indoors with windows closed\n→ Viruses spread more easily in crowded, poorly ventilated rooms\n→ Some viruses survive better in cool, dry air\n→ Less sunlight and time outdoors\n\nWhat actually helps prevent colds:\n→ Wash your hands often\n→ Avoid touching your eyes, nose and mouth\n→ Open windows for fresh air\n→ Sleep well and stay active\n→ Cover your coughs and sneezes\n\nStill wear the sweater if you're cold — just wash your hands too.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#cold #flu #winter #immunity #mythbuster"
+  },
+  {
+    "id": "210-muscle-loss-age",
+    "status": "queued",
+    "template": "stat",
+    "number": "3-8%",
+    "label": "Muscle lost per decade",
+    "body": "After 30, inactive adults lose\nabout 3–8% of muscle per decade —\nfaster after 60. Strength training\nslows it, at any age.",
+    "caption": "Muscle isn't just for looks — it's what keeps you independent as you age. And you start losing it earlier than you think.\n\nAfter around age 30, inactive adults lose an estimated 3–8% of their muscle mass every decade. The loss speeds up after 60.\n\nThis muscle loss (sarcopenia) leads to:\n→ Weakness and slower movement\n→ More falls and fractures\n→ Higher blood sugar\n→ Losing the ability to do everyday tasks\n\nThe good news: it's not inevitable.\n→ Strength training 2–3 times a week\n→ Enough protein at every meal\n→ Staying active daily\n\nBuild muscle now. It's your pension for old age.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#healthyageing #muscle #strengthtraining #fitness #health"
+  },
+  {
+    "id": "211-organic-nutrition",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Organic is more\nnutritious?",
+    "body": "Studies find organic and regular produce have similar nutrients. Organic may carry less pesticide residue. Eating more veg matters most.",
+    "caption": "Paying double for organic vegetables because they're \"more nutritious\"? The evidence is mixed at best.\n\nLarge reviews comparing organic and conventional produce have found broadly similar levels of vitamins and minerals.\n\nWhere organic may differ:\n→ Lower pesticide residues\n→ Different farming practices that some people prefer for environmental reasons\n\nWhat matters far more for your health:\n→ Eating enough vegetables and fruit — organic or not\n→ Variety and colour\n→ Freshness and good storage\n\nReduce pesticide residues on any produce:\n→ Wash under running water\n→ Soak in water for a few minutes and rinse\n→ Peel where suitable\n\nDon't let the price of organic stop you from eating your veggies.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#organic #vegetables #nutrition #health #realitycheck"
+  },
+  {
+    "id": "212-kids-bedtime",
+    "status": "queued",
+    "template": "tip",
+    "label": "Sleep",
+    "headline": "Kids' bedtime\nroutine",
+    "highlight": "Bath, book, bed",
+    "body": "Same time every night: bath, pyjamas, brush, a story, lights out. No screens for an hour before. Routine helps kids fall asleep faster.",
+    "caption": "Bedtime battles every night? A predictable routine can make them disappear.\n\nChildren's body clocks love repetition. A consistent routine signals that sleep is coming.\n\nA simple 30-minute routine:\n→ Warm bath or wash\n→ Pyjamas on\n→ Brush teeth\n→ A story or quiet chat\n→ Lights out at the same time every night\n\nMake it work:\n→ No screens for an hour before bed\n→ Dim lights in the evening\n→ Keep the bedroom cool, dark and quiet\n→ Same wake-up time, even on weekends\n→ Avoid sugary snacks and big meals right before bed\n\nWell-rested children are calmer, happier and learn better.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#parenting #kids #sleep #bedtime #childhealth"
+  },
+  {
+    "id": "213-sprouting",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Sprouting powers\nup your pulses.",
+    "body": "Sprouting moong or chana raises some vitamins, reduces compounds that block minerals, and makes them easier to digest. Rinse well and store cold.",
+    "caption": "Sprouts aren't just a diet food. Sprouting genuinely changes how nutritious pulses are.\n\nWhen you sprout moong, chana, matki or other pulses:\n→ Some vitamins increase, especially vitamin C and some B vitamins\n→ Phytates — compounds that block iron and zinc absorption — go down\n→ They become easier to digest, with less gas\n\nHow to sprout at home:\n→ Soak overnight\n→ Drain, rinse, and keep in a damp cloth or sprouter for 1–2 days\n→ Rinse twice a day\n\nSafety tip: sprouts can carry bacteria. Use clean water, refrigerate, and lightly steam or sauté them if you're pregnant, elderly, or have low immunity.\n\nSprouts chaat — the perfect evening snack.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#sprouts #protein #nutrition #indianfood #didyouknow"
+  },
+  {
+    "id": "214-alcohol-calories",
+    "status": "queued",
+    "template": "stat",
+    "number": "7",
+    "label": "Kcal per gram alcohol",
+    "body": "Alcohol has 7 kcal per gram —\nnearly as much as fat. A 650 ml\nstrong beer can top 300 kcal, before\nthe chakna. And it stalls fat loss.",
+    "caption": "Counting calories but not counting your drinks? Alcohol might be the hidden reason the scale won't move.\n\nAlcohol has 7 calories per gram — almost as much as fat (9) and much more than protein or carbs (4).\n\nRoughly:\n→ A large 650 ml bottle of strong beer: 300+ calories\n→ A 60 ml large peg of whisky or rum: about 140 calories, before mixers\n→ A glass of wine: 120–150 calories\n\nAnd the extras:\n→ Mixers like cola and juice add sugar\n→ Chakna — peanuts, chips, fried snacks — adds hundreds more\n→ Your body prioritises burning alcohol, pausing fat burning\n\nLess alcohol is one of the easiest ways to cut calories — and protect your liver.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#alcohol #calories #weightloss #liverhealth #health"
+  },
+  {
+    "id": "215-say-no",
+    "status": "queued",
+    "template": "tip",
+    "label": "Wellbeing",
+    "headline": "Learn to\nsay no",
+    "highlight": "Protect your energy",
+    "body": "Saying yes to everything leaves no time for sleep, exercise or rest. A kind, clear \"no\" protects your health. You don't owe long excuses.",
+    "caption": "Do you say yes to every request, then feel exhausted and resentful? You're not alone.\n\nConstantly overcommitting means less time for the things that keep you healthy — sleep, exercise, meals, rest and people you love.\n\nSaying no isn't rude. It's honest.\n\nWays to say it kindly:\n→ \"Thanks for thinking of me, but I can't take this on right now.\"\n→ \"I'd love to help, but this week is full. Next week?\"\n→ \"Let me check and get back to you.\" (Then decide calmly.)\n\nTips:\n→ You don't need a long explanation\n→ Pause before agreeing to anything\n→ Remember: every yes is a no to something else\n\nYour time and energy are limited. Spend them on purpose.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#boundaries #selfcare #mentalhealth #wellbeing #stress"
+  },
+  {
+    "id": "216-carrots-vision",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Carrots give you\nperfect vision?",
+    "body": "Carrots provide vitamin A, which your eyes need — a deficiency causes night blindness. But if you get enough, extra won't fix blurry vision.",
+    "caption": "Eat your carrots and you'll never need glasses? That's partly wartime propaganda.\n\nDuring World War II, the British spread a story that their pilots' great night vision came from eating carrots — to hide the fact that they were using radar.\n\nWhat's true:\n→ Carrots are rich in beta-carotene, which your body turns into vitamin A\n→ Vitamin A is essential for vision\n→ Vitamin A deficiency causes night blindness and, in severe cases, blindness\n\nWhat's not true:\n→ If you already get enough vitamin A, more won't improve your eyesight\n→ Carrots can't fix short-sightedness or other refractive errors\n\nEat carrots, papaya, mango and green leafy veg for vitamin A. Get your eyes tested regularly too.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#eyehealth #vitamina #carrots #nutrition #mythbuster"
+  },
+  {
+    "id": "217-headphones-60-60",
+    "status": "queued",
+    "template": "stat",
+    "number": "60/60",
+    "label": "Safe headphone rule",
+    "body": "Keep volume at 60% or less, for\nno more than 60 minutes at a time.\nIf others hear your music, it's\ntoo loud. Hearing loss is permanent.",
+    "caption": "Earphones in all day — on the metro, at work, at the gym? Your hearing may be paying the price.\n\nWHO estimates that over a billion young people are at risk of hearing loss from unsafe listening.\n\nNoise-induced hearing loss is permanent, and it builds up slowly, without pain.\n\nThe 60/60 rule:\n→ Volume at no more than 60% of the maximum\n→ For no more than 60 minutes at a time\n→ Then give your ears a break\n\nOther tips:\n→ Use noise-cancelling headphones so you don't turn it up in noisy places\n→ If someone next to you can hear your music, it's too loud\n→ Use earplugs at concerts and weddings with loud DJs\n\nRinging ears after loud noise is a warning sign. Listen to it.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#hearing #earphones #ears #health #selfcare"
+  },
+  {
+    "id": "218-intermittent-fasting",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Intermittent\nfasting is magic?",
+    "body": "In trials, intermittent fasting leads to similar weight loss as eating a little less every day. It works if it suits you, not because of timing.",
+    "caption": "16:8, OMAD, 5:2 — intermittent fasting is everywhere. Does it beat a regular diet?\n\nIntermittent fasting means eating within a set time window, or fasting on certain days.\n\nWhen researchers compare it with simply eating fewer calories every day, results are similar: about the same weight loss over months.\n\nWhy it works for some people:\n→ A shorter eating window can mean eating less overall\n→ Simple rules are easier to follow\n→ Less late-night snacking\n\nWhy it doesn't suit others:\n→ Hunger leads to overeating in the window\n→ Hard with family meal times\n→ Not suitable in pregnancy, for people with diabetes on certain medicines, or with a history of eating disorders\n\nIt's a tool, not magic. Choose what you can sustain.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#intermittentfasting #weightloss #diet #nutrition #realitycheck"
+  },
+  {
+    "id": "219-pregnancy-exercise",
+    "status": "queued",
+    "template": "tip",
+    "label": "Women's health",
+    "headline": "Stay active in\npregnancy",
+    "highlight": "150 min a week, if cleared",
+    "body": "In most healthy pregnancies, walking, swimming and prenatal yoga are safe and helpful. Get your doctor's okay first.",
+    "caption": "\"Rest as much as possible during pregnancy.\" For most healthy pregnancies, staying active is actually better for mother and baby.\n\nDoctors' guidelines recommend about 150 minutes of moderate activity a week for women with uncomplicated pregnancies — after getting their doctor's approval.\n\nBenefits:\n→ Less back pain and swelling\n→ Lower risk of gestational diabetes and high blood pressure\n→ Better mood and sleep\n→ Can help with labour and recovery\n\nGood choices:\n→ Brisk walking\n→ Swimming\n→ Prenatal yoga and stretching\n→ Light strength training\n\nAvoid:\n→ Contact sports and activities with a risk of falling\n→ Exercising in extreme heat\n→ Lying flat on your back for long periods later in pregnancy\n\nStop and call your doctor if you have bleeding, dizziness, chest pain or fluid leakage.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#pregnancy #prenatalfitness #womenshealth #exercise #health"
+  },
+  {
+    "id": "220-grip-strength",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Grip strength\npredicts health.",
+    "body": "In a study of 140,000 adults, weaker grip was linked to higher risk of heart disease and early death. It reflects overall muscle strength.",
+    "caption": "How hard you can squeeze might say a lot about your health.\n\nA large international study (PURE) measured the grip strength of nearly 140,000 adults in 17 countries, including India.\n\nEvery 5 kg drop in grip strength was linked to a 16% higher risk of death from any cause, and higher risk of heart attack and stroke.\n\nGrip strength isn't magic on its own — it reflects your overall muscle strength and fitness.\n\nHow to build it:\n→ Strength training — rows, deadlifts, carrying weights\n→ Farmer's walk: carry heavy shopping bags or water cans\n→ Hang from a bar for a few seconds\n→ Squeeze a tennis ball\n\nStrong hands, strong body.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#gripstrength #strengthtraining #longevity #fitness #didyouknow"
+  },
+  {
+    "id": "221-fish-twice",
+    "status": "queued",
+    "template": "stat",
+    "number": "2x",
+    "label": "Fish meals a week",
+    "body": "Two servings of fish a week, ideally\noily fish like mackerel or sardines,\ngive heart-healthy omega-3s.\nGrill or curry it — don't deep-fry.",
+    "caption": "Eat fish? Twice a week is a great heart-healthy target.\n\nHeart health organisations recommend about 2 servings of fish a week, especially oily fish rich in omega-3 fats.\n\nGood Indian options:\n→ Mackerel (bangda / ayala)\n→ Sardines (mathi / tarli)\n→ Hilsa\n→ Salmon, tuna and trout where available\n\nOmega-3s support heart health and may help lower triglycerides.\n\nCook it well:\n→ Fish curry, grilled, steamed or tandoori\n→ Go easy on deep-frying\n\nVegetarian? Get plant omega-3s (ALA) from walnuts, flaxseeds, chia seeds and mustard oil.\n\nPregnant? Choose low-mercury fish and avoid very large fish like shark and king mackerel.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#fish #omega3 #hearthealth #nutrition #india"
+  },
+  {
+    "id": "222-prostate-signs",
+    "status": "queued",
+    "template": "tip",
+    "label": "Men's health",
+    "headline": "Prostate:\nknow the signs",
+    "highlight": "Over 50? Get checked",
+    "body": "Waking at night to urinate, a weak stream, or trouble starting are common after 50. Usually benign, but see a doctor to rule out more.",
+    "caption": "Men, if you're getting up several times a night to pee, don't just blame age.\n\nThe prostate is a small gland below the bladder. As men age, it commonly enlarges, which can squeeze the urine tube.\n\nSigns to watch for:\n→ Waking up at night to urinate, often\n→ A weak or interrupted stream\n→ Trouble starting\n→ Feeling the bladder isn't empty\n→ Urgency or dribbling\n\nMost of the time it's benign prostatic enlargement, which is very treatable.\n\nBut see a doctor promptly if you have:\n→ Blood in urine or semen\n→ Pain while urinating\n→ Bone pain or unexplained weight loss\n\nOver 50 — or over 45 with a family history? Ask your doctor about prostate checks.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#menshealth #prostate #health #over50 #india"
+  },
+  {
+    "id": "223-spicy-ulcers",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Spicy food causes\nstomach ulcers?",
+    "body": "Most ulcers are caused by H. pylori infection or frequent painkiller use. Spicy food doesn't cause them, though it can worsen symptoms in some.",
+    "caption": "Love your mirchi but worried it'll give you an ulcer? You can probably relax.\n\nFor decades, ulcers were blamed on stress and spicy food. Then researchers discovered the real main causes:\n→ Infection with the bacterium H. pylori — very common in India\n→ Regular use of painkillers like ibuprofen, diclofenac and aspirin\n\nSpicy food doesn't cause ulcers. But it can worsen symptoms like heartburn or pain in people who already have acidity, ulcers or IBS.\n\nSee a doctor if you have:\n→ Burning stomach pain that keeps returning\n→ Black stools or vomiting blood\n→ Unexplained weight loss\n\nH. pylori can be tested and treated. Know the real cause.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#ulcer #acidity #digestion #spicyfood #mythbuster"
+  },
+  {
+    "id": "224-max-heart-rate",
+    "status": "queued",
+    "template": "stat",
+    "number": "220",
+    "label": "Minus age: max HR",
+    "body": "A rough max heart rate: 220 − age.\nAt 40, about 180 bpm. Moderate\nexercise ≈ 50–70% of that, vigorous\n≈ 70–85%. It's only an estimate.",
+    "caption": "Using a smartwatch while you exercise? Here's how to make sense of your heart rate.\n\nA simple estimate of your maximum heart rate is 220 minus your age.\n\nAt 40 → about 180 beats per minute.\n\nTraining zones (approximate):\n→ Moderate intensity: 50–70% of max → 90–126 bpm at 40\n→ Vigorous intensity: 70–85% of max → 126–153 bpm at 40\n\nWhat moderate feels like: you can talk, but not sing.\nWhat vigorous feels like: only a few words at a time.\n\nThis formula is rough — real maximums can differ by 10–20 beats.\n\nIf you take BP medicines like beta-blockers, heart rate targets won't apply. Go by feel and your doctor's advice.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#heartrate #cardio #fitness #smartwatch #training"
+  },
+  {
+    "id": "225-frozen-veg",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Fresh always\nbeats frozen?",
+    "body": "Frozen vegetables are picked and frozen at peak ripeness, keeping most nutrients. \"Fresh\" veg that sits for days can lose more. Both are great.",
+    "caption": "Feel guilty grabbing a packet of frozen peas or mixed vegetables? Don't.\n\nFrozen vegetables are usually picked when ripe and frozen within hours, which locks in most of their vitamins and minerals.\n\n\"Fresh\" vegetables can spend days in transport, at the market and in your fridge, slowly losing nutrients like vitamin C.\n\nStudies show frozen produce is often just as nutritious as fresh — sometimes more.\n\nFrozen veg is great because:\n→ It's quick — no chopping\n→ Less waste\n→ Available out of season\n\nCheck the label: just vegetables, no added salt, sauces or sugar.\n\nFresh, frozen, seasonal — the best vegetable is the one you actually eat.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#frozenfood #vegetables #nutrition #healthyeating #realitycheck"
+  },
+  {
+    "id": "226-ibs",
+    "status": "queued",
+    "template": "tip",
+    "label": "Gut health",
+    "headline": "Living\nwith IBS",
+    "highlight": "Find your triggers",
+    "body": "IBS causes cramps, bloating and changing bowel habits. A food and symptom diary, regular meals and stress care help. See a doctor first.",
+    "caption": "Constant stomach cramps, bloating, and swinging between constipation and loose motions? It might be IBS.\n\nIrritable bowel syndrome is a common condition where the gut is extra sensitive. It's real, it can be frustrating, and it's manageable.\n\nFirst, see a doctor to rule out other conditions — especially if you have weight loss, blood in stool, or symptoms that wake you at night.\n\nWhat helps many people:\n→ A food and symptom diary to find personal triggers\n→ Regular, unhurried meals\n→ Limiting very fatty, fried or spicy meals if they trigger you\n→ Soluble fibre like isabgol or oats\n→ Daily movement\n→ Managing stress — the gut-brain link is strong in IBS\n\nSome people benefit from a structured diet (low-FODMAP) with a dietitian.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#ibs #guthealth #bloating #digestion #health"
+  },
+  {
+    "id": "227-sleep-memory",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Sleep locks in\nwhat you learn.",
+    "body": "During sleep, your brain replays and stores the day's learning. Studying then sleeping well beats pulling an all-nighter.",
+    "caption": "Students pulling all-nighters before an exam are working against their own brains.\n\nWhile you sleep, your brain replays and strengthens what you learned during the day, moving it into long-term memory.\n\nResearch shows:\n→ Sleep after learning improves recall the next day\n→ Sleep deprivation reduces your ability to form new memories\n→ Both deep sleep and REM sleep play a role\n\nThat's true for exams, new skills, music, sports and work.\n\nHow to use this:\n→ Study in the evening, then sleep 7–9 hours\n→ Review key points before bed\n→ Avoid all-nighters before exams\n→ Take short naps after learning something new\n\nSleep isn't wasted time. It's when learning sticks.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#sleep #memory #students #brainhealth #didyouknow"
+  },
+  {
+    "id": "228-sugar-teaspoon",
+    "status": "queued",
+    "template": "stat",
+    "number": "4 g",
+    "label": "Sugar per teaspoon",
+    "body": "Divide grams of sugar on a label\nby 4 to get teaspoons. A drink with\n40 g sugar = 10 teaspoons.\nPicture it before you sip.",
+    "caption": "\"20 g of sugar per serving\" doesn't mean much to most people. Teaspoons do.\n\nOne teaspoon of sugar weighs about 4 grams.\n\nSo to understand a label, divide the grams of sugar by 4:\n→ Flavoured milk with 24 g → 6 teaspoons\n→ A cold drink with 40 g → 10 teaspoons\n→ A \"healthy\" granola bar with 12 g → 3 teaspoons\n→ A cup of chai with 2 tsp → 8 g\n\nWHO's ideal limit for added sugar is about 25 g a day — around 6 teaspoons.\n\nTry this: next time you shop, check the sugar on 3 things you buy often. Convert to teaspoons.\n\nIt changes how you see food.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#sugar #foodlabels #nutrition #health #diabetes"
+  },
+  {
+    "id": "229-worry-time",
+    "status": "queued",
+    "template": "tip",
+    "label": "Mental health",
+    "headline": "Overthinking?\nTry worry time",
+    "highlight": "15 minutes, same time",
+    "body": "Set a daily 15-minute \"worry time\". When worries pop up earlier, jot them down and postpone them. Your mind learns to wait.",
+    "caption": "Do worries follow you around all day — and into bed at night? Try giving them an appointment.\n\n\"Worry time\" is a technique used in cognitive behavioural therapy.\n\nHow it works:\n→ Pick a set 15-minute slot every day — early evening, not just before bed\n→ During the day, when a worry pops up, write it down in a few words\n→ Tell yourself: \"I'll think about this at worry time\"\n→ At worry time, go through the list. Problem-solve what you can\n→ When time's up, close the notebook\n\nMany people find that by worry time, half the worries no longer matter.\n\nIt takes practice. Be patient with yourself.\n\nIf anxiety is overwhelming, talk to a professional — Tele-MANAS: 14416.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#overthinking #anxiety #mentalhealth #cbt #wellbeing"
+  },
+  {
+    "id": "230-vitamin-c-cold",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Vitamin C cures\na cold?",
+    "body": "For most people, vitamin C doesn't prevent colds, and taking it once you're sick doesn't reliably help. Rest, fluids and time do.",
+    "caption": "Feeling a cold coming on and reaching for vitamin C tablets? Here's what the research shows.\n\nLarge reviews of studies have found:\n→ Regular vitamin C doesn't prevent colds for most people\n→ It may slightly shorten colds in people who take it every day\n→ Starting it once you're already sick doesn't reliably help\n→ People under extreme physical stress, like marathon runners, may benefit more\n\nMegadoses can cause stomach upset, and very high doses can raise the risk of kidney stones in some people.\n\nWhat really helps with a cold:\n→ Rest and sleep\n→ Fluids — water, soups, warm drinks\n→ Steam and salt-water gargles\n\nGet vitamin C from food: amla, guava, oranges, lemon, capsicum.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#vitaminc #cold #immunity #supplements #mythbuster"
+  },
+  {
+    "id": "231-dementia-prevention",
+    "status": "queued",
+    "template": "stat",
+    "number": "45%",
+    "label": "Dementia preventable",
+    "body": "The Lancet Commission (2024):\nabout 45% of dementia cases could\nbe prevented or delayed by tackling\n14 risk factors through life.",
+    "caption": "Dementia isn't just bad luck or genes. Nearly half of cases may be preventable.\n\nThe Lancet Commission on dementia (2024) estimated that about 45% of dementia cases worldwide could be prevented or delayed by addressing 14 risk factors.\n\nSome of the biggest:\n→ Hearing loss — use hearing aids if needed\n→ High LDL cholesterol\n→ High blood pressure\n→ Smoking\n→ Physical inactivity\n→ Depression and social isolation\n→ Diabetes and obesity\n→ Air pollution\n→ Excess alcohol\n→ Vision loss that isn't treated\n\nMany of these also protect your heart.\n\nWhat's good for your heart is good for your brain.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#dementia #brainhealth #healthyageing #prevention #health"
+  },
+  {
+    "id": "232-muscle-calories",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Muscle burns tons\nof calories?",
+    "body": "Each kg of muscle burns only about 13 kcal a day at rest. Muscle's real value is strength, blood sugar control and healthy ageing.",
+    "caption": "\"Build muscle and you'll burn hundreds of extra calories while resting.\" It's a popular claim — and a big exaggeration.\n\nAt rest, 1 kg of muscle burns roughly 13 calories a day. Fat burns about 4–5.\n\nGaining 2 kg of muscle → roughly 25 extra calories a day at rest. That's about one biscuit.\n\nSo why build muscle?\n→ Strength for everyday life\n→ Better blood sugar control\n→ Stronger bones and joints\n→ Fewer falls and better independence as you age\n→ A firmer, leaner look\n→ Training itself burns calories\n\nStrength training is one of the best things you can do — just not for the reason most people think.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#muscle #metabolism #strengthtraining #fitness #realitycheck"
+  },
+  {
+    "id": "233-desk-stretches",
+    "status": "queued",
+    "template": "tip",
+    "label": "Training",
+    "headline": "Desk\nstretches",
+    "highlight": "2 minutes every hour",
+    "sections": [
+      {
+        "title": "Neck",
+        "text": "Ear to shoulder, 15 sec each side."
+      },
+      {
+        "title": "Chest",
+        "text": "Clasp hands behind, open the chest."
+      },
+      {
+        "title": "Hips",
+        "text": "Stand, lunge, push hips forward."
+      }
+    ],
+    "caption": "Stiff neck, tight shoulders, achy lower back by 5 PM? Your desk might be the reason.\n\nLong hours sitting in one position tighten your neck, chest and hips.\n\nTry this every hour (takes 2 minutes):\n→ Neck: gently tilt your ear towards your shoulder, 15 seconds each side\n→ Shoulders: roll them back 10 times\n→ Chest: clasp hands behind your back, open your chest, 15 seconds\n→ Upper back: hug yourself and round your spine\n→ Hips: stand up, step one leg back into a lunge, push hips forward\n→ Wrists: gently stretch fingers back\n\nAlso:\n→ Screen at eye level\n→ Feet flat, back supported\n→ Walk while on calls\n\nThe best posture is your next posture.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#deskjob #stretching #posture #wfh #training"
+  },
+  {
+    "id": "234-music-workouts",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Music makes\nworkouts easier.",
+    "body": "Studies show music can make exercise feel easier and help you go longer. Upbeat songs around 120–140 bpm work well for cardio.",
+    "caption": "Ever noticed you run faster when your favourite song comes on? It's not your imagination.\n\nResearch shows that listening to music during exercise can:\n→ Make the effort feel easier\n→ Help you keep going longer\n→ Improve your mood during the workout\n→ Help keep a steady rhythm in running or cycling\n\nUpbeat songs with a tempo of around 120–140 beats per minute tend to work well for cardio.\n\nTips:\n→ Make a workout playlist with your most energising songs\n→ Save your best song for the hardest part\n→ Keep volume safe — and stay aware of traffic outdoors\n\nBollywood, Punjabi, rock or EDM — whatever moves you.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#music #workout #motivation #fitness #didyouknow"
+  },
+  {
+    "id": "235-balance-65",
+    "status": "queued",
+    "template": "stat",
+    "number": "3 days",
+    "label": "Balance work, 65+",
+    "body": "WHO: adults 65+ should do balance\nand strength activities on 3 or\nmore days a week. It cuts falls,\nthe top cause of injury in elders.",
+    "caption": "Falls are one of the biggest threats to independence as we age. Many can be prevented.\n\nWHO recommends that adults aged 65 and over do varied activities that focus on balance and strength on at least 3 days a week.\n\nSimple balance exercises (hold a chair or wall):\n→ Stand on one leg for 10–30 seconds\n→ Heel-to-toe walking in a straight line\n→ Sit-to-stand from a chair without using hands\n→ Slow side-steps\n→ Tai chi or gentle yoga\n\nMake the home safer too:\n→ Good lighting, especially at night\n→ Remove loose rugs and clutter\n→ Grab bars in the bathroom\n→ Proper footwear\n\nShare this with your parents and grandparents.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#healthyageing #seniors #balance #fallprevention #who"
+  },
+  {
+    "id": "236-festive-eating",
+    "status": "queued",
+    "template": "tip",
+    "label": "Nutrition",
+    "headline": "Festive eating\nwithout guilt",
+    "highlight": "Enjoy, then get moving",
+    "sections": [
+      {
+        "title": "Before",
+        "text": "Don't starve — eat a normal meal."
+      },
+      {
+        "title": "During",
+        "text": "Small plate. Pick your favourites."
+      },
+      {
+        "title": "After",
+        "text": "Walk, sleep well, back to routine."
+      }
+    ],
+    "caption": "Festivals are for celebrating — with family, food and sweets. You don't have to choose between enjoying them and staying healthy.\n\nBefore:\n→ Don't skip meals to \"save up\" — you'll overeat later\n→ Have a protein-rich snack before going out\n\nDuring:\n→ Use a smaller plate\n→ Pick the sweets you really love; skip the ones you don't\n→ Eat slowly and enjoy every bite\n→ Drink water between snacks\n\nAfter:\n→ Go for a walk after big meals\n→ Get back to normal meals the next day\n→ Keep up your sleep and exercise routine\n\nOne festive day won't undo your progress. Guilt and \"all or nothing\" thinking might.\n\nHappy festivities!\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#festival #diwali #healthyeating #mithai #india"
+  },
+  {
+    "id": "237-ghee",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Ghee is bad\nfor you?",
+    "body": "Ghee is mostly saturated fat, so portion matters. A teaspoon or two a day can fit a healthy diet. It's neither poison nor a superfood.",
+    "caption": "Ghee has gone from villain to superfood and back. The truth is somewhere in the middle.\n\nGhee is about 60% saturated fat. Too much saturated fat can raise LDL cholesterol in many people.\n\nBut a small amount:\n→ Adds flavour and satisfaction to meals\n→ Helps absorb fat-soluble vitamins\n→ Has a high smoke point for cooking\n\nWhat's reasonable for most healthy adults:\n→ About 1–2 teaspoons a day as part of your total fat\n→ Rotating with vegetable oils like mustard, groundnut or rice bran\n→ Not adding a spoonful on top of every roti and dal\n\nIf you have high LDL cholesterol or heart disease, ask your doctor how much is right for you.\n\nGhee is fine. Lots of ghee isn't.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#ghee #nutrition #healthyfats #indianfood #mythbuster"
+  },
+  {
+    "id": "238-body-water",
+    "status": "queued",
+    "template": "stat",
+    "number": "60%",
+    "label": "Body weight is water",
+    "body": "Water makes up about 50–60% of an\nadult's body weight. It carries\nnutrients, controls temperature\nand cushions your joints.",
+    "caption": "You're mostly water. That's why even mild dehydration shows up quickly.\n\nIn adults, water makes up about 50–60% of body weight. Muscle holds more water than fat.\n\nWhat water does for you:\n→ Carries nutrients and oxygen to your cells\n→ Keeps your body temperature steady through sweat\n→ Cushions joints and protects the brain and spinal cord\n→ Helps your kidneys flush out waste\n→ Keeps digestion moving\n\nEasy hydration habits:\n→ Start the day with a glass of water\n→ Carry a bottle\n→ Drink more in heat and when exercising\n→ Eat water-rich foods: cucumber, watermelon, buttermilk, dal\n\nCheck your urine — pale yellow is the goal.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#hydration #water #health #science #wellness"
+  },
+  {
+    "id": "239-granola",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Granola is a\nhealth food?",
+    "body": "Many store-bought granolas are baked with lots of sugar and oil — often 450+ kcal per 100 g. Check the label, or make your own.",
+    "caption": "Granola looks wholesome: oats, nuts, seeds, a bit of honey. But many packets are closer to a dessert.\n\nStore-bought granola and \"crunchy muesli\" are often baked with sugar, syrups and oil to make them crisp.\n\nThat can mean:\n→ 450–500 calories per 100 g\n→ 15–25 g of sugar per 100 g\n→ Easy to pour a big bowl without realising\n\nHow to choose better:\n→ Look for sugar under 10 g per 100 g\n→ Check the serving size — often just 40–50 g\n→ Pick plain rolled oats or unsweetened muesli instead\n\nMake your own: plain oats + a few nuts and seeds + fresh fruit + curd or milk.\n\nHealthy-looking packaging isn't the same as healthy food.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#granola #breakfast #sugar #nutrition #realitycheck"
+  },
+  {
+    "id": "240-glute-bridge",
+    "status": "queued",
+    "template": "tip",
+    "label": "Training",
+    "headline": "Wake up\nyour glutes",
+    "highlight": "Try the glute bridge",
+    "sections": [
+      {
+        "title": "Set up",
+        "text": "On your back, knees bent, feet flat."
+      },
+      {
+        "title": "Lift",
+        "text": "Squeeze glutes, raise hips in a line."
+      },
+      {
+        "title": "Reps",
+        "text": "Pause 2 sec at top. 3 sets of 12."
+      }
+    ],
+    "caption": "Sitting all day can leave your glutes — the biggest muscles in your body — weak and switched off. That can contribute to back and knee pain.\n\nThe glute bridge is a simple fix you can do on your bedroom floor.\n\nHow to do it:\n→ Lie on your back, knees bent, feet flat and hip-width apart\n→ Press through your heels\n→ Squeeze your glutes and lift your hips until your body forms a straight line from shoulders to knees\n→ Pause for 2 seconds at the top\n→ Lower slowly\n\nStart with 3 sets of 12.\n\nMake it harder:\n→ Single-leg bridges\n→ A weight or backpack on your hips\n\nStrong glutes protect your back and power every step.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#glutes #homeworkout #backpain #fitness #training"
+  },
+  {
+    "id": "241-nails-health",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Your nails can\nhint at health.",
+    "body": "Pale or spoon-shaped nails can point to low iron. Sudden changes in colour or shape deserve a doctor's look. White spots are usually harmless.",
+    "caption": "Your nails can sometimes give clues about what's going on inside your body.\n\nChanges worth noticing:\n→ Pale nails — can be a sign of anaemia\n→ Spoon-shaped nails that curve upwards — linked to iron deficiency\n→ Clubbing (fingertips swell, nails curve down) — can signal lung or heart problems\n→ Dark streaks that are new or changing — get checked\n→ Yellow, thick nails — often a fungal infection\n\nWhat's usually harmless:\n→ Small white spots — typically from minor knocks, not calcium deficiency\n→ Fine vertical ridges — common with age\n\nNails alone can't diagnose anything. But a sudden change, especially with other symptoms, deserves a doctor's look.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#nails #anaemia #health #selfcheck #didyouknow"
+  },
+  {
+    "id": "242-boil-water",
+    "status": "queued",
+    "template": "stat",
+    "number": "1 min",
+    "label": "Rolling boil for safety",
+    "body": "Unsure about your water? Bring it\nto a rolling boil for 1 minute,\nthen cool it covered. That kills\nmost germs that cause diarrhoea.",
+    "caption": "Monsoon, travel, or a water supply you're not sure about? Boiling is the simplest way to make water safe.\n\nWHO advises bringing water to a rolling boil — big bubbles that don't stop when you stir — to kill most disease-causing germs.\n\nHow to do it:\n→ Bring water to a full rolling boil\n→ Keep it boiling for about 1 minute\n→ Let it cool naturally, covered\n→ Store in a clean, covered container\n→ Pour or use a ladle — don't dip hands or glasses in\n\nBoiling kills germs, but doesn't remove chemicals or heavy metals. For those, use a certified filter.\n\nClean drinking water prevents diarrhoea, typhoid and hepatitis A.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#safewater #monsoon #diarrhoea #health #india"
+  },
+  {
+    "id": "243-muscle-cramps",
+    "status": "queued",
+    "template": "tip",
+    "label": "Symptoms",
+    "headline": "Leg cramps\nat night?",
+    "highlight": "Stretch the calf gently",
+    "body": "Flex your foot towards you or stand and stretch the calf. Stretching before bed and staying active may help. Frequent cramps need a check.",
+    "caption": "Woken up by a sudden, painful cramp in your calf? Night-time leg cramps are very common, especially as we get older.\n\nIn the moment:\n→ Straighten your leg and pull your toes towards you\n→ Or stand and press your heel into the floor\n→ Massage the muscle gently\n→ A warm towel or shower afterwards\n\nTo help prevent them:\n→ Gently stretch your calves before bed\n→ Stay active during the day\n→ Drink enough fluids\n→ Avoid sitting with legs bent for long periods\n\nSee a doctor if cramps are frequent, affect your sleep regularly, or come with swelling, redness, weakness or numbness.\n\nSome medicines can also cause cramps — your doctor can review them.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#legcramps #muscles #sleep #health #symptoms"
+  },
+  {
+    "id": "244-potatoes",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Potatoes make\nyou fat?",
+    "body": "A boiled potato has fewer calories than most people think, plus fibre and potassium. It's the frying, butter and big portions that pile on.",
+    "caption": "Aloo gets a bad reputation. But the humble potato isn't the problem — it's what we do to it.\n\n100 g of boiled potato has about 75–90 calories, with fibre (in the skin), potassium and vitamin C.\n\nWhere it goes wrong:\n→ Deep-fried: chips, fries, aloo tikki, samosa\n→ Loaded with butter or cream\n→ Huge portions, often alongside rice or roti\n\nSmarter ways to enjoy potatoes:\n→ Boiled, roasted or baked, with the skin on\n→ In a sabzi with lots of other vegetables\n→ As part of the carbs on your plate, not extra\n→ Cooked and cooled — for more resistant starch\n\nNote: potatoes don't count towards your 5-a-day fruit and veg.\n\nEnjoy aloo — just not deep-fried every day.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#potato #aloo #nutrition #weightloss #mythbuster"
+  },
+  {
+    "id": "245-dental-checkup",
+    "status": "queued",
+    "template": "stat",
+    "number": "6 mo",
+    "label": "Dental check-up",
+    "body": "See a dentist about every 6 months\nfor a check-up and cleaning.\nCavities and gum disease are\nsilent until they're serious.",
+    "caption": "Most people only visit the dentist when something hurts. By then, the problem is often bigger and costlier.\n\nA dental check-up and cleaning every 6 months (or as often as your dentist advises) can:\n→ Catch cavities while they're small\n→ Spot gum disease early\n→ Remove tartar that brushing can't\n→ Screen for mouth cancer — especially important if you use tobacco\n\nSigns to see a dentist sooner:\n→ Bleeding or swollen gums\n→ Sensitivity to hot or cold\n→ Persistent bad breath\n→ Loose teeth\n→ White or red patches, or sores that don't heal\n\nGum disease is linked to heart disease and diabetes.\n\nHealthy mouth, healthy body.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#dental #oralhealth #teeth #health #checkup"
+  },
+  {
+    "id": "246-dark-chocolate",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Dark chocolate is\na health food?",
+    "body": "70%+ dark chocolate has antioxidants and less sugar than milk chocolate. But it's still calorie-dense. A square or two is a treat, not medicine.",
+    "caption": "Dark chocolate has a health halo. It's better than most sweets — but it's still chocolate.\n\nDark chocolate (70% cocoa or more) contains flavanols — plant compounds linked to heart benefits in some studies — and less sugar than milk chocolate.\n\nThe catch:\n→ A 100 g bar has around 550–600 calories\n→ It still contains sugar and saturated fat\n→ Many studies used concentrated cocoa extracts, not chocolate bars\n\nHow to enjoy it well:\n→ Choose 70% cocoa or higher\n→ Stick to 1–2 small squares\n→ Savour it slowly after a meal\n\nIf you want a sweet treat, dark chocolate is one of the better choices.\n\nA treat, not a supplement.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#darkchocolate #chocolate #nutrition #sweets #realitycheck"
+  },
+  {
+    "id": "247-after-bad-night",
+    "status": "queued",
+    "template": "tip",
+    "label": "Sleep",
+    "headline": "After a\nbad night",
+    "highlight": "Keep your wake-up time",
+    "body": "Get up at your usual time, get morning light, and keep caffeine before 2 PM. A short nap is okay. Don't go to bed hours early.",
+    "caption": "Slept terribly? What you do the next day can either reset your sleep — or make tonight worse too.\n\nDo:\n→ Get up at your usual time, even if you're tired\n→ Get bright daylight within an hour of waking\n→ Move your body — a walk helps with energy\n→ Keep caffeine before 2 PM\n→ A short nap of 10–20 minutes, before 3 PM, if you need it\n\nDon't:\n→ Sleep in for hours\n→ Take a long afternoon nap\n→ Go to bed much earlier than usual\n→ Drink alcohol to help you sleep\n\nOne bad night is normal and your body will catch up.\n\nIf poor sleep is happening 3+ nights a week for months, talk to a doctor.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#sleep #insomnia #tired #sleeptips #health"
+  },
+  {
+    "id": "248-light-body-clock",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Light sets your\nbody clock.",
+    "body": "Morning daylight tells your brain it's day, making you sleepy earlier at night. Bright screens late at night push your clock later.",
+    "caption": "Your body clock doesn't run on alarms. It runs on light.\n\nSpecial cells in your eyes detect light and send signals to your brain's master clock.\n\nMorning light:\n→ Tells your brain the day has started\n→ Lifts alertness and mood\n→ Helps you feel sleepy earlier in the evening\n\nBright light late at night:\n→ Delays the release of melatonin, the sleep hormone\n→ Pushes your body clock later\n→ Makes it harder to fall asleep and wake up\n\nUse light to your advantage:\n→ Get outdoor light within an hour of waking — even on cloudy days\n→ Dim lights in the evening\n→ Lower screen brightness and stop scrolling before bed\n\nLight in the morning. Dark at night.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#sleep #circadianrhythm #sunlight #health #didyouknow"
+  },
+  {
+    "id": "249-fall-asleep-time",
+    "status": "queued",
+    "template": "stat",
+    "number": "10-20",
+    "label": "Minutes to fall asleep",
+    "body": "Falling asleep in about 10–20 min\nis typical. Out in under 5 every\nnight? You may be sleep-deprived.\nOver 30 often? Check your habits.",
+    "caption": "How long does it take you to fall asleep? The answer says something about your sleep.\n\nFor most healthy adults, it takes around 10–20 minutes to fall asleep after lights out.\n\nWhat different times can mean:\n→ Under 5 minutes, every night: you may not be getting enough sleep\n→ 10–20 minutes: typical\n→ More than 30 minutes, regularly: could be stress, caffeine, screens, an irregular schedule, or insomnia\n\nIf it takes you a long time:\n→ Keep the same wake-up time daily\n→ No caffeine after 2 PM\n→ Put the phone away 30 minutes before bed\n→ Get out of bed if you're awake for 20 minutes\n\nStruggling most nights for months? See a doctor.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#sleep #insomnia #sleeptips #health #wellness"
+  },
+  {
+    "id": "250-three-good-things",
+    "status": "queued",
+    "template": "tip",
+    "label": "Wellbeing",
+    "headline": "Three good\nthings",
+    "highlight": "Write them each night",
+    "body": "Before bed, write down three things that went well today and why. Studies found this simple habit lifted mood for months.",
+    "caption": "Our brains are wired to notice what went wrong. This simple habit trains them to notice what went right.\n\nIt's called \"Three Good Things\". In a well-known study, people who did it every night for a week were happier and less depressed — and the effect lasted for months.\n\nHow to do it:\n→ Before bed, write down three things that went well today\n→ They can be small: a good chai, a kind message, finishing a task\n→ Next to each, write why it happened\n\nWhy it works:\n→ It shifts your attention to the positives\n→ It helps you see your own role in good things\n→ It ends the day on a calmer note\n\nTwo minutes. One notebook. Try it for a week.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#gratitude #mentalhealth #happiness #wellbeing #selfcare"
+  },
+  {
+    "id": "251-elderly-sleep",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Older people need\nless sleep?",
+    "body": "Adults over 65 still need about 7–8 hours. Sleep gets lighter and more broken with age, but the need doesn't vanish. Poor sleep isn't normal.",
+    "caption": "\"Old people don't need much sleep.\" It's a common belief — and it isn't true.\n\nSleep experts recommend that adults aged 65 and over still get about 7–8 hours of sleep a night.\n\nWhat does change with age:\n→ Sleep becomes lighter, with less deep sleep\n→ More waking during the night\n→ The body clock shifts earlier — sleepy earlier, awake earlier\n\nWhat's not normal:\n→ Constant trouble falling or staying asleep\n→ Loud snoring with pauses in breathing\n→ Feeling exhausted every day\n\nHelp older family members sleep better:\n→ Daylight and activity during the day\n→ Limit long daytime naps\n→ Review medicines with a doctor\n→ A regular bedtime routine\n\nGood sleep matters at every age.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#sleep #healthyageing #seniors #health #mythbuster"
+  },
+  {
+    "id": "252-inactive-adults",
+    "status": "queued",
+    "template": "stat",
+    "number": "31%",
+    "label": "Adults not active enough",
+    "body": "WHO: 31% of adults worldwide don't\nmeet activity guidelines. Studies\nsuggest nearly half of Indian\nadults fall short. Start small.",
+    "caption": "Nearly 1 in 3 adults worldwide isn't moving enough. In India, the numbers are even higher.\n\nWHO reported that in 2022, 31% of adults — about 1.8 billion people — didn't meet the recommended 150 minutes of activity a week.\n\nStudies suggest nearly half of Indian adults are insufficiently active, with women less active than men.\n\nInactivity raises the risk of:\n→ Heart disease and stroke\n→ Type 2 diabetes\n→ Some cancers\n→ Depression and dementia\n\nGetting started is simpler than you think:\n→ A 10-minute walk after each meal\n→ Take the stairs\n→ Stand up and move every 30 minutes\n→ Dance, play, cycle — anything counts\n\nBe part of the active two-thirds.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#exercise #inactivity #who #health #india"
+  },
+  {
+    "id": "253-long-workouts",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Longer workouts\nare always better?",
+    "body": "A focused 30–45 minute session can deliver most of the benefits. Consistency and effort beat marathon gym hours. Rest matters too.",
+    "caption": "Spending two hours at the gym, half of it on your phone? Longer isn't always better.\n\nFor most people, a focused 30–45 minute workout can deliver most of the strength and fitness benefits.\n\nWhat matters more than time:\n→ Consistency — 3–4 sessions a week, every week\n→ Effort — working close to your limit on strength sets\n→ Progress — gradually adding weight, reps or intensity\n→ Recovery — sleep and rest days\n\nMake short workouts count:\n→ Have a plan before you walk in\n→ Focus on big movements: squats, push-ups, rows, lunges\n→ Keep rest times reasonable\n→ Phone on airplane mode\n\nBusy? A short, consistent workout beats a long one you skip.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#workout #fitness #gym #busylife #realitycheck"
+  },
+  {
+    "id": "254-uti-prevention",
+    "status": "queued",
+    "template": "tip",
+    "label": "Women's health",
+    "headline": "Prevent\nUTIs",
+    "highlight": "Drink water, don't hold it",
+    "body": "Drink enough fluids, pee when you need to, and after sex. Wipe front to back. Burning, urgency or fever means see a doctor.",
+    "caption": "Urinary tract infections (UTIs) are very common in women — and painful. A few habits lower the risk.\n\nCommon signs:\n→ Burning while passing urine\n→ Needing to go often and urgently\n→ Cloudy or strong-smelling urine\n→ Lower belly pain\n\nPrevention tips:\n→ Drink enough water through the day\n→ Don't hold in urine for long — common at work or while travelling\n→ Pee after sex\n→ Wipe front to back\n→ Wear breathable cotton underwear\n→ Avoid harsh soaps or douches in the genital area\n\nSee a doctor — don't self-medicate with leftover antibiotics.\n\nFever, back pain or blood in urine? Seek care quickly — it may have reached the kidneys.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#uti #womenshealth #hygiene #health #india"
+  },
+  {
+    "id": "255-gut-lining",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Your gut lining\nrenews in days.",
+    "body": "Cells lining your intestines are replaced every few days — some of the fastest renewal in your body. Fibre and good food help it.",
+    "caption": "Some of the busiest cells in your body line your gut.\n\nThe cells lining your intestines are replaced every few days. It's one of the fastest-renewing tissues in the body.\n\nWhy? They face constant wear from food, acid, enzymes and bacteria.\n\nWhat supports a healthy gut lining:\n→ Fibre — it feeds gut bacteria that make compounds the lining cells use for energy\n→ A variety of plant foods\n→ Fermented foods like curd\n→ Limiting alcohol\n→ Not overusing painkillers like NSAIDs, which can irritate the gut\n→ Managing stress and sleeping well\n\nYour gut rebuilds itself constantly. Give it the right materials.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#guthealth #fibre #digestion #science #didyouknow"
+  },
+  {
+    "id": "256-tobacco-india",
+    "status": "queued",
+    "template": "stat",
+    "number": "28.6%",
+    "label": "Indian adults use tobacco",
+    "body": "GATS-2: 28.6% of Indian adults\nuse tobacco — about 27 crore people.\nMost use smokeless forms like\ngutkha and khaini.",
+    "caption": "Tobacco is one of India's biggest health problems — and it's completely preventable.\n\nThe Global Adult Tobacco Survey (GATS-2) found that 28.6% of Indian adults use tobacco in some form — around 27 crore people.\n\nSmokeless tobacco — gutkha, khaini, zarda, paan with tobacco — is used by even more people than cigarettes and bidis.\n\nTobacco causes:\n→ Mouth, throat and lung cancer\n→ Heart attacks and strokes\n→ Lung disease and TB complications\n→ Over a million deaths in India every year\n\nWant to quit?\n→ National Tobacco Quitline: 1800-112-356 (free)\n→ Talk to your doctor about nicotine replacement\n\nEvery quit attempt counts. Every quit saves a life.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#tobacco #quitsmoking #gutkha #health #india"
+  },
+  {
+    "id": "257-lower-bp-lifestyle",
+    "status": "queued",
+    "template": "tip",
+    "label": "Heart health",
+    "headline": "Habits that\nlower BP",
+    "highlight": "Salt, steps and sleep",
+    "sections": [
+      {
+        "title": "Less salt",
+        "text": "Under 5 g a day; skip pickles, papad."
+      },
+      {
+        "title": "Move",
+        "text": "30 min brisk walking, most days."
+      },
+      {
+        "title": "Also",
+        "text": "Lose belly fat, sleep well, limit alcohol."
+      }
+    ],
+    "caption": "High blood pressure? Lifestyle changes can lower it meaningfully — sometimes as much as a medicine.\n\nWhat works:\n→ Cut salt to under 5 g a day — less pickle, papad, namkeen and packaged food\n→ More fruit, vegetables, dal and low-fat dairy\n→ 30 minutes of brisk walking on most days\n→ Lose weight if you carry extra, especially around the belly\n→ Limit or avoid alcohol\n→ Quit tobacco\n→ Sleep 7–8 hours and manage stress\n\nEach change can lower BP by a few points. Together, they add up.\n\nImportant: if your doctor has prescribed BP medicine, don't stop it on your own. Make the changes, monitor your BP, and review with your doctor.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#bloodpressure #hypertension #hearthealth #lifestyle #health"
+  },
+  {
+    "id": "258-kids-weights",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Weights stunt\nkids' growth?",
+    "body": "Supervised strength training is safe for children and teens and doesn't stunt growth. It builds stronger bones and muscles and helps prevent injury.",
+    "caption": "\"Don't let kids lift weights — it'll stunt their growth.\" This old myth keeps many children away from a healthy activity.\n\nPaediatric experts say supervised, age-appropriate strength training is safe for children and teenagers — and doesn't stunt growth.\n\nBenefits for kids:\n→ Stronger bones and muscles\n→ Fewer sports injuries\n→ Better coordination and confidence\n→ Healthier weight\n\nKeys to doing it safely:\n→ Supervision by a trained coach or adult\n→ Focus on good technique, not heavy weights\n→ Start with bodyweight: squats, push-ups, planks\n→ Light weights with higher reps\n\nChildren already \"lift\" their body weight when they climb, jump and play.\n\nStrong kids grow into strong adults.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#kids #strengthtraining #parenting #fitness #mythbuster"
+  },
+  {
+    "id": "259-egg-protein",
+    "status": "queued",
+    "template": "stat",
+    "number": "6 g",
+    "label": "Protein in one egg",
+    "body": "One large egg gives about 6 g of\nhigh-quality protein, plus B12,\nvitamin D and choline. Two eggs at\nbreakfast is an easy 12 g start.",
+    "caption": "Looking for an affordable, easy protein? The humble egg is hard to beat.\n\nOne large egg provides about 6 g of high-quality protein — with all the essential amino acids your body needs.\n\nIt also gives you:\n→ Vitamin B12\n→ Vitamin D (one of the few food sources)\n→ Choline, important for the brain\n→ Lutein, good for the eyes\n\nEasy ways to add eggs:\n→ Boiled eggs as a snack\n→ Egg bhurji with vegetables\n→ A vegetable omelette with whole wheat toast\n→ Egg curry with roti\n\nMost of the protein is in the white; most of the vitamins are in the yolk. Eat the whole egg.\n\nFor most healthy people, an egg a day is fine.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#eggs #protein #nutrition #breakfast #health"
+  },
+  {
+    "id": "260-cholesterol-young",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Cholesterol is only\nan old-age issue?",
+    "body": "High cholesterol can start in your 20s, and some families inherit very high levels. Get a lipid profile in your 20s and repeat it regularly.",
+    "caption": "\"I'm too young to worry about cholesterol.\" Plaque in your arteries starts building decades before a heart attack.\n\nHigh cholesterol has no symptoms. You can feel fine and still have high levels.\n\nWho should pay attention early:\n→ Anyone with a family history of early heart attacks (men before 55, women before 65)\n→ People with diabetes, high BP or excess belly fat\n→ Smokers\n→ Anyone who hasn't ever been tested\n\nSome families have a genetic condition — familial hypercholesterolaemia — that causes very high LDL from birth.\n\nWhat to do:\n→ Get a lipid profile in your 20s\n→ Repeat every few years, or as your doctor advises\n→ Build heart-healthy habits now\n\nIt's easier to prevent than to reverse.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#cholesterol #hearthealth #lipidprofile #prevention #realitycheck"
+  },
+  {
+    "id": "261-fibre-slowly",
+    "status": "queued",
+    "template": "tip",
+    "label": "Gut health",
+    "headline": "Fibre without\nthe bloat",
+    "highlight": "Increase it slowly",
+    "body": "Jumping from low to high fibre overnight causes gas. Add one serving every few days, drink more water, and let your gut adjust.",
+    "caption": "Started eating more fibre and now feel bloated and gassy? You probably went too fast.\n\nYour gut bacteria need time to adjust to more fibre. A sudden jump can cause gas, bloating and discomfort.\n\nHow to increase fibre comfortably:\n→ Add one extra serving every few days, not all at once\n→ Drink more water alongside — fibre needs fluid\n→ Cook pulses well; soak them first\n→ Start with gentler options: oats, cooked vegetables, fruit like papaya and banana\n→ Then add rajma, chana, raw salads and more whole grains\n→ Stay active — movement helps digestion\n\nMost people feel the bloating settle within a few weeks.\n\nThe goal: around 25–30 g of fibre a day.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#fibre #guthealth #bloating #digestion #nutrition"
+  },
+  {
+    "id": "262-spinach-iron",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Spinach isn't an\niron superstar.",
+    "body": "Spinach contains iron, but oxalates block much of it from being absorbed. Still eat it — and pair greens with vitamin C, dal and other iron sources.",
+    "caption": "Spinach has a reputation as the ultimate iron food. It's more complicated than that.\n\nSpinach does contain iron, but it also contains oxalates — compounds that bind to iron and calcium and block much of it from being absorbed.\n\nPlant iron in general is less easily absorbed than iron from meat, fish and eggs.\n\nBetter ways to boost iron:\n→ Combine iron-rich foods with vitamin C: lemon on palak dal, amla, guava\n→ Eat a variety: dal, rajma, chana, ragi, bajra, sesame, jaggery in small amounts\n→ For non-vegetarians: eggs, fish, chicken, meat\n→ Keep chai and coffee away from meals\n\nSpinach is still great — for fibre, folate, vitamin K and more. Just don't rely on it alone for iron.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#iron #spinach #anaemia #nutrition #didyouknow"
+  },
+  {
+    "id": "263-bowel-normal",
+    "status": "queued",
+    "template": "stat",
+    "number": "3/3",
+    "label": "Normal bowel range",
+    "body": "Anything from 3 times a day to\n3 times a week can be normal.\nWhat matters is a change from\nyour usual — and how it feels.",
+    "caption": "How often should you go to the toilet? There's a wider range of normal than most people think.\n\nFor most healthy adults, anywhere from 3 times a day to 3 times a week can be normal.\n\nWhat matters more:\n→ Stools that are soft and easy to pass\n→ No straining or pain\n→ A pattern that's normal for you\n\nSee a doctor if you notice:\n→ A lasting change from your usual pattern\n→ Blood in stool, or black, tarry stools\n→ Unexplained weight loss\n→ Constipation or diarrhoea lasting more than a few weeks\n→ Pain that wakes you at night\n\nFor healthy digestion: fibre, water, movement and a regular routine.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#guthealth #digestion #constipation #health #bodyfacts"
+  },
+  {
+    "id": "264-sunday-dread",
+    "status": "queued",
+    "template": "tip",
+    "label": "Mental health",
+    "headline": "Sunday night\ndread?",
+    "highlight": "Plan Monday on Friday",
+    "body": "Before leaving work on Friday, list Monday's first three tasks. Plan something nice for Sunday evening. Persistent dread is worth a talk.",
+    "caption": "Sunday evening comes and your stomach sinks thinking about Monday? The \"Sunday scaries\" are very common.\n\nWhat helps:\n→ On Friday, write down your top 3 tasks for Monday — your brain can let go over the weekend\n→ Prepare small things on Saturday, not Sunday night: clothes, tiffin plan, bag\n→ Plan something enjoyable for Sunday evening — a walk, a call, a favourite meal\n→ Keep Sunday's bedtime and wake-up time close to weekdays\n→ Limit checking work emails on weekends\n\nIf the dread is intense every week, notice what's driving it:\n→ Workload?\n→ A difficult manager or colleague?\n→ The job itself?\n\nPersistent dread is a signal worth discussing — with your manager, a mentor, or a counsellor.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#mentalhealth #anxiety #worklife #stress #wellbeing"
+  },
+  {
+    "id": "265-sugar-cancer",
+    "status": "queued",
+    "template": "myth",
+    "label": "Myth buster",
+    "headline": "Sugar feeds\ncancer?",
+    "body": "All cells use glucose. Eating sugar doesn't directly make cancer grow, but excess sugar drives weight gain, which raises cancer risk.",
+    "caption": "\"Sugar feeds cancer, so cut it out completely.\" This message spreads widely, especially among worried families.\n\nHere's what the science says:\n→ Every cell in your body uses glucose for energy — including cancer cells\n→ Your body makes glucose even if you eat no sugar at all\n→ There's no evidence that eating sugar directly makes cancer grow faster\n\nThe real link:\n→ A diet high in sugar can lead to weight gain\n→ Excess body fat raises the risk of at least 13 types of cancer\n\nFor people with cancer, extreme diets can cause dangerous weight and muscle loss. Always follow the advice of the cancer care team.\n\nLimit added sugar for overall health — not out of fear.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#cancer #sugar #nutrition #health #mythbuster"
+  },
+  {
+    "id": "266-teen-mental-health",
+    "status": "queued",
+    "template": "stat",
+    "number": "1 in 7",
+    "label": "Teens with a disorder",
+    "body": "WHO: about 1 in 7 young people\naged 10–19 has a mental health\ncondition. Half of all conditions\nbegin by age 14. Ask, and listen.",
+    "caption": "Teenagers aren't just being \"moody\". Many are struggling with real mental health conditions.\n\nWHO estimates that about 1 in 7 young people aged 10–19 experience a mental disorder. Half of all mental health conditions start by age 14 — but most go undetected and untreated.\n\nSigns to watch for in teens:\n→ Withdrawing from friends and family\n→ Big changes in sleep or appetite\n→ Falling grades or skipping school\n→ Constant irritability, sadness or worry\n→ Talking about feeling hopeless\n\nHow parents can help:\n→ Ask, and really listen — without judging\n→ Don't dismiss feelings as \"a phase\"\n→ Seek help early\n\nTele-MANAS: 14416 (free, 24/7).\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#teens #mentalhealth #parenting #telemanas #india"
+  },
+  {
+    "id": "267-cardio-gains",
+    "status": "queued",
+    "template": "myth",
+    "label": "Reality check",
+    "headline": "Cardio kills your\nmuscle gains?",
+    "body": "For most people, adding cardio barely affects muscle growth. Only very high amounts may interfere. Cardio boosts recovery and heart health.",
+    "caption": "Avoiding all cardio because you're afraid of losing your hard-earned muscle? You don't need to.\n\nResearch shows that for most people, combining cardio with strength training has little impact on muscle growth.\n\nOnly very high amounts of endurance training — like marathon training while trying to bulk up — may interfere.\n\nCardio actually helps lifters:\n→ A stronger heart and better recovery between sets\n→ Better blood sugar and cholesterol\n→ More stamina for longer sessions\n\nHow to combine them:\n→ Do strength training first if both are on the same day\n→ Or split them — e.g., morning cardio, evening lifting\n→ Walking and cycling are easy on recovery\n→ Eat enough protein\n\nYou don't have to choose between strong and fit.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#cardio #strengthtraining #gym #fitness #realitycheck"
+  },
+  {
+    "id": "268-exercise-snacks",
+    "status": "queued",
+    "template": "tip",
+    "label": "Training",
+    "headline": "Try exercise\nsnacks",
+    "highlight": "1–2 minute bursts count",
+    "body": "No time? Climb stairs briskly, do 20 squats or march fast for a minute, a few times a day. It adds up.",
+    "caption": "No time for a full workout? Try \"exercise snacks\" — short bursts of activity spread through your day.\n\nResearch suggests that brief, vigorous bursts — like climbing stairs quickly for a minute, a few times a day — can improve fitness in people who are inactive.\n\nExercise snack ideas:\n→ Climb 2–3 flights of stairs briskly\n→ 20 bodyweight squats\n→ 1 minute of fast marching or skipping\n→ 10 push-ups against a wall or desk\n→ A brisk walk around the building\n\nFit them in:\n→ Before your morning chai\n→ Between meetings or study sessions\n→ While waiting for the pressure cooker whistle\n\nAim for 3–5 snacks a day.\n\nEvery bit of movement counts.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#exercisesnacks #busylife #fitness #homeworkout #training"
+  },
+  {
+    "id": "269-thirst-age",
+    "status": "queued",
+    "template": "myth",
+    "label": "Did you know",
+    "headline": "Thirst fades\nwith age.",
+    "body": "Older adults often feel less thirsty even when they need water, which raises the risk of dehydration. Offer drinks regularly, not just when asked.",
+    "caption": "Grandparents saying \"I'm not thirsty\" doesn't mean they're well hydrated.\n\nAs we age, the body's thirst signal weakens. Older adults can become dehydrated without feeling thirsty.\n\nOther factors add to the risk:\n→ Some medicines, like diuretics\n→ Avoiding drinks to reduce toilet trips\n→ Hot Indian summers\n→ Illness, fever or diarrhoea\n\nSigns of dehydration in older adults:\n→ Confusion or unusual drowsiness\n→ Dizziness or falls\n→ Dark urine, or less of it\n→ Constipation\n→ Dry mouth\n\nHow to help:\n→ Offer water, buttermilk, soups and fruits through the day\n→ Keep a water bottle within reach\n→ Set gentle reminders\n\nSmall sips, often.\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n#healthyageing #hydration #seniors #summer #didyouknow"
   }
 ]
