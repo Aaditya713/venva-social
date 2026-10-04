@@ -1,6 +1,6 @@
 # venva-social — automated daily Instagram posts for @venva.health
 
-Every day at **7:00 PM IST** a GitHub Action:
+Every day at **7:30 PM IST** a GitHub Action:
 1. Keeps a week of posts queued in `content/queue.json` (writes 7 more with Claude when it runs low)
 2. Renders the next one with the locked Venva template (`template/post.html`): the same 3 layouts, fonts and colours as posts 1–10
 3. Publishes it to Instagram via the official Instagram API, then marks it `posted`
@@ -58,7 +58,7 @@ on GitHub before it goes out (edit `content/queue.json`, or delete an entry).
 
 ## Everyday use
 - **Preview upcoming posts:** `npm run render`, then open `out/`.
-- **Change the posting time:** edit the `cron` line in `.github/workflows/daily-post.yml` (it's in UTC; IST = UTC + 5:30).
+- **Change the posting time:** edit `POST_AT_UTC` in `.github/workflows/daily-post.yml` (UTC; IST = UTC + 5:30). Keep the three cron triggers 1–3 hours before it, since GitHub often starts scheduled runs late.
 - **Write posts now / test your Anthropic key:** Actions tab → **Write more posts** → Run workflow. New posts land in `content/queue.json` for review.
 - **Pause:** Actions tab → Daily Instagram post → ⋯ → Disable workflow.
 - **Write a post yourself:** add an entry to `content/queue.json` with `"status": "queued"`. It will go out in order.

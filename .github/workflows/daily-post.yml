@@ -1,38 +1,79 @@
 name: Daily Instagram post
 
+# Posts at 7:30 PM IST (14:00 UTC), just before India's 8–10 PM evening scroll peak.
+# GitHub can start scheduled runs hours late (busiest at :00 and :30), so we trigger early at
+# off-peak minutes, prepare the post, then wait until POST_AT_UTC to publish. The 2nd and 3rd
+# triggers are backups: they queue behind the first and skip once today's post is out.
 on:
   schedule:
-    - cron: '30 13 * * *'   # 13:30 UTC = 7:00 PM IST (GitHub may start it a few minutes late)
-  workflow_dispatch: {}      # "Run workflow" button for manual posts/tests
+    - cron: '7 11 * * *'    # 4:37 PM IST
+    - cron: '7 12 * * *'    # 5:37 PM IST (backup)
+    - cron: '7 13 * * *'    # 6:37 PM IST (backup)
+  workflow_dispatch: {}      # "Run workflow" button: posts right away, no waiting
 
 concurrency: daily-post
 permissions:
   contents: write
 
+env:
+  POST_AT_UTC: '14:00'       # 7:30 PM IST. Change this (UTC) to move the posting time.
+
 jobs:
   post:
     runs-on: ubuntu-24.04   # pinned: Playwright deps are tested on 24.04
+    timeout-minutes: 300
     steps:
       - uses: actions/checkout@v5
-      - uses: actions/setup-node@v5
+
+      - name: Skip if today's post is already out
+        id: check
+        run: |
+          # Was anything posted today, by the IST calendar date?
+          posted=$(node -e '
+            const ist = d => new Date(new Date(d).getTime() + 330 * 60000).toISOString().slice(0, 10);
+            const q = require("./content/queue.json");
+            console.log(q.some(p => p.postedAt && ist(p.postedAt) === ist(Date.now())) ? "yes" : "no");')
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$posted" = "yes" ]; then
+            echo "Today's post is already published — nothing to do."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - if: steps.check.outputs.skip != 'true'
+        uses: actions/setup-node@v5
         with: { node-version: 22, cache: npm }
-      - run: npm ci
-      - run: npx playwright install --with-deps chromium
+      - if: steps.check.outputs.skip != 'true'
+        run: npm ci
+      - if: steps.check.outputs.skip != 'true'
+        run: npx playwright install --with-deps chromium
 
       - name: Top up queue and render next post
+        if: steps.check.outputs.skip != 'true'
         run: node src/daily.mjs prepare
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Push image so Instagram can fetch it
+        if: steps.check.outputs.skip != 'true'
         run: |
           git config user.name "venva-bot"
           git config user.email "venva-bot@users.noreply.github.com"
           git add posts content/queue.json
           git commit -m "Prepare today's post" || echo "nothing to commit"
-          git push
+          git pull --rebase && git push
+
+      - name: Wait until posting time
+        if: steps.check.outputs.skip != 'true' && github.event_name == 'schedule'
+        run: |
+          wait=$(( $(date -u -d "today $POST_AT_UTC" +%s) - $(date -u +%s) ))
+          if [ "$wait" -gt 0 ]; then
+            echo "Waiting $((wait / 60)) min until $POST_AT_UTC UTC"
+            sleep "$wait"
+          else
+            echo "::warning::Run started $(( -wait / 60 )) min after $POST_AT_UTC UTC — posting now"
+          fi
 
       - name: Publish to Instagram
+        if: steps.check.outputs.skip != 'true'
         run: node src/daily.mjs publish
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
@@ -40,7 +81,8 @@ jobs:
           IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/posts
 
       - name: Record published post
+        if: steps.check.outputs.skip != 'true'
         run: |
           git add content/queue.json
           git commit -m "Mark post published" || echo "nothing to commit"
-          git push
+          git pull --rebase && git push
