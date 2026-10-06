@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": "013-fruit-juice",
+      "title": "Fruit juice is healthy?",
+      "link": "/nutrition/",
+      "postedAt": "2026-10-06T14:00:08.393Z"
+    },
+    {
+      "id": "012-vitamin-d",
+      "title": "Vitamin D in India",
+      "link": "/nutrition/",
+      "postedAt": "2026-10-05T14:00:11.058Z"
+    },
+    {
+      "id": "011-steps",
+      "title": "8,000 Steps a day",
+      "link": "/blog/sedentary-lifestyle-damage/",
+      "postedAt": "2026-10-04T17:47:11.182Z"
+    }
+  ]
+}

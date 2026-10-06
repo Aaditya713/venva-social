@@ -6,6 +6,7 @@ import { z } from 'zod';
 import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { linkFor, withBioCta } from './links.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const queuePath = path.join(root, 'content', 'queue.json');
@@ -69,6 +70,8 @@ export async function generate(count = 7) {
     const id = `${String(lastNum + i + 1).padStart(3, '0')}-${p.slug}`;
     const post = { id, status: 'queued' };
     for (const [k, v] of Object.entries(p)) if (v !== null && k !== 'slug') post[k] = v;
+    post.caption = withBioCta(post.caption);
+    post.link = linkFor(post);
     return post;
   });
   queue.push(...added);

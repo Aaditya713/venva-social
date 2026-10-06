@@ -31,7 +31,7 @@ Pillars: Training · Nutrition · Sleep · Symptoms · Wellbeing. Site: venva.co
 3. The explanation / target, with "At 70 kg → ..." style concrete examples when useful.
 4. A list of 3–5 items, each line starting with "→ ".
 5. One-line takeaway.
-6. "Full guide → venva.co.in"
+6. "Full guide 👉 link in bio (venva.co.in/ig)" — links in captions are not clickable on Instagram; the bio link opens venva.co.in/ig, which lists each post with its matching guide
 7. "Save this 🔖 and follow @venva.health"
 8. 5 lowercase hashtags on the last line, e.g. #nutrition #protein #fitness #health #india
 

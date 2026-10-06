@@ -1,6 +1,7 @@
 // Daily job, in two steps so the image can be hosted before Instagram fetches it:
 //   node src/daily.mjs prepare   → tops up the queue, renders the next post into posts/<id>.jpg
-//   node src/daily.mjs publish   → posts it to Instagram and marks it as posted
+//   node src/daily.mjs publish   → posts it to Instagram, marks it as posted and updates posts/feed.json
+//   node src/daily.mjs feed      → rebuilds posts/feed.json only
 // IMAGE_BASE_URL is where posts/ is publicly served (e.g. raw.githubusercontent.com/<user>/<repo>/main/posts).
 import { readFile, writeFile, mkdir, copyFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
@@ -13,6 +14,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const queuePath = path.join(root, 'content', 'queue.json');
 const loadQueue = async () => JSON.parse(await readFile(queuePath, 'utf8'));
 const saveQueue = q => writeFile(queuePath, JSON.stringify(q, null, 2) + '\n');
+const FEED_SIZE = 24; // posts listed on venva.co.in/ig, the link-in-bio page
 const MIN_AHEAD = 7; // keep a week of posts queued, so there's always time to review/edit upcoming ones
 
 async function prepare() {
@@ -56,6 +58,16 @@ function altText(p) {
   return `Venva health card. ${text}`.slice(0, 1000);
 }
 
+// posts/feed.json is the small list venva.co.in/ig reads: the latest posts, each with its guide link.
+async function writeFeed(queue) {
+  const posts = queue
+    .filter(p => p.status === 'posted')
+    .sort((a, b) => b.postedAt.localeCompare(a.postedAt))
+    .slice(0, FEED_SIZE)
+    .map(p => ({ id: p.id, title: (p.headline ?? `${p.number} ${p.label}`).replace(/\s*\n\s*/g, ' '), link: p.link, postedAt: p.postedAt }));
+  await writeFile(path.join(root, 'posts', 'feed.json'), JSON.stringify({ posts }, null, 2) + '\n');
+}
+
 async function publish() {
   const queue = await loadQueue();
   const next = queue.find(p => p.status === 'queued');
@@ -71,11 +83,13 @@ async function publish() {
   const mediaId = existing ?? await publishImage(`${base}/${next.id}.jpg?v=${Date.now()}`, next.caption, altText(next));
   Object.assign(next, { status: 'posted', postedAt: new Date().toISOString(), mediaId });
   await saveQueue(queue);
+  await writeFeed(queue);
   console.log(`Published ${next.id} → media ${mediaId}`);
 }
 
 const step = process.argv[2];
 if (step === 'prepare') await prepare();
 else if (step === 'publish') await publish();
+else if (step === 'feed') await writeFeed(await loadQueue());
 else if (step === 'refresh-token') process.stdout.write((await refreshToken()).access_token);
-else { console.error('Usage: node src/daily.mjs prepare|publish|refresh-token'); process.exit(1); }
+else { console.error('Usage: node src/daily.mjs prepare|publish|feed|refresh-token'); process.exit(1); }

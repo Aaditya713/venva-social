@@ -95,6 +95,6 @@ jobs:
       - name: Record published post
         if: steps.check.outputs.skip != 'true'
         run: |
-          git add content/queue.json
+          git add content/queue.json posts/feed.json
           git commit -m "Mark post published" || echo "nothing to commit"
           git pull --rebase && git push
