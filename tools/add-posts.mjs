@@ -7,13 +7,14 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import os from 'node:os';
 import path from 'node:path';
 import { renderPosts } from '../src/render.mjs';
+import { linkFor, CTA } from '../src/links.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const queuePath = path.join(root, 'content', 'queue.json');
 // Same rotation as src/generate.mjs: post 011 = Sunday stat.
 const ROTATION = [['tip'], ['myth', 'Myth buster'], ['stat'], ['myth', 'Reality check'], ['tip'], ['myth', 'Did you know'], ['stat']];
 const PILLARS = ['Training', 'Nutrition', 'Sleep', 'Symptoms', 'Wellbeing', "Women's health", "Men's health", 'Heart health', 'Gut health', 'Mental health'];
-const FOOTER = '\n\nFull guide → venva.co.in\n\nSave this 🔖 and follow @venva.health\n\n';
+const FOOTER = `\n\n${CTA}\n\nSave this 🔖 and follow @venva.health\n\n`;
 
 const words = s => s.trim().split(/\s+/).length;
 const lines = s => s.split('\n');
@@ -26,6 +27,7 @@ function build(p) {
   if (template === 'tip') Object.assign(post, { label: p.label, headline: p.headline, highlight: p.highlight },
     p.sections ? { sections: p.sections } : { body: p.body });
   post.caption = p.cap.trim() + FOOTER + p.tags.trim();
+  post.link = linkFor(post);
   return post;
 }
 
