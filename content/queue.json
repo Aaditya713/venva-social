@@ -38,13 +38,15 @@
   },
   {
     "id": "014-caffeine",
-    "status": "queued",
+    "status": "posted",
     "template": "stat",
     "number": "2 PM",
     "label": "Caffeine cutoff",
     "body": "Caffeine has a ~5 hour half-life.\nA 5 PM chai is still working\nat 10 PM, cutting deep sleep.\nKeep tea & coffee before 2 PM.",
     "caption": "Sleeping badly even though you're exhausted? Check when you had your last chai.\n\nCaffeine has a half-life of about 5 hours.\n\nThat means half the caffeine from a 5 PM coffee is still in your system at 10 PM — and some of it is still there at midnight.\n\nEven if you fall asleep fine, late caffeine:\n→ Reduces deep sleep\n→ Makes sleep lighter and more broken\n→ Leaves you groggy the next morning\n→ So you reach for more caffeine… and repeat\n\nThe fix: keep tea and coffee before 2 PM. Switch to herbal tea after.\n\nFull guide 👉 link in bio (venva.co.in/ig)\n\nSave this 🔖 and follow @venva.health\n\n#sleep #caffeine #chai #health #wellness",
-    "link": "/nutrition/"
+    "link": "/nutrition/",
+    "postedAt": "2026-10-07T14:00:12.756Z",
+    "mediaId": "18039926855835411"
   },
   {
     "id": "015-b12-veg",
