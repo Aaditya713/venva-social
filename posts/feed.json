@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "017-rest-days",
+      "title": "Rest days build muscle.",
+      "link": "/blog/cardio-or-weights/",
+      "postedAt": "2026-10-10T14:00:09.378Z"
+    },
+    {
       "id": "016-strength",
       "title": "Start strength training",
       "link": "/blog/cardio-or-weights/",
