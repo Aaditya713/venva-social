@@ -37,14 +37,14 @@ const RULES = [
   [/mens-|men-|prostate/, '/mens-health/'],
 
   // Long-form articles
-  [/heart-attack|cholesterol|heart-preventable|heart-kitchen|cvd|\bstroke\b|trans-fat/, '/blog/young-heart-attacks-india/'],
+  [/heart-attack|cholesterol|heart-preventable|heart-kitchen|cvd|\bstroke\b|trans-fat/, '/blog/heart-attacks-young-people/'],
   [/cortisol|stress/, '/blog/stress-makes-you-fat/'],
   [/\bscreen\b|social-media|phone/, '/blog/screen-time-effects/'],
   [/smok|tobacco|vaping|hookah/, '/ask/'],
   [/sitting|sedentary|steps|stairs|neat|fidget|walk|inactive|offset/, '/blog/sedentary-lifestyle-damage/'],
-  [/protein|paneer|egg|dal-rice|creatine/, '/blog/protein-india-cheap/'],
+  [/protein|paneer|egg|dal-rice|creatine/, '/blog/cheap-protein-foods/'],
   [/cardio|strength|muscle|lifting|weights|out-train/, '/blog/cardio-or-weights/'],
-  [/fat-loss|weekly-loss|calorie|carbs|fullness|keto|intermittent-fasting|fasted|weight/, '/blog/indian-fat-loss-diet/'],
+  [/fat-loss|weekly-loss|calorie|carbs|fullness|keto|intermittent-fasting|fasted|weight/, '/blog/simple-fat-loss-diet/'],
   [/sleep|nap|bedtime|wind-down|bedroom|jet-lag|night-shift|body-clock/, '/blog/fix-your-sleep/'],
 
   // Hubs
