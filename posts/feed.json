@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "018-salt",
+      "title": "5 g Max salt per day",
+      "link": "/nutrition/",
+      "postedAt": "2026-10-11T14:00:09.744Z"
+    },
+    {
       "id": "017-rest-days",
       "title": "Rest days build muscle.",
       "link": "/blog/cardio-or-weights/",

@@ -88,13 +88,15 @@
   },
   {
     "id": "018-salt",
-    "status": "queued",
+    "status": "posted",
     "template": "stat",
     "number": "5 g",
     "label": "Max salt per day",
     "body": "WHO's limit: under 5 g — about 1 tsp.\nMost Indians eat far more.\nPickles, papad, namkeen & sauces\nare the hidden sources.",
     "caption": "You probably eat way more salt than you think — and most of it isn't from the salt shaker.\n\nWHO recommends less than 5 g of salt a day. That's about one teaspoon, in total.\n\nStudies show average intake in India is well above that.\n\nWhere the hidden salt comes from:\n→ Pickles and papad\n→ Namkeen, chips and biscuits\n→ Sauces, ketchup and instant noodles\n→ Restaurant and packaged food\n\nWhy it matters: too much salt raises blood pressure — a major cause of heart attacks and strokes.\n\nFull guide 👉 link in bio (venva.co.in/ig)\n\nSave this 🔖 and follow @venva.health\n\n#salt #bloodpressure #hearthealth #nutrition #health",
-    "link": "/nutrition/"
+    "link": "/nutrition/",
+    "postedAt": "2026-10-11T14:00:09.744Z",
+    "mediaId": "17890507077616598"
   },
   {
     "id": "019-fibre",
