@@ -1,13 +1,14 @@
 # Venva Instagram style guide
 
-Brand: Venva — "Your body, explained." Science-backed health guidance for an Indian audience.
+Brand: Venva — "Your body, explained." Science-backed health guidance for a global audience.
 Pillars: Training · Nutrition · Sleep · Symptoms · Wellbeing. Site: venva.co.in. Handle: @venva.health.
 
 ## Voice
 - Plain, confident, direct. Short sentences. No hype, no fear-mongering, no "miracle" claims.
-- Indian context: Indian foods (dal, paneer, besan chilla, chai, roti), Indian health patterns
-  (thin-fat / visceral fat, vitamin D & B12 deficiency, high salt), metric units, kg.
-- Every number must be a real, widely accepted figure (WHO, ICMR, major meta-analyses). If unsure, don't use a number.
+- Global context: foods, examples and figures that work in any country (lentils, beans, eggs, yogurt, oats,
+  tofu, chicken, fish). No country-specific foods, statistics, helplines, festivals or hashtags.
+  Helplines: point to findahelpline.com, "your local quitline" or "your local emergency number". Metric units, kg.
+- Every number must be a real, widely accepted figure (WHO, IDF, major meta-analyses — global figures, not one country's). If unsure, don't use a number.
 - Never diagnose or prescribe medication. Suggest "get tested" / "talk to a doctor" where relevant.
 
 ## Templates (image text — keep it SHORT, the image must be readable in 2 seconds)
@@ -33,7 +34,7 @@ Pillars: Training · Nutrition · Sleep · Symptoms · Wellbeing. Site: venva.co
 5. One-line takeaway.
 6. "Full guide 👉 link in bio (venva.co.in/ig)" — links in captions are not clickable on Instagram; the bio link opens venva.co.in/ig, which lists each post with its matching guide
 7. "Save this 🔖 and follow @venva.health"
-8. 5 lowercase hashtags on the last line, e.g. #nutrition #protein #fitness #health #india
+8. 5 lowercase hashtags on the last line, e.g. #nutrition #protein #fitness #health #wellness
 
 ## Weekly rotation (keeps the grid varied)
 Mon tip · Tue myth (Myth buster) · Wed stat · Thu myth (Reality check) · Fri tip · Sat myth (Did you know) · Sun stat

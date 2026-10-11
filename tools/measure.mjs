@@ -2,7 +2,7 @@
 import { chromium } from 'playwright';
 import { pathToFileURL } from 'node:url';
 const posts = {
- tip: {template:'tip',label:'Nutrition',headline:'Protein at\nbreakfast',highlight:'Aim 25-35 g per meal',body:'Most people get almost none, then crash by 11am. Try: besan chilla + curd, paneer bhurji, eggs, or oats + milk + peanuts.'},
+ tip: {template:'tip',label:'Nutrition',headline:'Protein at\nbreakfast',highlight:'Aim 25-35 g per meal',body:'Most people get almost none, then crash by 11am. Try: Greek yogurt + nuts, eggs on toast, cottage cheese, or oats + milk + peanuts.'},
  myth: {template:'myth',label:'Myth buster',headline:'Crunches burn\nbelly fat?',body:'Nope — you can\'t spot-reduce fat. Crunches build muscle under the fat, they don\'t remove it. Belly fat goes when your total body fat drops.'},
  stat: {template:'stat',number:'7-9',label:'Hours of sleep',body:'Deep sleep is when testosterone\nreleases and hunger hormones reset.\nShort nights = cravings, low energy.\nFix sleep, fix half your problems.'},
 };
