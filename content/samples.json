@@ -6,7 +6,7 @@
   { "id": "sample-stat", "template": "stat", "number": "7-9", "label": "Hours of sleep",
     "body": "Deep sleep is when testosterone\nreleases and hunger hormones reset.\nShort nights = cravings, low energy.\nFix sleep, fix half your problems." },
   { "id": "sample-sections", "template": "tip", "label": "Nutrition", "headline": "How much\nprotein?", "highlight": "1.6 g per kg bodyweight",
-    "sections": [ { "title": "Veg", "text": "Dal, rajma, soya (52g/100g),\npaneer, curd, milk, peanuts" },
+    "sections": [ { "title": "Veg", "text": "Lentils, beans, soya (52g/100g),\ntofu, yogurt, milk, peanuts" },
                   { "title": "Non-veg", "text": "Chicken (31g/100g), eggs,\nfish (omega-3), lean meat" },
                   { "title": "Supplement", "text": "Whey or soya protein powder\nto top up if food falls short" } ] }
 ]
