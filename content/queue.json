@@ -113,13 +113,15 @@
   },
   {
     "id": "020-skipping-meals",
-    "status": "queued",
+    "status": "posted",
     "template": "myth",
     "label": "Myth buster",
     "headline": "Skipping meals\nburns more fat?",
     "body": "Fat loss comes from your overall calorie balance, not missed meals. Skipping often leads to overeating later. Pick a meal pattern you can actually stick to.",
     "caption": "Skipping lunch to \"save calories\" and then raiding the kitchen at 6 PM? You're not alone.\n\nThere's nothing magic about skipping meals.\n\nFat loss comes down to your overall calorie balance across days and weeks. Two meals or five — it works the same if the total is the same.\n\nWhat skipping often does instead:\n→ Big hunger later → overeating\n→ Low energy and irritability\n→ Cravings for fried and sugary food\n→ Less protein across the day\n\nThe best eating pattern is the one you can stick to — with protein in every meal.\n\nFull guide 👉 link in bio (venva.co.in/ig)\n\nSave this 🔖 and follow @venva.health\n\n#fatloss #weightloss #nutrition #health #mythbuster",
-    "link": "/nutrition/"
+    "link": "/nutrition/",
+    "postedAt": "2026-10-13T14:00:11.966Z",
+    "mediaId": "18110453651179174"
   },
   {
     "id": "021-exercise-minutes",
