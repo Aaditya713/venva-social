@@ -125,13 +125,15 @@
   },
   {
     "id": "021-exercise-minutes",
-    "status": "queued",
+    "status": "posted",
     "template": "stat",
     "number": "150",
     "label": "Active minutes a week",
     "body": "WHO's minimum for adults:\n150 min of moderate activity.\nThat's just 30 min, 5 days a week.\nBrisk walking counts.",
     "caption": "Think you need an hour at the gym every day to be healthy? You don't.\n\nWHO's minimum for adults: 150 minutes of moderate activity a week.\n\nThat's 30 minutes, 5 days a week.\n\nWhat counts as moderate (you can talk, but not sing):\n→ Brisk walking\n→ Cycling\n→ Swimming\n→ Dancing, sports, even vigorous housework\n\nAdd 2 days of strength training and you've hit the full recommendation.\n\nSomething is always better than nothing.\n\nFull guide 👉 link in bio (venva.co.in/ig)\n\nSave this 🔖 and follow @venva.health\n\n#exercise #fitness #walking #health #who",
-    "link": "/cardio/"
+    "link": "/cardio/",
+    "postedAt": "2026-10-14T14:00:11.214Z",
+    "mediaId": "17911817955549371"
   },
   {
     "id": "022-tired",

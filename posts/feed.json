@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "021-exercise-minutes",
+      "title": "150 Active minutes a week",
+      "link": "/cardio/",
+      "postedAt": "2026-10-14T14:00:11.214Z"
+    },
+    {
       "id": "020-skipping-meals",
       "title": "Skipping meals burns more fat?",
       "link": "/nutrition/",
