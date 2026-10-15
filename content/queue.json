@@ -137,13 +137,15 @@
   },
   {
     "id": "022-tired",
-    "status": "queued",
+    "status": "posted",
     "template": "myth",
     "label": "Reality check",
     "headline": "Always tired?\nIt's just stress?",
     "body": "Not always. Low iron, B12, vitamin D or thyroid issues are common causes — especially in women. A simple blood test can tell.",
     "caption": "Tired all the time, even after sleeping? Don't just blame stress.\n\nOngoing fatigue often has a fixable cause.\n\nCommon ones worth checking:\n→ Low iron / anaemia (very common in women)\n→ Low vitamin B12\n→ Low vitamin D\n→ Thyroid problems\n→ Poor sleep quality\n\nA basic blood panel — CBC, ferritin, B12, vitamin D, TSH — can rule most of these in or out.\n\nIf tiredness has lasted weeks, talk to a doctor. It's not \"just how you are.\"\n\nFull guide 👉 link in bio (venva.co.in/ig)\n\nSave this 🔖 and follow @venva.health\n\n#fatigue #anaemia #womenshealth #health #symptoms",
-    "link": "/symptoms/always-tired/"
+    "link": "/symptoms/always-tired/",
+    "postedAt": "2026-10-15T14:00:11.295Z",
+    "mediaId": "18118739908996110"
   },
   {
     "id": "023-sleep-routine",

@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "022-tired",
+      "title": "Always tired? It's just stress?",
+      "link": "/symptoms/always-tired/",
+      "postedAt": "2026-10-15T14:00:11.295Z"
+    },
+    {
       "id": "021-exercise-minutes",
       "title": "150 Active minutes a week",
       "link": "/cardio/",
