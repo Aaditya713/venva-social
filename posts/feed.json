@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "023-sleep-routine",
+      "title": "Sleep better tonight",
+      "link": "/blog/fix-your-sleep/",
+      "postedAt": "2026-10-16T14:00:10.899Z"
+    },
+    {
       "id": "022-tired",
       "title": "Always tired? It's just stress?",
       "link": "/symptoms/always-tired/",

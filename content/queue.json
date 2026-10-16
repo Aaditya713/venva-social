@@ -149,14 +149,16 @@
   },
   {
     "id": "023-sleep-routine",
-    "status": "queued",
+    "status": "posted",
     "template": "tip",
     "label": "Sleep",
     "headline": "Sleep better\ntonight",
     "highlight": "Same wake-up time daily",
     "body": "Your body clock loves routine. Get morning sunlight, keep your room cool and dark, and put the phone away 30 minutes before bed.",
     "caption": "Struggling to fall asleep — or waking up tired? The fix usually starts in the morning, not at night.\n\nYour body clock runs on routine. The single most powerful habit: wake up at the same time every day, weekends included.\n\nThen add:\n→ 10 minutes of morning sunlight\n→ No caffeine after 2 PM\n→ A cool, dark, quiet room\n→ Phone away 30 minutes before bed\n\nGive it two weeks. Consistency beats any sleep gadget.\n\nFull guide 👉 link in bio (venva.co.in/ig)\n\nSave this 🔖 and follow @venva.health\n\n#sleep #sleeptips #wellness #health #routine",
-    "link": "/blog/fix-your-sleep/"
+    "link": "/blog/fix-your-sleep/",
+    "postedAt": "2026-10-16T14:00:10.899Z",
+    "mediaId": "18089703101695668"
   },
   {
     "id": "024-resting-hr",
