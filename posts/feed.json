@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "024-resting-hr",
+      "title": "Your resting heart rate talks.",
+      "link": "/cardio/",
+      "postedAt": "2026-10-17T14:00:12.793Z"
+    },
+    {
       "id": "023-sleep-routine",
       "title": "Sleep better tonight",
       "link": "/blog/fix-your-sleep/",

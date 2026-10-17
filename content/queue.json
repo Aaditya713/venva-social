@@ -162,13 +162,15 @@
   },
   {
     "id": "024-resting-hr",
-    "status": "queued",
+    "status": "posted",
     "template": "myth",
     "label": "Did you know",
     "headline": "Your resting\nheart rate talks.",
     "body": "Normal is 60–100 bpm, and fitter people sit lower. If yours stays higher than usual for days, it can signal poor sleep, stress or illness.",
     "caption": "Your resting heart rate is one of the simplest health signals you can track — and it's free.\n\nMeasure it in the morning, before getting out of bed.\n\nWhat the numbers mean:\n→ 60–100 bpm is the normal adult range\n→ Regular exercise usually brings it lower over time\n→ A rise of several beats for days can mean poor sleep, stress, dehydration or an oncoming illness\n\nTrack it for a week to learn your baseline. Changes matter more than one reading.\n\nIf it's often above 100 at rest, or you feel palpitations or dizziness, see a doctor.\n\nFull guide 👉 link in bio (venva.co.in/ig)\n\nSave this 🔖 and follow @venva.health\n\n#heartrate #hearthealth #fitness #health #didyouknow",
-    "link": "/cardio/"
+    "link": "/cardio/",
+    "postedAt": "2026-10-17T14:00:12.793Z",
+    "mediaId": "17977525953129476"
   },
   {
     "id": "025-blood-pressure",
