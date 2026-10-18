@@ -174,13 +174,15 @@
   },
   {
     "id": "025-blood-pressure",
-    "status": "queued",
+    "status": "posted",
     "template": "stat",
     "number": "120/80",
     "label": "Healthy blood pressure",
     "body": "Below 120/80 mmHg is ideal.\n140/90 or above on repeat checks\nis high BP. It rarely has symptoms,\nso the only way to know is to check.",
     "caption": "High blood pressure is called the silent killer for a reason. Most people with it feel completely fine.\n\nUntil a heart attack or stroke.\n\nWhat the numbers mean:\n→ Below 120/80 — ideal\n→ 120–139 / 80–89 — higher than ideal, time to act\n→ 140/90 or above on repeat readings — high blood pressure\n\nWhat brings it down:\n→ Less salt (processed meat, cheese, snacks, packaged food)\n→ 150 minutes of activity a week\n→ Losing even a few kg if you're overweight\n→ Less alcohol, no smoking\n\nEvery adult should know their number. Get it checked at least once a year.\n\nFull guide 👉 link in bio (venva.co.in/ig)\n\nSave this 🔖 and follow @venva.health\n\n#bloodpressure #hypertension #hearthealth #health #heart",
-    "link": "/symptoms/"
+    "link": "/symptoms/",
+    "postedAt": "2026-10-18T14:00:13.028Z",
+    "mediaId": "17930172030410024"
   },
   {
     "id": "026-breathing-stress",
