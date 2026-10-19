@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "026-breathing-stress",
+      "title": "Breathe out the stress",
+      "link": "/symptoms/stress-and-anxiety/",
+      "postedAt": "2026-10-19T14:00:11.465Z"
+    },
+    {
       "id": "025-blood-pressure",
       "title": "120/80 Healthy blood pressure",
       "link": "/symptoms/",
