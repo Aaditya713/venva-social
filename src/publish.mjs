@@ -1,5 +1,5 @@
-// Publishes a single image post via the Instagram API (Instagram Login flavour).
-// Needs IG_USER_ID and IG_ACCESS_TOKEN. The image must be at a public HTTPS URL.
+// Publishes a single image post or a Reel via the Instagram API (Instagram Login flavour).
+// Needs IG_USER_ID and IG_ACCESS_TOKEN. Media must be at a public HTTPS URL.
 const API = process.env.IG_API_BASE || `https://graph.instagram.com/${process.env.IG_API_VERSION || 'v23.0'}`; // IG_API_BASE: tests only
 
 async function call(method, pathname, params) {
@@ -31,6 +31,26 @@ export async function publishImage(imageUrl, caption, altText) {
     if (status_code === 'FINISHED') break;
     if (status_code === 'ERROR' || status_code === 'EXPIRED') throw new Error(`Media container ${status_code}`);
     await new Promise(r => setTimeout(r, 3000));
+  }
+
+  const { id: mediaId } = await call('POST', `${userId}/media_publish`, { creation_id: containerId });
+  return mediaId;
+}
+
+// Publishes a Reel (also shown in the feed). The video and cover must be at public HTTPS URLs.
+export async function publishReel(videoUrl, coverUrl, caption) {
+  const userId = process.env.IG_USER_ID;
+  if (!userId || !process.env.IG_ACCESS_TOKEN) throw new Error('IG_USER_ID and IG_ACCESS_TOKEN must be set');
+  const { id: containerId } = await call('POST', `${userId}/media`, {
+    media_type: 'REELS', video_url: videoUrl, cover_url: coverUrl, caption, share_to_feed: 'true' });
+
+  // Videos take longer than images to process: allow up to 10 minutes.
+  for (let i = 0; ; i++) {
+    const { status_code, status } = await call('GET', containerId, { fields: 'status_code,status' });
+    if (status_code === 'FINISHED') break;
+    if (status_code === 'ERROR' || status_code === 'EXPIRED') throw new Error(`Reel container ${status_code}: ${status ?? ''}`);
+    if (i >= 60) throw new Error('Reel still processing after 10 minutes');
+    await new Promise(r => setTimeout(r, 10000));
   }
 
   const { id: mediaId } = await call('POST', `${userId}/media_publish`, { creation_id: containerId });

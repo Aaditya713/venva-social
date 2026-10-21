@@ -1,17 +1,21 @@
 // Daily job, in two steps so the image can be hosted before Instagram fetches it:
-//   node src/daily.mjs prepare   → tops up the queue, renders the next post into posts/<id>.jpg
-//   node src/daily.mjs publish   → posts it to Instagram, marks it as posted and updates posts/feed.json
+//   node src/daily.mjs prepare   → tops up the queue, renders the next post into posts/<id>.jpg,
+//                                  plus its Reel (posts/<id>.mp4 + posts/<id>-cover.jpg)
+//   node src/daily.mjs publish   → posts the Reel (or the image if the Reel fails) to Instagram,
+//                                  marks it as posted and updates posts/feed.json
 //   node src/daily.mjs feed      → rebuilds posts/feed.json only
 // IMAGE_BASE_URL is where posts/ is publicly served (e.g. raw.githubusercontent.com/<user>/<repo>/main/posts).
-import { readFile, writeFile, mkdir, copyFile } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, copyFile, readdir, rm, stat } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { renderPosts } from './render.mjs';
+import { renderReel } from './reel.mjs';
 import { generate } from './generate.mjs';
-import { publishImage, refreshToken, findRecentPost } from './publish.mjs';
+import { publishImage, publishReel, refreshToken, findRecentPost } from './publish.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const queuePath = path.join(root, 'content', 'queue.json');
+const exists = p => stat(p).then(() => true, () => false);
 const loadQueue = async () => JSON.parse(await readFile(queuePath, 'utf8'));
 const saveQueue = q => writeFile(queuePath, JSON.stringify(q, null, 2) + '\n');
 const FEED_SIZE = 24; // posts listed on venva.co.in/ig, the link-in-bio page
@@ -37,8 +41,19 @@ async function prepare() {
       console.warn(`::warning::${next.id} is too long for the card — marked needs-edit, skipping`);
       continue;
     }
-    await mkdir(path.join(root, 'posts'), { recursive: true });
-    await copyFile(file, path.join(root, 'posts', `${next.id}.jpg`));
+    const posts = path.join(root, 'posts');
+    await mkdir(posts, { recursive: true });
+    await copyFile(file, path.join(posts, `${next.id}.jpg`));
+    // Instagram keeps its own copy once a Reel is published, so earlier videos needn't stay hosted.
+    for (const f of await readdir(posts)) if (/(\.mp4|-cover\.jpg)$/.test(f)) await rm(path.join(posts, f));
+    // The Reel is the main format; if it can't be made, the image alone still goes out.
+    try {
+      const reel = await renderReel(next);
+      await copyFile(reel.file, path.join(posts, `${next.id}.mp4`));
+      await copyFile(reel.cover, path.join(posts, `${next.id}-cover.jpg`));
+    } catch (err) {
+      console.warn(`::warning::Could not render the Reel for ${next.id} (${err.message}). Posting the image instead.`);
+    }
     await saveQueue(queue);
     console.log(`Prepared ${next.id}`);
     return;
@@ -79,12 +94,22 @@ async function publish() {
   // If an earlier run published but failed to record it, don't post the same thing twice.
   const existing = await findRecentPost(next.caption);
   if (existing) console.warn(`::warning::${next.id} is already on Instagram — recording it without reposting`);
-  // ?v= busts GitHub's ~5 min raw-file cache, in case an image with this name was hosted before.
-  const mediaId = existing ?? await publishImage(`${base}/${next.id}.jpg?v=${Date.now()}`, next.caption, altText(next));
-  Object.assign(next, { status: 'posted', postedAt: new Date().toISOString(), mediaId });
+  // ?v= busts GitHub's ~5 min raw-file cache, in case a file with this name was hosted before.
+  const v = `?v=${Date.now()}`;
+  let mediaId = existing, format = existing ? undefined : 'image';
+  if (!mediaId && await exists(path.join(root, 'posts', `${next.id}.mp4`))) {
+    try {
+      mediaId = await publishReel(`${base}/${next.id}.mp4${v}`, `${base}/${next.id}-cover.jpg${v}`, next.caption);
+      format = 'reel';
+    } catch (err) {
+      console.warn(`::warning::Reel failed (${err.message}). Posting the image instead.`);
+    }
+  }
+  mediaId ??= await publishImage(`${base}/${next.id}.jpg${v}`, next.caption, altText(next));
+  Object.assign(next, { status: 'posted', postedAt: new Date().toISOString(), mediaId, ...(format && { format }) });
   await saveQueue(queue);
   await writeFeed(queue);
-  console.log(`Published ${next.id} → media ${mediaId}`);
+  console.log(`Published ${next.id} as ${format ?? 'an existing post'} → media ${mediaId}`);
 }
 
 const step = process.argv[2];

@@ -3,7 +3,11 @@
 Every day at **7:30 PM IST** a GitHub Action:
 1. Keeps a week of posts queued in `content/queue.json` (writes 7 more with Claude when it runs low)
 2. Renders the next one with the locked Venva template (`template/post.html`): the same 3 layouts, fonts and colours as posts 1–10
-3. Publishes it to Instagram via the official Instagram API, then marks it `posted`
+3. Turns that card into a 9-second 9:16 **Reel** (`template/reel.html`): the card opens with the answer hidden, then reveals it
+4. Publishes the Reel to Instagram via the official Instagram API (the image post if the Reel fails), then marks it `posted`
+
+Why Reels: Instagram shows Reels to people who don't follow the account; single images mostly go to existing
+followers. Image-only posting from 2026-09-21 to 2026-10-21 brought 39 views and 0 followers.
 
 The queue is filled through post 365 (goes out 23 Sep 2027), so nothing depends on the AI generator
 until then. Add a batch by hand with `node tools/add-posts.mjs <batch.mjs>` — it checks the brand rules and the card fit.
@@ -18,6 +22,7 @@ on GitHub before it goes out (edit `content/queue.json`, or delete an entry).
 | `content/brand.md` | Voice, caption formula, text limits and weekly rotation. The AI follows this. |
 | `content/queue.json` | Upcoming and published posts. |
 | `src/render.mjs` | `npm run render`: renders queued posts to `out/` so you can preview them. |
+| `src/reel.mjs`, `template/reel.html` | `npm run reel -- <post-id>`: renders that post's Reel to `out/<id>.mp4`. ffmpeg comes from `ffmpeg-static`; the soft background pad is synthesized, so there's no music licence to worry about. |
 | `src/generate.mjs` | `npm run generate`: asks Claude for 7 new posts (needs `ANTHROPIC_API_KEY`). |
 | `src/daily.mjs` | The daily job (`prepare` → `publish`). |
 
@@ -58,6 +63,7 @@ on GitHub before it goes out (edit `content/queue.json`, or delete an entry).
 - If Claude can't write new posts (API key or outage), the day's post still goes out from the queue; the run shows a warning.
 - Before publishing, the job checks your last 5 Instagram posts so a retried run never double-posts.
 - Each post gets alt text describing the card, for screen readers and search.
+- If the Reel can't be rendered or Instagram rejects it, the same post goes out as the image instead (the run shows a warning; `format` in the queue records which went out). Only the current day's video is kept in `posts/`.
 
 ## Everyday use
 - **Preview upcoming posts:** `npm run render`, then open `out/`.
