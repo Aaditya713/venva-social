@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "028-added-sugar",
+      "title": "25 g Added sugar a day",
+      "link": "/symptoms/",
+      "postedAt": "2026-10-21T14:00:12.342Z"
+    },
+    {
       "id": "027-eating-late",
       "title": "Eating late makes you fat?",
       "link": "/nutrition/",
