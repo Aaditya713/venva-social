@@ -3,7 +3,7 @@
 Every day at **7:30 PM IST** a GitHub Action:
 1. Keeps a week of posts queued in `content/queue.json` (writes 7 more with Claude when it runs low)
 2. Renders the next one with the locked Venva template (`template/post.html`): the same 3 layouts, fonts and colours as posts 1–10
-3. Turns that card into a 9-second 9:16 **Reel** (`template/reel.html`): the card opens with the answer hidden, then reveals it
+3. Turns that card into a 10-second 9:16 **Reel** (`template/reel.html`): the card zooms in under a question ("Myth or fact?"), the answer wipes in at 2.8 s with a soft chime, a progress bar runs along the bottom and the follow line pulses at the end
 4. Publishes the Reel to Instagram via the official Instagram API (the image post if the Reel fails), then marks it `posted`
 
 Why Reels: Instagram shows Reels to people who don't follow the account; single images mostly go to existing
