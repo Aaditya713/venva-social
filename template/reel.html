@@ -2,84 +2,130 @@
 <html>
 <head>
 <meta charset="utf-8">
-<!-- Locked 9:16 Reel around a rendered card (1080x1080). src/reel.mjs fills it via window.renderReel,
-     then steps through the animation frame by frame (window.seek) and screenshots each frame. -->
+<!-- Locked 9:16 Reel: full-screen kinetic text in fast scenes (hook → answer → points → website CTA).
+     src/reel.mjs builds the scenes (window.renderReel), then screenshots each frame (window.seek). -->
 <style>
+  @font-face { font-family: Anton; src: url(anton-latin-400-normal.woff2) format('woff2'); font-weight: 400; }
+  @font-face { font-family: Poppins; src: url(poppins-latin-500-normal.woff2) format('woff2'); font-weight: 500; }
   @font-face { font-family: Poppins; src: url(poppins-latin-600-normal.woff2) format('woff2'); font-weight: 600; }
   @font-face { font-family: Poppins; src: url(poppins-latin-700-normal.woff2) format('woff2'); font-weight: 700; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html, body { width: 1080px; height: 1920px; overflow: hidden; }
-  .frame { position: relative; width: 1080px; height: 1920px; font-family: Poppins, sans-serif; overflow: hidden; }
-  .frame.dark  { background: radial-gradient(120% 70% at 15% 10%, #2E7A5C 0%, #1F5C46 45%, #113A2B 100%); color: #fff; }
-  .frame.light { background: linear-gradient(165deg, #F8F8F3 0%, #EEF4EF 60%, #E6EFE9 100%); color: #0F1A15; }
-  /* Instagram covers roughly the top 200px (header) and bottom 400px (caption, buttons) of a Reel. */
-  .hook { position: absolute; left: 90px; right: 90px; bottom: calc(1920px - 380px); text-align: center;
-          font-weight: 700; font-size: 72px; line-height: 1.08; letter-spacing: -.5px; }
-  .stage { position: absolute; top: 420px; left: 0; width: 1080px; height: 1080px; }
-  .stage img { position: absolute; inset: 0; width: 1080px; height: 1080px; display: block; }
-  .shadow { position: absolute; inset: 0; box-shadow: 0 30px 80px rgba(0,0,0,.28); }
-  .light .shadow { box-shadow: 0 30px 80px rgba(15,26,21,.14); }
-  .cta { position: absolute; top: 1540px; left: 90px; right: 90px; text-align: center; font-weight: 600; font-size: 40px; line-height: 1.3; }
-  .dark .cta  { color: #5CD69B; }
-  .light .cta { color: #1F5C46; }
-  .track { position: absolute; top: 1524px; left: 90px; width: 900px; height: 6px; border-radius: 3px; overflow: hidden; }
-  .dark .track  { background: rgba(255,255,255,.14); }
-  .light .track { background: rgba(15,26,21,.10); }
-  .bar { width: 100%; height: 100%; border-radius: 3px; transform-origin: left center; }
-  .dark .bar  { background: #5CD69B; }
-  .light .bar { background: #1F5C46; }
+  .frame { position: relative; width: 1080px; height: 1920px; overflow: hidden; font-family: Poppins, sans-serif; }
+  .frame.dark  { background: radial-gradient(120% 70% at 15% 10%, #2E7A5C 0%, #1F5C46 45%, #113A2B 100%); color: #fff; --accent: #5CD69B; --pill-bg: #F2B33D; --pill-fg: #1B1B1B; --soft: rgba(255,255,255,.82); --track: rgba(255,255,255,.18); }
+  .frame.light { background: linear-gradient(165deg, #F8F8F3 0%, #EEF4EF 60%, #E6EFE9 100%); color: #0F1A15; --accent: #1F5C46; --pill-bg: #2C6B50; --pill-fg: #fff; --soft: rgba(15,26,21,.78); --track: rgba(15,26,21,.12); }
+  .dots { position: absolute; inset: -60px; background-size: 54px 54px; }
+  .dark .dots  { background-image: radial-gradient(rgba(255,255,255,.06) 1.6px, transparent 1.8px); }
+  .light .dots { background-image: radial-gradient(rgba(15,26,21,.05) 1.6px, transparent 1.8px); }
+  .orb { position: absolute; border-radius: 50%; }
+  .dark .orb  { background: rgba(255,255,255,.05); }
+  .light .orb { background: rgba(31,92,70,.06); }
+  .orb.a { width: 620px; height: 620px; top: -160px; right: -220px; }
+  .orb.b { width: 560px; height: 560px; bottom: 120px; left: -260px; }
+
+  /* Story-style progress segments, one per scene, just under Instagram's header. */
+  .segs { position: absolute; top: 236px; left: 90px; right: 90px; display: flex; gap: 10px; }
+  .seg { flex: 1; height: 7px; border-radius: 4px; background: var(--track); overflow: hidden; }
+  .seg i { display: block; height: 100%; background: var(--accent); transform-origin: left; transform: scaleX(0); }
+
+  /* Text area avoids Instagram's overlays: header (top ~220px), caption (bottom ~420px), buttons (right ~150px). */
+  .scene { position: absolute; left: 90px; right: 150px; top: 300px; bottom: 440px; display: none;
+           flex-direction: column; justify-content: center; align-items: flex-start; gap: 34px; }
+  .scene > * { will-change: transform, opacity; }
+  .nw { white-space: nowrap; }
+  .pill { font-weight: 700; font-size: 34px; letter-spacing: 2.5px; text-transform: uppercase; padding: 10px 26px; border-radius: 40px;
+          background: var(--pill-bg); color: var(--pill-fg); }
+  .big { font-family: Anton, sans-serif; font-size: 132px; line-height: 1.02; letter-spacing: .5px; }
+  .kicker { font-weight: 700; font-size: 40px; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); }
+  .text { font-weight: 600; font-size: 62px; line-height: 1.24; }
+  .soft { color: var(--soft); font-weight: 500; }
+  .number { font-family: Anton, sans-serif; font-size: 300px; line-height: .95; }
+  .bar { font-weight: 600; font-size: 54px; line-height: 1.2; padding: 14px 30px; border-radius: 12px; background: var(--pill-bg); color: var(--pill-fg); }
+  .count { font-family: Anton, sans-serif; font-size: 96px; line-height: 1; color: var(--accent); }
+  .site { font-family: Anton, sans-serif; font-size: 150px; line-height: 1; color: var(--accent); }
+  .brand { position: absolute; left: 90px; bottom: 470px; display: none; align-items: center; gap: 22px; font-weight: 700; font-size: 52px; }
+  .brand svg { width: 78px; height: 70px; }
+  .light .brand { color: #1F5C46; }
 </style>
 </head>
 <body>
 <div class="frame dark" id="frame">
-  <div class="hook" id="hook1"></div>
-  <div class="hook" id="hook2"></div>
-  <div class="stage" id="stage">
-    <div class="shadow"></div>
-    <img id="tease" alt="">
-    <img id="full" alt="">
-  </div>
-  <div class="track"><div class="bar" id="bar"></div></div>
-  <div class="cta" id="cta"></div>
+  <div class="dots" id="dots"></div>
+  <div class="orb a" id="orbA"></div>
+  <div class="orb b" id="orbB"></div>
+  <div class="segs" id="segs"></div>
+  <div id="scenes"></div>
+  <div class="brand" id="brand"><svg viewBox="42 48 108 96" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M96 66A26 26 0 1 0 55.6 98.4L96 138.8 136.4 98.4A26 26 0 1 0 96 66Z"/>
+    <path d="M48 96H76L82 73 96 119 106 96H144"/></svg><span>Venva</span></div>
 </div>
 <script>
 const $ = id => document.getElementById(id);
-const ease = 'cubic-bezier(.22,1,.36,1)';
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const lines = s => esc(s).replace(/\n/g, '<br>');
+const clamp = x => Math.max(0, Math.min(1, x));
+const easeOut = x => 1 - Math.pow(1 - x, 3);
+let scenes = [];
 
-// t: { reveal, wipe, total } in seconds. rect: the answer's area on the card {top, bottom} in px.
-window.renderReel = async ({ theme, hooks, cta, tease, full, rect, t }) => {
+// Shrinks a block's font until the scene fits its area.
+function fit(scene) {
+  scene.style.display = 'flex';
+  const area = scene.clientHeight;
+  const blocks = [...scene.querySelectorAll('.big, .text, .number, .site')];
+  for (let i = 0; i < 40 && scene.scrollHeight > area + 1; i++) {
+    for (const b of blocks) b.style.fontSize = parseFloat(getComputedStyle(b).fontSize) * 0.95 + 'px';
+  }
+  scene.style.display = 'none';
+}
+
+// scenes: [{ html, dur }] — html is the scene's blocks; dur in seconds. Returns the total length.
+window.renderReel = async ({ theme, scenes: list }) => {
   $('frame').className = `frame ${theme}`;
-  $('hook1').textContent = hooks[0];
-  $('hook2').textContent = hooks[1];
-  $('cta').textContent = cta;
-  $('tease').src = tease;
-  $('full').src = full;
-  await Promise.all([$('tease').decode(), $('full').decode(), document.fonts.ready]);
-
-  const ms = s => s * 1000;
-  const total = ms(t.total), at = (s, d = 0) => ({ delay: ms(s), duration: ms(d) || 1, fill: 'both', easing: ease });
-  // Card: zoom in, then a slow drift for the rest of the Reel.
-  $('stage').animate([{ transform: 'scale(.9)', opacity: 0 }, { transform: 'scale(1)', opacity: 1 }], at(0, .7));
-  $('stage').animate([{ translate: '0 0', scale: 1 }, { translate: '0 -10px', scale: 1.025 }], { ...at(.7, t.total - .7), easing: 'linear' });
-  // Hook: slides up; swaps to the second line at the reveal.
-  $('hook1').animate([{ transform: 'translateY(40px)', opacity: 0 }, { transform: 'none', opacity: 1 }], at(.15, .6));
-  // Follow-up steps only fill forwards, so they don't override the first step before they start.
-  $('hook1').animate([{ transform: 'none', opacity: 1 }, { transform: 'translateY(-30px)', opacity: 0 }], { ...at(t.reveal - .2, .35), fill: 'forwards' });
-  $('hook2').animate([{ transform: 'translateY(40px)', opacity: 0 }, { transform: 'none', opacity: 1 }], at(t.reveal, .5));
-  // Answer: wipes in from the top of its area to the bottom, like lines appearing.
-  const top = rect.top, bottom = 1080 - rect.bottom;
-  $('full').animate([{ clipPath: `inset(${top}px 0 ${1080 - top}px 0)` }, { clipPath: `inset(${top}px 0 ${bottom}px 0)` }],
-    { ...at(t.reveal, t.wipe), easing: 'cubic-bezier(.45,0,.25,1)' });
-  $('full').animate([{ clipPath: `inset(${top}px 0 ${bottom}px 0)` }, { clipPath: 'inset(0 0 0 0)' }], { ...at(t.reveal + t.wipe, .01), fill: 'forwards' });
-  // Progress bar across the whole Reel; CTA fades in, then pulses near the end.
-  $('bar').animate([{ transform: 'scaleX(0)' }, { transform: 'scaleX(1)' }], { ...at(0, t.total), easing: 'linear' });
-  $('cta').animate([{ opacity: 0 }, { opacity: 1 }], at(.8, .5));
-  $('cta').animate([{ scale: 1 }, { scale: 1.08 }, { scale: 1 }], { ...at(t.total - 1.6, .7), fill: 'forwards' });
+  let start = 0;
+  $('scenes').innerHTML = list.map(s => `<div class="scene">${s.html}</div>`).join('');
+  $('segs').innerHTML = list.map(() => '<div class="seg"><i></i></div>').join('');
+  await document.fonts.ready;
+  scenes = [...$('scenes').children].map((el, i) => {
+    fit(el);
+    const s = { el, start, dur: list[i].dur, end: start + list[i].dur, bar: $('segs').children[i].firstChild, last: i === list.length - 1 };
+    start = s.end;
+    return s;
+  });
   window.seek(0);
+  return start;
 };
 
-// Pauses every animation at time s (seconds), so each screenshot is one exact frame.
-window.seek = s => document.getAnimations().forEach(a => { a.pause(); a.currentTime = s * 1000; });
+// Sets every element for time t (seconds). Pure function of t, so each screenshot is one exact frame.
+window.seek = t => {
+  $('orbA').style.transform = `translate(${-t * 6}px, ${t * 9}px)`;
+  $('orbB').style.transform = `translate(${t * 7}px, ${-t * 5}px)`;
+  $('dots').style.transform = `translateY(${-t * 4}px)`;
+  for (const [i, s] of scenes.entries()) {
+    const local = t - s.start;
+    const on = local >= 0 && (local < s.dur || s.last);
+    s.el.style.display = on ? 'flex' : 'none';
+    s.bar.style.transform = `scaleX(${clamp(local / s.dur)})`;
+    if (!on) continue;
+    [...s.el.children].forEach((child, k) => {
+      if (i === 0) {
+        // The hook is fully visible from frame 0 (people decide in the first frame); it just punches in.
+        const p = easeOut(clamp(local / 0.35));
+        child.style.opacity = 1;
+        child.style.transform = `scale(${1.06 - 0.06 * p})`;
+        child.style.transformOrigin = 'left center';
+      } else {
+        const p = easeOut(clamp((local - k * 0.09) / 0.32));
+        child.style.opacity = p;
+        child.style.transform = `translateY(${(1 - p) * 46}px)`;
+      }
+    });
+  }
+  const end = scenes.at(-1);
+  $('brand').style.display = end && t >= end.start ? 'flex' : 'none';
+  $('brand').style.opacity = end ? easeOut(clamp((t - end.start - 0.3) / 0.4)) : 0;
+};
+window.esc = esc;
+window.lines = lines;
 </script>
 </body>
 </html>

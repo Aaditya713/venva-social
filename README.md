@@ -3,11 +3,15 @@
 Every day at **7:30 PM IST** a GitHub Action:
 1. Keeps a week of posts queued in `content/queue.json` (writes 7 more with Claude when it runs low)
 2. Renders the next one with the locked Venva template (`template/post.html`): the same 3 layouts, fonts and colours as posts 1–10
-3. Turns that card into a 10-second 9:16 **Reel** (`template/reel.html`): the card zooms in under a question ("Myth or fact?"), the answer wipes in at 2.8 s with a soft chime, a progress bar runs along the bottom and the follow line pulses at the end
+3. Makes a 9:16 **Reel** of the same post (`template/reel.html`, ~12–20 s): full-screen text in fast scenes on the beat —
+   the caption's hook line (readable from the first frame), the answer (truth / number / tip), the caption's first
+   "→" list one point per screen (only if it has 4 points or fewer, never cut short), then "Read the full guide · venva.co.in · Link in bio"
 4. Publishes the Reel to Instagram via the official Instagram API (the image post if the Reel fails), then marks it `posted`
 
 Why Reels: Instagram shows Reels to people who don't follow the account; single images mostly go to existing
-followers. Image-only posting from 2026-09-21 to 2026-10-21 brought 39 views and 0 followers.
+followers. Image-only posting from 2026-09-21 to 2026-10-21 brought 39 views and 0 followers. The first Reel
+(22 Oct, card zooming in from blank) got 14 views at 0 s average watch time — people swiped on the first frame —
+so the hook is now on screen from frame 0, and the closing scene sends people to the website, not just to follow.
 
 The queue is filled through post 365 (goes out 23 Sep 2027), so nothing depends on the AI generator
 until then. Add a batch by hand with `node tools/add-posts.mjs <batch.mjs>` — it checks the brand rules and the card fit.
@@ -22,7 +26,7 @@ on GitHub before it goes out (edit `content/queue.json`, or delete an entry).
 | `content/brand.md` | Voice, caption formula, text limits and weekly rotation. The AI follows this. |
 | `content/queue.json` | Upcoming and published posts. |
 | `src/render.mjs` | `npm run render`: renders queued posts to `out/` so you can preview them. |
-| `src/reel.mjs`, `template/reel.html` | `npm run reel -- <post-id>`: renders that post's Reel to `out/<id>.mp4`. ffmpeg comes from `ffmpeg-static`; the soft background pad is synthesized, so there's no music licence to worry about. |
+| `src/reel.mjs`, `template/reel.html` | `npm run reel -- <post-id>`: renders that post's Reel to `out/<id>.mp4`. Text comes only from the post's checked caption and card. ffmpeg comes from `ffmpeg-static`; the beat is synthesized, so there's no music licence to worry about (Instagram's API can't attach music from Instagram's library). |
 | `src/generate.mjs` | `npm run generate`: asks Claude for 7 new posts (needs `ANTHROPIC_API_KEY`). |
 | `src/daily.mjs` | The daily job (`prepare` → `publish`). |
 
