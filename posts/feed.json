@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "030-push-ups",
+      "title": "Your first push-up",
+      "link": "/exercises/push-up/",
+      "postedAt": "2026-10-23T14:01:11.327Z"
+    },
+    {
       "id": "029-multigrain-label",
       "title": "Multigrain means healthy?",
       "link": "/nutrition/",
