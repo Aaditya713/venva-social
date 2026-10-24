@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "031-ear-wax",
+      "title": "Your ears clean themselves.",
+      "link": "/ask/",
+      "postedAt": "2026-10-24T14:00:42.187Z"
+    },
+    {
       "id": "030-push-ups",
       "title": "Your first push-up",
       "link": "/exercises/push-up/",
