@@ -276,13 +276,16 @@
   },
   {
     "id": "032-hba1c",
-    "status": "queued",
+    "status": "posted",
     "template": "stat",
     "number": "5.7%",
     "label": "HbA1c warning line",
     "body": "HbA1c shows your average sugar\nover the last 2–3 months.\nBelow 5.7% normal. 5.7–6.4%\nprediabetes. 6.5%+ diabetes.",
     "caption": "A fasting sugar test shows one morning. HbA1c shows the last 2–3 months.\n\nThat's why doctors trust it.\n\nHbA1c measures how much sugar has stuck to your red blood cells, which live about 3 months.\n\nWhat the result means:\n→ Below 5.7% — normal\n→ 5.7% to 6.4% — prediabetes\n→ 6.5% or higher — diabetes (confirmed by your doctor)\n\nPrediabetes is the window where lifestyle changes work best:\n→ Lose 5–7% of your body weight if overweight\n→ 150 minutes of activity a week\n→ Fewer refined carbs and sugary drinks\n\nOver 30, or diabetes in the family? Ask for an HbA1c test.\n\nFull guide 👉 link in bio (venva.co.in/ig)\n\nSave this 🔖 and follow @venva.health\n\n#diabetes #hba1c #bloodsugar #health #prediabetes",
-    "link": "/symptoms/"
+    "link": "/symptoms/",
+    "postedAt": "2026-10-25T14:00:41.491Z",
+    "mediaId": "17954148888280582",
+    "format": "reel"
   },
   {
     "id": "033-heart-attack-signs",
