@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "033-heart-attack-signs",
+      "title": "Heart attack warning signs",
+      "link": "/blog/heart-attacks-young-people/",
+      "postedAt": "2026-10-26T14:00:39.539Z"
+    },
+    {
       "id": "032-hba1c",
       "title": "5.7% HbA1c warning line",
       "link": "/symptoms/",
