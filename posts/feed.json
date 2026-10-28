@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "035-waist-size",
+      "title": "94/80 Waist limit in cm",
+      "link": "/blog/lose-belly-fat-honestly/",
+      "postedAt": "2026-10-28T14:00:41.744Z"
+    },
+    {
       "id": "034-carbs-fat",
       "title": "Carbs make you fat?",
       "link": "/blog/simple-fat-loss-diet/",
@@ -137,12 +143,6 @@
       "title": "Vitamin D in India",
       "link": "/nutrition/",
       "postedAt": "2026-10-05T14:00:11.058Z"
-    },
-    {
-      "id": "011-steps",
-      "title": "8,000 Steps a day",
-      "link": "/blog/sedentary-lifestyle-damage/",
-      "postedAt": "2026-10-04T17:47:11.182Z"
     }
   ]
 }
