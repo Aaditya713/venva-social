@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "036-sugar-free-sweets",
+      "title": "Sugar-free sweets are safe?",
+      "link": "/symptoms/",
+      "postedAt": "2026-10-29T14:00:50.127Z"
+    },
+    {
       "id": "035-waist-size",
       "title": "94/80 Waist limit in cm",
       "link": "/blog/lose-belly-fat-honestly/",
@@ -137,12 +143,6 @@
       "title": "Fruit juice is healthy?",
       "link": "/nutrition/",
       "postedAt": "2026-10-06T14:00:08.393Z"
-    },
-    {
-      "id": "012-vitamin-d",
-      "title": "Vitamin D in India",
-      "link": "/nutrition/",
-      "postedAt": "2026-10-05T14:00:11.058Z"
     }
   ]
 }
