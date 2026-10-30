@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "037-curd-gut",
+      "title": "Yogurt for your gut",
+      "link": "/symptoms/bloating-and-acidity/",
+      "postedAt": "2026-10-30T14:00:29.240Z"
+    },
+    {
       "id": "036-sugar-free-sweets",
       "title": "Sugar-free sweets are safe?",
       "link": "/symptoms/",
@@ -137,12 +143,6 @@
       "title": "2 PM Caffeine cutoff",
       "link": "/nutrition/",
       "postedAt": "2026-10-07T14:00:12.756Z"
-    },
-    {
-      "id": "013-fruit-juice",
-      "title": "Fruit juice is healthy?",
-      "link": "/nutrition/",
-      "postedAt": "2026-10-06T14:00:08.393Z"
     }
   ]
 }
