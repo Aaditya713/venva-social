@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "038-tea-iron",
+      "title": "Tea with meals blocks iron.",
+      "link": "/nutrition/",
+      "postedAt": "2026-10-31T14:01:34.142Z"
+    },
+    {
       "id": "037-curd-gut",
       "title": "Yogurt for your gut",
       "link": "/symptoms/bloating-and-acidity/",
@@ -137,12 +143,6 @@
       "title": "Veg diet covers every nutrient?",
       "link": "/nutrition/",
       "postedAt": "2026-10-08T14:00:14.719Z"
-    },
-    {
-      "id": "014-caffeine",
-      "title": "2 PM Caffeine cutoff",
-      "link": "/nutrition/",
-      "postedAt": "2026-10-07T14:00:12.756Z"
     }
   ]
 }
