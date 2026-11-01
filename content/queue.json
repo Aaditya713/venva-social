@@ -382,13 +382,16 @@
   },
   {
     "id": "039-alcohol-safe-level",
-    "status": "queued",
+    "status": "posted",
     "template": "stat",
     "number": "0",
     "label": "Safe level of alcohol",
     "body": "WHO: no amount of alcohol is safe\nfor health. Risk of cancer and\nother harm starts from the first\ndrink and rises with every one.",
     "caption": "\"A drink a day is good for the heart.\" That idea hasn't held up.\n\nIn 2023, WHO stated that there is no safe level of alcohol consumption for health.\n\nAlcohol is a Group 1 carcinogen — the same category as tobacco.\n\nWhat alcohol is linked to:\n→ At least 7 types of cancer, including breast and bowel\n→ High blood pressure and heart rhythm problems\n→ Fatty liver and liver disease\n→ Poor sleep, weight gain and low mood\n\nIf you drink:\n→ Less is always better\n→ Have alcohol-free days every week\n→ Never drink and drive\n\nThe healthiest amount is none.\n\nFull guide 👉 link in bio (venva.co.in/ig)\n\nSave this 🔖 and follow @venva.health\n\n#alcohol #health #liverhealth #cancer #who",
-    "link": "/nutrition/"
+    "link": "/nutrition/",
+    "postedAt": "2026-11-01T14:01:05.178Z",
+    "mediaId": "18127254269297437",
+    "format": "reel"
   },
   {
     "id": "040-cant-sleep",

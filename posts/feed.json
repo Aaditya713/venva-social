@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "039-alcohol-safe-level",
+      "title": "0 Safe level of alcohol",
+      "link": "/nutrition/",
+      "postedAt": "2026-11-01T14:01:05.178Z"
+    },
+    {
       "id": "038-tea-iron",
       "title": "Tea with meals blocks iron.",
       "link": "/nutrition/",
@@ -137,12 +143,6 @@
       "title": "Start strength training",
       "link": "/blog/cardio-or-weights/",
       "postedAt": "2026-10-09T14:00:13.311Z"
-    },
-    {
-      "id": "015-b12-veg",
-      "title": "Veg diet covers every nutrient?",
-      "link": "/nutrition/",
-      "postedAt": "2026-10-08T14:00:14.719Z"
     }
   ]
 }
