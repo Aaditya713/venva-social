@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "040-cant-sleep",
+      "title": "Can't sleep? Get up.",
+      "link": "/symptoms/trouble-sleeping/",
+      "postedAt": "2026-11-02T14:00:40.252Z"
+    },
+    {
       "id": "039-alcohol-safe-level",
       "title": "0 Safe level of alcohol",
       "link": "/nutrition/",
@@ -137,12 +143,6 @@
       "title": "Rest days build muscle.",
       "link": "/blog/cardio-or-weights/",
       "postedAt": "2026-10-10T14:00:09.378Z"
-    },
-    {
-      "id": "016-strength",
-      "title": "Start strength training",
-      "link": "/blog/cardio-or-weights/",
-      "postedAt": "2026-10-09T14:00:13.311Z"
     }
   ]
 }

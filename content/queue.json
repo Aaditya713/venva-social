@@ -395,14 +395,17 @@
   },
   {
     "id": "040-cant-sleep",
-    "status": "queued",
+    "status": "posted",
     "template": "tip",
     "label": "Sleep",
     "headline": "Can't sleep?\nGet up.",
     "highlight": "Up after ~20 min awake",
     "body": "Lying awake teaches your brain that bed means stress. Get up, sit somewhere dim and calm, and go back only when you're sleepy.",
     "caption": "Tossing and turning for an hour? Staying in bed is making it worse.\n\nWhen you lie awake night after night, your brain starts linking your bed with frustration, not sleep.\n\nSleep doctors use a simple rule:\n→ If you're awake for about 20 minutes, get out of bed\n→ Sit somewhere dim and quiet\n→ Read a paper book or listen to something calm — no phone\n→ Go back to bed only when you feel sleepy\n→ Repeat if needed\n\nAlso: keep the same wake-up time, even after a bad night.\n\nIt feels strange at first, but it retrains your brain to fall asleep in bed.\n\nFull guide 👉 link in bio (venva.co.in/ig)\n\nSave this 🔖 and follow @venva.health\n\n#insomnia #sleep #sleeptips #health #wellness",
-    "link": "/symptoms/trouble-sleeping/"
+    "link": "/symptoms/trouble-sleeping/",
+    "postedAt": "2026-11-02T14:00:40.252Z",
+    "mediaId": "18181021210439584",
+    "format": "reel"
   },
   {
     "id": "041-sweat-fat",
