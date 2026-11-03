@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "041-sweat-fat",
+      "title": "Sweating more burns more fat?",
+      "link": "/nutrition/",
+      "postedAt": "2026-11-03T14:00:43.266Z"
+    },
+    {
       "id": "040-cant-sleep",
       "title": "Can't sleep? Get up.",
       "link": "/symptoms/trouble-sleeping/",
@@ -137,12 +143,6 @@
       "title": "5 g Max salt per day",
       "link": "/nutrition/",
       "postedAt": "2026-10-11T14:00:09.744Z"
-    },
-    {
-      "id": "017-rest-days",
-      "title": "Rest days build muscle.",
-      "link": "/blog/cardio-or-weights/",
-      "postedAt": "2026-10-10T14:00:09.378Z"
     }
   ]
 }
