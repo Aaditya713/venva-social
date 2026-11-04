@@ -422,13 +422,16 @@
   },
   {
     "id": "042-bmi-asian",
-    "status": "queued",
+    "status": "posted",
     "template": "stat",
     "number": "23",
     "label": "Asian BMI cutoff",
     "body": "For people of Asian descent, BMI\n23–27.4 means raised risk.\nThe usual cutoffs (25/30) miss\nrisk that starts at lower weights.",
     "caption": "Your BMI says \"normal\"? If you're of Asian descent, the usual chart can be misleading.\n\nPeople of South and East Asian descent tend to develop diabetes and heart disease at lower body weights than European populations.\n\nThat's why a WHO expert group set lower action points for Asian populations:\n→ Under 23 — lower risk\n→ 23 to 27.4 — increased risk\n→ 27.5 and above — high risk\n\nHow to calculate: weight (kg) ÷ height (m) ÷ height (m).\nAt 1.70 m and 68 kg → BMI 23.5 → increased risk on the Asian scale.\n\nBMI is only a starting point. Check your waist size too — belly fat is the bigger warning sign.\n\nFull guide 👉 link in bio (venva.co.in/ig)\n\nSave this 🔖 and follow @venva.health\n\n#bmi #weight #obesity #health #asian",
-    "link": "/personalize/"
+    "link": "/personalize/",
+    "postedAt": "2026-11-04T14:00:42.903Z",
+    "mediaId": "17974478997189096",
+    "format": "reel"
   },
   {
     "id": "043-protein-bars",
