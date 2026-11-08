@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "046-power-nap",
+      "title": "20 min Ideal power nap",
+      "link": "/blog/fix-your-sleep/",
+      "postedAt": "2026-11-08T14:00:41.404Z"
+    },
+    {
       "id": "045-bones-alive",
       "title": "Your bones are alive.",
       "link": "/ask/",
@@ -137,12 +143,6 @@
       "title": "Sleep better tonight",
       "link": "/blog/fix-your-sleep/",
       "postedAt": "2026-10-16T14:00:10.899Z"
-    },
-    {
-      "id": "022-tired",
-      "title": "Always tired? It's just stress?",
-      "link": "/symptoms/always-tired/",
-      "postedAt": "2026-10-15T14:00:11.295Z"
     }
   ]
 }
