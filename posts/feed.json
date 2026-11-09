@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "047-read-labels",
+      "title": "Read the label",
+      "link": "/nutrition/",
+      "postedAt": "2026-11-09T14:00:40.639Z"
+    },
+    {
       "id": "046-power-nap",
       "title": "20 min Ideal power nap",
       "link": "/blog/fix-your-sleep/",
@@ -137,12 +143,6 @@
       "title": "Your resting heart rate talks.",
       "link": "/cardio/",
       "postedAt": "2026-10-17T14:00:12.793Z"
-    },
-    {
-      "id": "023-sleep-routine",
-      "title": "Sleep better tonight",
-      "link": "/blog/fix-your-sleep/",
-      "postedAt": "2026-10-16T14:00:10.899Z"
     }
   ]
 }

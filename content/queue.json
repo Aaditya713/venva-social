@@ -488,7 +488,7 @@
   },
   {
     "id": "047-read-labels",
-    "status": "queued",
+    "status": "posted",
     "template": "tip",
     "label": "Nutrition",
     "headline": "Read the\nlabel",
@@ -508,7 +508,10 @@
       }
     ],
     "caption": "The front of the pack is marketing. The back of the pack is the truth.\n\nTen seconds with a label can change what goes in your trolley.\n\nWhat to look at:\n→ Ingredients: listed from most to least. If sugar or refined flour comes first, that's the main thing you're eating\n→ Serving size: brands often use tiny servings to make numbers look small\n→ Always compare per 100 g between brands\n→ Sugar: more than 10 g per 100 g is a lot for a snack\n→ Sodium: more than 600 mg per 100 g is high\n→ Trans fat: look for 0 g and no \"partially hydrogenated oil\"\n\nWords like \"natural\", \"lite\" and \"multigrain\" don't mean healthy.\n\nFull guide 👉 link in bio (venva.co.in/ig)\n\nSave this 🔖 and follow @venva.health\n\n#foodlabels #nutrition #healthyeating #health #groceries",
-    "link": "/nutrition/"
+    "link": "/nutrition/",
+    "postedAt": "2026-11-09T14:00:40.639Z",
+    "mediaId": "18388237483228353",
+    "format": "reel"
   },
   {
     "id": "048-lemon-water",
