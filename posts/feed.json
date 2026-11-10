@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "048-lemon-water",
+      "title": "Lemon water burns fat?",
+      "link": "/nutrition/",
+      "postedAt": "2026-11-10T14:00:42.375Z"
+    },
+    {
       "id": "047-read-labels",
       "title": "Read the label",
       "link": "/nutrition/",
@@ -137,12 +143,6 @@
       "title": "120/80 Healthy blood pressure",
       "link": "/symptoms/",
       "postedAt": "2026-10-18T14:00:13.028Z"
-    },
-    {
-      "id": "024-resting-hr",
-      "title": "Your resting heart rate talks.",
-      "link": "/cardio/",
-      "postedAt": "2026-10-17T14:00:12.793Z"
     }
   ]
 }
