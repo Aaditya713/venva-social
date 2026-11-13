@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "051-squat-form",
+      "title": "Squat the right way",
+      "link": "/exercises/goblet-squat/",
+      "postedAt": "2026-11-13T14:00:41.351Z"
+    },
+    {
       "id": "050-five-hours-sleep",
       "title": "5 hours of sleep is fine?",
       "link": "/blog/fix-your-sleep/",
@@ -137,12 +143,6 @@
       "title": "25 g Added sugar a day",
       "link": "/symptoms/",
       "postedAt": "2026-10-21T14:00:12.342Z"
-    },
-    {
-      "id": "027-eating-late",
-      "title": "Eating late makes you fat?",
-      "link": "/nutrition/",
-      "postedAt": "2026-10-20T14:00:13.466Z"
     }
   ]
 }
