@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "052-fullness-signal",
+      "title": "Fullness takes 20 minutes.",
+      "link": "/blog/simple-fat-loss-diet/",
+      "postedAt": "2026-11-14T14:00:55.502Z"
+    },
+    {
       "id": "051-squat-form",
       "title": "Squat the right way",
       "link": "/exercises/goblet-squat/",
@@ -137,12 +143,6 @@
       "title": "Multigrain means healthy?",
       "link": "/nutrition/",
       "postedAt": "2026-10-22T14:00:32.353Z"
-    },
-    {
-      "id": "028-added-sugar",
-      "title": "25 g Added sugar a day",
-      "link": "/symptoms/",
-      "postedAt": "2026-10-21T14:00:12.342Z"
     }
   ]
 }

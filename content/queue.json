@@ -581,13 +581,16 @@
   },
   {
     "id": "052-fullness-signal",
-    "status": "queued",
+    "status": "posted",
     "template": "myth",
     "label": "Did you know",
     "headline": "Fullness takes\n20 minutes.",
     "body": "Your gut takes around 20 minutes to tell your brain you're full. Eat fast and you overshoot. Slow down, chew well, and pause halfway.",
     "caption": "Ever finished a meal, felt fine, and then 15 minutes later felt stuffed? That's the fullness delay.\n\nIt takes around 20 minutes for your gut's \"I'm full\" signals to reach your brain.\n\nWhen you eat in 5 minutes, you can easily eat more than you need before that signal arrives.\n\nHow to slow down:\n→ Put your fork down between bites\n→ Chew each bite properly\n→ Don't eat in front of a screen\n→ Start with a salad or a bowl of soup\n→ Pause halfway and check how hungry you still are\n\nEating slowly is one of the easiest ways to eat less without trying.\n\nFull guide 👉 link in bio (venva.co.in/ig)\n\nSave this 🔖 and follow @venva.health\n\n#mindfuleating #weightloss #nutrition #health #didyouknow",
-    "link": "/blog/simple-fat-loss-diet/"
+    "link": "/blog/simple-fat-loss-diet/",
+    "postedAt": "2026-11-14T14:00:55.502Z",
+    "mediaId": "18128880529898834",
+    "format": "reel"
   },
   {
     "id": "053-brushing",
