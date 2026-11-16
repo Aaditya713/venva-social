@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "054-bp-at-home",
+      "title": "Check BP at home",
+      "link": "/symptoms/",
+      "postedAt": "2026-11-16T14:00:59.668Z"
+    },
+    {
       "id": "053-brushing",
       "title": "2 min Brush, twice a day",
       "link": "/ask/",
@@ -137,12 +143,6 @@
       "title": "Your ears clean themselves.",
       "link": "/ask/",
       "postedAt": "2026-10-24T14:00:42.187Z"
-    },
-    {
-      "id": "030-push-ups",
-      "title": "Your first push-up",
-      "link": "/exercises/push-up/",
-      "postedAt": "2026-10-23T14:01:11.327Z"
     }
   ]
 }
