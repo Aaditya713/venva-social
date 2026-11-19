@@ -1,4 +1,4 @@
-﻿// Turns a queue post into a 9:16 Reel (MP4, ~12–16 s) of full-screen kinetic text, in fast scenes:
+// Turns a queue post into a 9:16 Reel (MP4, ~12–16 s) of full-screen kinetic text, in fast scenes:
 //   1. Hook — the caption's opening line, readable from the very first frame
 //   2. Answer — the truth (myth), the number (stat) or the tip
 //   3. The caption's first "→" list (if 4 points or fewer), one point per screen
