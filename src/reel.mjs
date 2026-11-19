@@ -1,4 +1,4 @@
-// Turns a queue post into a 9:16 Reel (MP4, ~12–16 s) of full-screen kinetic text, in fast scenes:
+﻿// Turns a queue post into a 9:16 Reel (MP4, ~12–16 s) of full-screen kinetic text, in fast scenes:
 //   1. Hook — the caption's opening line, readable from the very first frame
 //   2. Answer — the truth (myth), the number (stat) or the tip
 //   3. The caption's first "→" list (if 4 points or fewer), one point per screen
@@ -73,21 +73,56 @@ export function scenesFor(p) {
   return scenes;
 }
 
-// Synthesized music, so there's no licence to worry about: a soft chord pad, a kick on every beat
-// and a light hi-hat on the off-beats. Scene changes land on kicks.
-const music = total => [
-  '0.022*(sin(2*PI*220*t)+sin(2*PI*277.18*t)+sin(2*PI*329.63*t))*(0.8+0.2*sin(2*PI*0.25*t))',
-  `0.32*sin(2*PI*(48+70*exp(-30*mod(t,${BEAT})))*mod(t,${BEAT}))*exp(-10*mod(t,${BEAT}))`,
-  `0.035*(2*random(0)-1)*exp(-45*mod(t+${BEAT / 2},${BEAT}))`,
-].join('+');
+// Synthesized music, so there's no licence to worry about — but not the same loop every day.
+// Each post gets a key, a chord progression (one chord per 4-beat bar) and a groove, picked from
+// its number so consecutive days always differ in key and groove (5 × 4 × 4 = 80 combinations).
+// Everything stays on the 120 bpm grid, so scene changes still land on the beat.
+const KEYS = [0, 2, -3, 5, -2];                                   // semitones from A3 (220 Hz)
+const PROGRESSIONS = [
+  ['I–V–vi–IV', [[0, 4, 7], [7, 11, 14], [9, 12, 16], [5, 9, 12]]],
+  ['vi–IV–I–V', [[-3, 0, 4], [5, 9, 12], [0, 4, 7], [7, 11, 14]]],
+  ['i–VI–III–VII', [[0, 3, 7], [8, 12, 15], [3, 7, 10], [10, 14, 17]]],
+  ['I–IV–ii–V', [[0, 4, 7], [5, 9, 12], [2, 5, 9], [7, 11, 14]]],
+];
+const GROOVES = ['four-on-the-floor', 'half-time', 'driving', 'chill arpeggio'];
+export const trackFor = id => {
+  const n = parseInt(id, 10) || [...String(id)].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
+  return { key: KEYS[n % KEYS.length], prog: PROGRESSIONS[Math.floor(n / 4) % PROGRESSIONS.length], groove: n % GROOVES.length };
+};
+
+const BAR = BEAT * 4;
+const hz = semi => (220 * 2 ** (semi / 12)).toFixed(3);
+const kick = every => `0.32*sin(2*PI*(48+70*exp(-30*mod(t,${every})))*mod(t,${every}))*exp(-10*mod(t,${every}))`;
+// Sum over the progression of "this chord's term while its bar is playing".
+const perChord = (chords, term) => chords.map((c, k) => `if(eq(floor(mod(t,${BAR * 4})/${BAR}),${k}),${term(c)},0)`).join('+');
+// Note on/off ramps (in seconds) so chord and note changes don't click.
+const ramp = (len, a = 0.12) => `min(1,mod(t,${len})/${a})*min(1,(${len}-mod(t,${len}))/${a})`;
+
+export function music(id) {
+  const { key, prog: [, chords], groove } = trackFor(id);
+  const pad = `0.018*(${perChord(chords, c => c.map(s => `sin(2*PI*${hz(s + key)}*t)`).join('+'))})*${ramp(BAR)}*(0.85+0.15*sin(2*PI*0.25*t))`;
+  const bass = step => `0.11*(${perChord(chords, c => `sin(2*PI*${hz(c[0] + key - 12)}*t)`)})*exp(-5*mod(t,${step}))*${ramp(step, 0.01)}`;
+  const hat = (step, off, amp) => `${amp}*(2*random(0)-1)*exp(-50*mod(t+${off},${step}))`;
+  const parts = [pad];
+  if (groove === 0) parts.push(kick(BEAT), hat(BEAT, BEAT / 2, 0.035), bass(BEAT * 2));
+  if (groove === 1) parts.push(kick(BEAT * 2), `0.08*(2*random(1)-1)*exp(-18*mod(t+${BEAT},${BEAT * 2}))`, hat(BEAT / 2, 0, 0.02), bass(BEAT * 2));
+  if (groove === 2) parts.push(kick(BEAT), hat(BEAT / 4, 0, 0.018), bass(BEAT / 2));
+  if (groove === 3) {
+    // Arpeggio: the chord's three notes in turn, one per eighth note, an octave up; soft kick each bar.
+    const step = BEAT / 2;
+    const note = c => `if(eq(mod(floor(t/${step}),3),0),${hz(c[0] + key + 12)},if(eq(mod(floor(t/${step}),3),1),${hz(c[1] + key + 12)},${hz(c[2] + key + 12)}))`;
+    parts.push(`0.1*sin(2*PI*(${perChord(chords, note)})*t)*exp(-7*mod(t,${step}))*${ramp(step, 0.008)}`, `0.8*${kick(BAR)}`, bass(BEAT * 2));
+  }
+  return parts.join('+');
+}
 
 // ffmpeg reading JPEG frames from stdin; returns write(frame) and end().
-function encoder(file, total) {
+function encoder(file, total, id) {
   const ff = spawn(ffmpegPath, [
     '-y', '-loglevel', 'error',
     '-f', 'image2pipe', '-framerate', String(FPS), '-c:v', 'mjpeg', '-i', '-',
     // Commas inside the expression must be escaped so the filter parser doesn't split on them.
-    '-f', 'lavfi', '-t', String(total), '-i', `aevalsrc=${music(total).replace(/,/g, '\\,')}:s=48000:c=stereo`,
+    '-f', 'lavfi', '-t', String(total), '-i', `aevalsrc=${music(id).replace(/,/g, '\\,')}:s=48000:c=stereo`,
     '-filter_complex', `[0:v]format=yuv420p[v];[1:a]alimiter=limit=0.9,afade=t=out:st=${total - 1}:d=1[a]`,
     '-map', '[v]', '-map', '[a]',
     '-c:v', 'libx264', '-profile:v', 'high', '-preset', 'slow', '-crf', '25', '-r', String(FPS), '-g', String(FPS * 2),
@@ -113,7 +148,7 @@ export async function renderReel(post, outDir = path.join(root, 'out')) {
     await page.goto(reelUrl);
     const total = await page.evaluate(r => window.renderReel(r), { theme: post.template === 'tip' ? 'light' : 'dark', scenes: scenesFor(post) });
     const file = path.join(outDir, `${post.id}.mp4`);
-    const enc = encoder(file, total);
+    const enc = encoder(file, total, post.id);
     for (let i = 0; i < Math.round(total * FPS); i++) {
       await page.evaluate(s => window.seek(s), i / FPS);
       await enc.write(await page.screenshot({ type: 'jpeg', quality: 92 }));
